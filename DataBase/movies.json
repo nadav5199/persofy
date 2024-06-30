@@ -7,13 +7,6 @@
       "Elliot Page"
     ],
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
-    "director": "Christopher Nolan",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Inception+trailer"
   },
@@ -25,12 +18,6 @@
       "Carrie-Anne Moss"
     ],
     "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
-    "director": "Lana Wachowski, Lilly Wachowski",
-    "tags": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=The%20Matrix+trailer"
   },
@@ -42,13 +29,6 @@
       "Aaron Eckhart"
     ],
     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-    "director": "Christopher Nolan",
-    "tags": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight+trailer"
   },
@@ -60,13 +40,6 @@
       "Jessica Chastain"
     ],
     "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
-    "director": "Christopher Nolan",
-    "tags": [
-      "Adventure",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Interstellar+trailer"
   },
@@ -78,11 +51,6 @@
       "Meat Loaf"
     ],
     "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
-    "director": "David Fincher",
-    "tags": [
-      "Drama"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Fight%20Club+trailer"
   },
@@ -94,12 +62,6 @@
       "Samuel L. Jackson"
     ],
     "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-    "director": "Quentin Tarantino",
-    "tags": [
-      "Crime",
-      "Drama"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Pulp%20Fiction+trailer"
   },
@@ -111,68 +73,8 @@
       "Gary Sinise"
     ],
     "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
-    "director": "Robert Zemeckis",
-    "tags": [
-      "Drama",
-      "Romance"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Forrest%20Gump+trailer"
-  },
-  {
-    "name": "The Lord of the Rings: The Fellowship of the Ring",
-    "actors": [
-      "Elijah Wood",
-      "Ian McKellen",
-      "Orlando Bloom"
-    ],
-    "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-    "director": "Peter Jackson",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring+trailer"
-  },
-  {
-    "name": "The Lord of the Rings: The Two Towers",
-    "actors": [
-      "Elijah Wood",
-      "Ian McKellen",
-      "Viggo Mortensen"
-    ],
-    "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-    "director": "Peter Jackson",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers+trailer"
-  },
-  {
-    "name": "The Lord of the Rings: The Return of the King",
-    "actors": [
-      "Elijah Wood",
-      "Viggo Mortensen",
-      "Ian McKellen"
-    ],
-    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-    "director": "Peter Jackson",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King+trailer"
   },
   {
     "name": "The Shawshank Redemption",
@@ -182,11 +84,6 @@
       "Bob Gunton"
     ],
     "description": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
-    "director": "Frank Darabont",
-    "tags": [
-      "Drama"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=The%20Shawshank%20Redemption+trailer"
   },
@@ -198,12 +95,6 @@
       "James Caan"
     ],
     "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-    "director": "Francis Ford Coppola",
-    "tags": [
-      "Crime",
-      "Drama"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=The%20Godfather+trailer"
   },
@@ -215,514 +106,41 @@
       "Robert Duvall"
     ],
     "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
-    "director": "Francis Ford Coppola",
-    "tags": [
-      "Crime",
-      "Drama"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=The%20Godfather%20Part%20II+trailer"
   },
   {
-    "name": "The Dark Knight Rises",
+    "name": "The Lord of the Rings: The Return of the King",
     "actors": [
-      "Christian Bale",
-      "Tom Hardy",
-      "Anne Hathaway"
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen"
     ],
-    "description": "Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.",
-    "director": "Christopher Nolan",
-    "tags": [
-      "Action",
-      "Drama",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight%20Rises+trailer"
+    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King+trailer"
   },
   {
-    "name": "The Social Network",
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
     "actors": [
-      "Jesse Eisenberg",
-      "Andrew Garfield",
-      "Justin Timberlake"
+      "Elijah Wood",
+      "Ian McKellen",
+      "Orlando Bloom"
     ],
-    "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
-    "director": "David Fincher",
-    "tags": [
-      "Biography",
-      "Drama"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Social%20Network+trailer"
+    "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring+trailer"
   },
   {
-    "name": "The Avengers",
+    "name": "The Lord of the Rings: The Two Towers",
     "actors": [
-      "Robert Downey Jr.",
-      "Chris Evans",
-      "Scarlett Johansson"
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
     ],
-    "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-    "director": "Joss Whedon",
-    "tags": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Avengers+trailer"
-  },
-  {
-    "name": "Avengers: Endgame",
-    "actors": [
-      "Robert Downey Jr.",
-      "Chris Evans",
-      "Mark Ruffalo"
-    ],
-    "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-    "director": "Anthony Russo, Joe Russo",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Avengers%3A%20Endgame+trailer"
-  },
-  {
-    "name": "Avatar",
-    "actors": [
-      "Sam Worthington",
-      "Zoe Saldana",
-      "Sigourney Weaver"
-    ],
-    "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-    "director": "James Cameron",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Avatar+trailer"
-  },
-  {
-    "name": "Titanic",
-    "actors": [
-      "Leonardo DiCaprio",
-      "Kate Winslet",
-      "Billy Zane"
-    ],
-    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-    "director": "James Cameron",
-    "tags": [
-      "Drama",
-      "Romance"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Titanic+trailer"
-  },
-  {
-    "name": "The Lion King",
-    "actors": [
-      "Matthew Broderick",
-      "Jeremy Irons",
-      "James Earl Jones"
-    ],
-    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
-    "director": "Roger Allers, Rob Minkoff",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Drama"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lion%20King+trailer"
-  },
-  {
-    "name": "Gladiator",
-    "actors": [
-      "Russell Crowe",
-      "Joaquin Phoenix",
-      "Connie Nielsen"
-    ],
-    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-    "director": "Ridley Scott",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Gladiator+trailer"
-  },
-  {
-    "name": "Jurassic Park",
-    "actors": [
-      "Sam Neill",
-      "Laura Dern",
-      "Jeff Goldblum"
-    ],
-    "description": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
-    "director": "Steven Spielberg",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20Park+trailer"
-  },
-  {
-    "name": "Terminator 2: Judgment Day",
-    "actors": [
-      "Arnold Schwarzenegger",
-      "Linda Hamilton",
-      "Edward Furlong"
-    ],
-    "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg.",
-    "director": "James Cameron",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%202%3A%20Judgment%20Day+trailer"
-  },
-  {
-    "name": "Toy Story",
-    "actors": [
-      "Tom Hanks",
-      "Tim Allen",
-      "Don Rickles"
-    ],
-    "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
-    "director": "John Lasseter",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story+trailer"
-  },
-  {
-    "name": "Toy Story 2",
-    "actors": [
-      "Tom Hanks",
-      "Tim Allen",
-      "Joan Cusack"
-    ],
-    "description": "When Woody is stolen by a toy collector, Buzz and his friends set out on a rescue mission to save Woody before he becomes a museum toy property with his roundup gang Jessie, Prospector, and Bullseye.",
-    "director": "John Lasseter, Ash Brannon, Lee Unkrich",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMWM5ZDcxMTYtNTEyNS00MDRkLWI3YTItNThmMGExMWY4NDIwXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%202+trailer"
-  },
-  {
-    "name": "Toy Story 3",
-    "actors": [
-      "Tom Hanks",
-      "Tim Allen",
-      "Joan Cusack"
-    ],
-    "description": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
-    "director": "Lee Unkrich",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%203+trailer"
-  },
-  {
-    "name": "Toy Story 4",
-    "actors": [
-      "Tom Hanks",
-      "Tim Allen",
-      "Annie Potts"
-    ],
-    "description": "When a new toy called \"Forky\" joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
-    "director": "Josh Cooley",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%204+trailer"
-  },
-  {
-    "name": "Finding Nemo",
-    "actors": [
-      "Albert Brooks",
-      "Ellen DeGeneres",
-      "Alexander Gould"
-    ],
-    "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
-    "director": "Andrew Stanton, Lee Unkrich",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWE0MzUzNDctNTFiYS00YzY3LWEzYWMtMDQyMWE5OTMxOTBiXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Finding%20Nemo+trailer"
-  },
-  {
-    "name": "The Incredibles",
-    "actors": [
-      "Craig T. Nelson",
-      "Samuel L. Jackson",
-      "Holly Hunter"
-    ],
-    "description": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
-    "director": "Brad Bird",
-    "tags": [
-      "Animation",
-      "Action",
-      "Adventure"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Incredibles+trailer"
-  },
-  {
-    "name": "Shrek",
-    "actors": [
-      "Mike Myers",
-      "Eddie Murphy",
-      "Cameron Diaz"
-    ],
-    "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
-    "director": "Andrew Adamson, Vicky Jenson",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek+trailer"
-  },
-  {
-    "name": "Shrek 2",
-    "actors": [
-      "Mike Myers",
-      "Eddie Murphy",
-      "Cameron Diaz"
-    ],
-    "description": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
-    "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDJhMGRjN2QtNDUxYy00NGM3LThjNGQtMmZiZTRhNjM4YzUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%202+trailer"
-  },
-  {
-    "name": "Shrek the Third",
-    "actors": [
-      "Mike Myers",
-      "Cameron Diaz",
-      "Eddie Murphy"
-    ],
-    "description": "Reluctantly designated as the heir to the land of Far, Far Away, Shrek hatches a plan to install the rebellious Artie as the new king while Princess Fiona tries to fend off a coup d'état by the jilted Prince Charming.",
-    "director": "Chris Miller, Raman Hui",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTgyMjc3ODk2MV5BMl5BanBnXkFtZTcwMjY0MjEzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%20the%20Third+trailer"
-  },
-  {
-    "name": "Shrek Forever After",
-    "actors": [
-      "Mike Myers",
-      "Cameron Diaz",
-      "Eddie Murphy"
-    ],
-    "description": "Rumpelstiltskin tricks a mid-life crisis burdened Shrek into allowing himself to be erased from existence and cast in a dark alternate timeline where Rumpelstiltskin rules supreme.",
-    "director": "Mike Mitchell",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY0OTU1NzkxMl5BMl5BanBnXkFtZTcwMzI2NDUzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%20Forever%20After+trailer"
-  },
-  {
-    "name": "Lego Harry Potter and the Philosopher's Stone",
-    "actors": [
-      "Robert Heath",
-      "A. Heath",
-      "J. Carole Lambert"
-    ],
-    "description": "Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, goes to Hogwarts School of Witchcraft and Wizardry to learn magic.",
-    "director": "N/A",
-    "tags": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWMwM2FhNDMtZmQ2Ni00ZjA0LWFlMTgtZjVhYzU1NGYzYzhiXkEyXkFqcGdeQXVyMTI2NTU5NzQw._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Lego%20Harry%20Potter%20and%20the%20Philosopher's%20Stone+trailer"
-  },
-  {
-    "name": "Harry Potter and the Chamber of Secrets",
-    "actors": [
-      "Daniel Radcliffe",
-      "Rupert Grint",
-      "Emma Watson"
-    ],
-    "description": "Harry Potter lives his second year at Hogwarts with Ron and Hermione when a message on the wall announces that the legendary Chamber of Secrets has been opened. The trio soon realize that, to save the school, it will take a lot of...",
-    "director": "Chris Columbus",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Chamber%20of%20Secrets+trailer"
-  },
-  {
-    "name": "Harry Potter and the Prisoner of Azkaban",
-    "actors": [
-      "Daniel Radcliffe",
-      "Emma Watson",
-      "Rupert Grint"
-    ],
-    "description": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",
-    "director": "Alfonso Cuarón",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban+trailer"
-  },
-  {
-    "name": "Harry Potter and the Goblet of Fire",
-    "actors": [
-      "Daniel Radcliffe",
-      "Emma Watson",
-      "Rupert Grint"
-    ],
-    "description": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
-    "director": "Mike Newell",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Goblet%20of%20Fire+trailer"
-  },
-  {
-    "name": "Harry Potter and the Order of the Phoenix",
-    "actors": [
-      "Daniel Radcliffe",
-      "Emma Watson",
-      "Rupert Grint"
-    ],
-    "description": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
-    "director": "David Yates",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Family"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTA3MmRmZDgtOWU1Ny00ZDc5LWFkN2YtNzNlY2UxZmY0N2IyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix+trailer"
-  },
-  {
-    "name": "Harry Potter and the Half-Blood Prince",
-    "actors": [
-      "Daniel Radcliffe",
-      "Emma Watson",
-      "Rupert Grint"
-    ],
-    "description": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
-    "director": "David Yates",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Family"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Half-Blood%20Prince+trailer"
-  },
-  {
-    "name": "Harry Potter and the Deathly Hallows: Part 1",
-    "actors": [
-      "Daniel Radcliffe",
-      "Emma Watson",
-      "Rupert Grint"
-    ],
-    "description": "As Harry, Ron and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows.",
-    "director": "David Yates",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%201+trailer"
-  },
-  {
-    "name": "Harry Potter and the Deathly Hallows: Part 2",
-    "actors": [
-      "Daniel Radcliffe",
-      "Emma Watson",
-      "Rupert Grint"
-    ],
-    "description": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
-    "director": "David Yates",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%202+trailer"
+    "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers+trailer"
   },
   {
     "name": "Star Wars: Episode IV - A New Hope",
@@ -732,13 +150,6 @@
       "Carrie Fisher"
     ],
     "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
-    "director": "George Lucas",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20IV%20-%20A%20New%20Hope+trailer"
   },
@@ -750,13 +161,6 @@
       "Carrie Fisher"
     ],
     "description": "After the Rebel Alliance are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
-    "director": "Irvin Kershner",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20V%20-%20The%20Empire%20Strikes%20Back+trailer"
   },
@@ -768,426 +172,96 @@
       "Carrie Fisher"
     ],
     "description": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempt to destroy the second Death Star, while Luke struggles to help Darth Vader back from the dark side.",
-    "director": "Richard Marquand",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VI%20-%20Return%20of%20the%20Jedi+trailer"
   },
   {
-    "name": "Star Wars: Episode I - The Phantom Menace",
+    "name": "Jurassic Park",
     "actors": [
-      "Ewan McGregor",
-      "Liam Neeson",
-      "Natalie Portman"
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum"
     ],
-    "description": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
-    "director": "George Lucas",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20I%20-%20The%20Phantom%20Menace+trailer"
+    "description": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20Park+trailer"
   },
   {
-    "name": "Star Wars: Episode II - Attack of the Clones",
+    "name": "The Lion King",
     "actors": [
-      "Hayden Christensen",
-      "Natalie Portman",
-      "Ewan McGregor"
+      "Matthew Broderick",
+      "Jeremy Irons",
+      "James Earl Jones"
     ],
-    "description": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted for the Jedi.",
-    "director": "George Lucas",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20II%20-%20Attack%20of%20the%20Clones+trailer"
+    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lion%20King+trailer"
   },
   {
-    "name": "Star Wars: Episode III - Revenge of the Sith",
+    "name": "Back to the Future",
     "actors": [
-      "Hayden Christensen",
-      "Natalie Portman",
-      "Ewan McGregor"
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson"
     ],
-    "description": "Three years into the Clone Wars, Obi-Wan Kenobi pursues a new threat, while Anakin Skywalker is lured by Chancellor Palpatine into a sinister plot to rule the galaxy.",
-    "director": "George Lucas",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20III%20-%20Revenge%20of%20the%20Sith+trailer"
+    "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Back%20to%20the%20Future+trailer"
   },
   {
-    "name": "Star Wars: Episode VII - The Force Awakens",
+    "name": "Gladiator",
     "actors": [
-      "Daisy Ridley",
-      "John Boyega",
-      "Oscar Isaac"
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
     ],
-    "description": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
-    "director": "J.J. Abrams",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VII%20-%20The%20Force%20Awakens+trailer"
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Gladiator+trailer"
   },
   {
-    "name": "Star Wars: Episode VIII - The Last Jedi",
+    "name": "Braveheart",
     "actors": [
-      "Daisy Ridley",
-      "John Boyega",
-      "Mark Hamill"
+      "Mel Gibson",
+      "Sophie Marceau",
+      "Patrick McGoohan"
     ],
-    "description": "Rey develops her abilities with the help of Luke Skywalker, as the Resistance prepares for battle against the First Order.",
-    "director": "Rian Johnson",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VIII%20-%20The%20Last%20Jedi+trailer"
+    "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Braveheart+trailer"
   },
   {
-    "name": "Star Wars: Episode IX - The Rise of Skywalker",
+    "name": "Titanic",
     "actors": [
-      "Daisy Ridley",
-      "John Boyega",
-      "Oscar Isaac"
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane"
     ],
-    "description": "The surviving Resistance faces the First Order once again in the conclusion of the Skywalker saga.",
-    "director": "J.J. Abrams",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20IX%20-%20The%20Rise%20of%20Skywalker+trailer"
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Titanic+trailer"
   },
   {
-    "name": "The Hobbit: An Unexpected Journey",
+    "name": "Avatar",
     "actors": [
-      "Martin Freeman",
-      "Ian McKellen",
-      "Richard Armitage"
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver"
     ],
-    "description": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home and the gold within it from the dragon Smaug.",
-    "director": "Peter Jackson",
-    "tags": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20An%20Unexpected%20Journey+trailer"
+    "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Avatar+trailer"
   },
   {
-    "name": "The Hobbit: The Desolation of Smaug",
+    "name": "The Avengers",
     "actors": [
-      "Ian McKellen",
-      "Martin Freeman",
-      "Richard Armitage"
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson"
     ],
-    "description": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim the Lonely Mountain, their homeland, from the dragon Smaug.",
-    "director": "Peter Jackson",
-    "tags": [
-      "Adventure",
-      "Drama",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20The%20Desolation%20of%20Smaug+trailer"
-  },
-  {
-    "name": "The Hobbit: The Battle of the Five Armies",
-    "actors": [
-      "Ian McKellen",
-      "Martin Freeman",
-      "Richard Armitage"
-    ],
-    "description": "Bilbo Baggins and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
-    "director": "Peter Jackson",
-    "tags": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzNDE3OTQ3MF5BMl5BanBnXkFtZTgwODczMTg4MjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20The%20Battle%20of%20the%20Five%20Armies+trailer"
-  },
-  {
-    "name": "The Hunger Games",
-    "actors": [
-      "Jennifer Lawrence",
-      "Josh Hutcherson",
-      "Liam Hemsworth"
-    ],
-    "description": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
-    "director": "Gary Ross",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games+trailer"
-  },
-  {
-    "name": "The Hunger Games: Catching Fire",
-    "actors": [
-      "Jennifer Lawrence",
-      "Josh Hutcherson",
-      "Liam Hemsworth"
-    ],
-    "description": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
-    "director": "Francis Lawrence",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Catching%20Fire+trailer"
-  },
-  {
-    "name": "The Hunger Games: Mockingjay - Part 1",
-    "actors": [
-      "Jennifer Lawrence",
-      "Josh Hutcherson",
-      "Liam Hemsworth"
-    ],
-    "description": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her...",
-    "director": "Francis Lawrence",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Mockingjay%20-%20Part%201+trailer"
-  },
-  {
-    "name": "The Hunger Games: Mockingjay - Part 2",
-    "actors": [
-      "Jennifer Lawrence",
-      "Josh Hutcherson",
-      "Liam Hemsworth"
-    ],
-    "description": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
-    "director": "Francis Lawrence",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Mockingjay%20-%20Part%202+trailer"
-  },
-  {
-    "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
-    "actors": [
-      "Johnny Depp",
-      "Geoffrey Rush",
-      "Orlando Bloom"
-    ],
-    "description": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save Elizabeth Swann, the governor's daughter and his love, from Jack's former pirate allies, who are now undead.",
-    "director": "Gore Verbinski",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20The%20Curse%20of%20the%20Black%20Pearl+trailer"
-  },
-  {
-    "name": "Pirates of the Caribbean: Dead Man's Chest",
-    "actors": [
-      "Johnny Depp",
-      "Orlando Bloom",
-      "Keira Knightley"
-    ],
-    "description": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
-    "director": "Gore Verbinski",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Man's%20Chest+trailer"
-  },
-  {
-    "name": "Pirates of the Caribbean: At World's End",
-    "actors": [
-      "Johnny Depp",
-      "Orlando Bloom",
-      "Keira Knightley"
-    ],
-    "description": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
-    "director": "Gore Verbinski",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20At%20World's%20End+trailer"
-  },
-  {
-    "name": "Pirates of the Caribbean: On Stranger Tides",
-    "actors": [
-      "Johnny Depp",
-      "Penélope Cruz",
-      "Ian McShane"
-    ],
-    "description": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
-    "director": "Rob Marshall",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20On%20Stranger%20Tides+trailer"
-  },
-  {
-    "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
-    "actors": [
-      "Johnny Depp",
-      "Geoffrey Rush",
-      "Javier Bardem"
-    ],
-    "description": "Captain Jack Sparrow searches for the Trident of Poseidon to rule the sea while being pursued by old rival Captain Salazar and a crew of deadly ghosts who have escaped from the Devil's Triangle.",
-    "director": "Joachim Rønning, Espen Sandberg",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Men%20Tell%20No%20Tales+trailer"
-  },
-  {
-    "name": "The Bourne Identity",
-    "actors": [
-      "Franka Potente",
-      "Matt Damon",
-      "Chris Cooper"
-    ],
-    "description": "A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and attempting to regain his memory.",
-    "director": "Doug Liman",
-    "tags": [
-      "Action",
-      "Mystery",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2JkNGU0ZGMtZjVjNS00NjgyLWEyOWYtZmRmZGQyN2IxZjA2XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Identity+trailer"
-  },
-  {
-    "name": "The Bourne Supremacy",
-    "actors": [
-      "Matt Damon",
-      "Franka Potente",
-      "Joan Allen"
-    ],
-    "description": "When Jason Bourne is framed for a CIA operation gone awry, he is forced to resume his former life as a trained assassin to survive.",
-    "director": "Paul Greengrass",
-    "tags": [
-      "Action",
-      "Mystery",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTIyMDFmMmItMWQzYy00MjBiLTg2M2UtM2JiNDRhOWE4NjBhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Supremacy+trailer"
-  },
-  {
-    "name": "The Bourne Ultimatum",
-    "actors": [
-      "Matt Damon",
-      "Edgar Ramírez",
-      "Joan Allen"
-    ],
-    "description": "Jason Bourne dodges a ruthless C.I.A. official and his Agents from a new assassination program while searching for the origins of his life as a trained killer.",
-    "director": "Paul Greengrass",
-    "tags": [
-      "Action",
-      "Mystery",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGNiNmU2YTMtZmU4OS00MjM0LTlmYWUtMjVlYjAzYjE2N2RjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Ultimatum+trailer"
-  },
-  {
-    "name": "The Bourne Legacy",
-    "actors": [
-      "Jeremy Renner",
-      "Rachel Weisz",
-      "Edward Norton"
-    ],
-    "description": "An expansion of the universe from Robert Ludlum's novels, centered on a new hero whose stakes have been triggered by the events of the previous three films.",
-    "director": "Tony Gilroy",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTc4Njk3MDM1Nl5BMl5BanBnXkFtZTcwODgyOTMxOA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Legacy+trailer"
-  },
-  {
-    "name": "Jason Bourne",
-    "actors": [
-      "Matt Damon",
-      "Tommy Lee Jones",
-      "Alicia Vikander"
-    ],
-    "description": "The CIA's most dangerous former operative is drawn out of hiding to uncover more explosive truths about his past.",
-    "director": "Paul Greengrass",
-    "tags": [
-      "Action",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjk0ZWMwNWItZjUwYy00NzgwLWFiOWMtNmRhYzEyZjhhYzgyXkEyXkFqcGdeQXVyMTcwOTQzOTYy._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jason%20Bourne+trailer"
+    "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Avengers+trailer"
   },
   {
     "name": "Iron Man",
@@ -1197,228 +271,8 @@
       "Terrence Howard"
     ],
     "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-    "director": "Jon Favreau",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man+trailer"
-  },
-  {
-    "name": "Iron Man 2",
-    "actors": [
-      "Robert Downey Jr.",
-      "Mickey Rourke",
-      "Gwyneth Paltrow"
-    ],
-    "description": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
-    "director": "Jon Favreau",
-    "tags": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGVkNDAyM2EtYzYxYy00ZWUxLTgwMjgtY2VmODE5OTk3N2M5XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man%202+trailer"
-  },
-  {
-    "name": "Iron Man 3",
-    "actors": [
-      "Robert Downey Jr.",
-      "Guy Pearce",
-      "Gwyneth Paltrow"
-    ],
-    "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
-    "director": "Shane Black",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man%203+trailer"
-  },
-  {
-    "name": "Captain America: The First Avenger",
-    "actors": [
-      "Chris Evans",
-      "Hugo Weaving",
-      "Samuel L. Jackson"
-    ],
-    "description": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organiza...",
-    "director": "Joe Johnston",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzAxMjg0NjYtNjNlOS00NTdlLThkMGEtMjAwYjk3NmNkOGFhXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20The%20First%20Avenger+trailer"
-  },
-  {
-    "name": "Captain America: The Winter Soldier",
-    "actors": [
-      "Chris Evans",
-      "Samuel L. Jackson",
-      "Scarlett Johansson"
-    ],
-    "description": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
-    "director": "Anthony Russo, Joe Russo",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzMyN2I0NjMtYmZhZS00MWJkLWE1MTktNGM2ZDhmNDE1ZDc0XkEyXkFqcGdeQXVyNDg2NzE0MjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20The%20Winter%20Soldier+trailer"
-  },
-  {
-    "name": "Captain America: Civil War",
-    "actors": [
-      "Chris Evans",
-      "Robert Downey Jr.",
-      "Scarlett Johansson"
-    ],
-    "description": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
-    "director": "Anthony Russo, Joe Russo",
-    "tags": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20Civil%20War+trailer"
-  },
-  {
-    "name": "Thor",
-    "actors": [
-      "Chris Hemsworth",
-      "Anthony Hopkins",
-      "Natalie Portman"
-    ],
-    "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
-    "director": "Kenneth Branagh",
-    "tags": [
-      "Action",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Thor+trailer"
-  },
-  {
-    "name": "Thor: The Dark World",
-    "actors": [
-      "Chris Hemsworth",
-      "Natalie Portman",
-      "Tom Hiddleston"
-    ],
-    "description": "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.",
-    "director": "Alan Taylor",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Thor%3A%20The%20Dark%20World+trailer"
-  },
-  {
-    "name": "Thor: Ragnarok",
-    "actors": [
-      "Chris Hemsworth",
-      "Tom Hiddleston",
-      "Cate Blanchett"
-    ],
-    "description": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
-    "director": "Taika Waititi",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Thor%3A%20Ragnarok+trailer"
-  },
-  {
-    "name": "Black Panther",
-    "actors": [
-      "Chadwick Boseman",
-      "Michael B. Jordan",
-      "Lupita Nyong'o"
-    ],
-    "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
-    "director": "Ryan Coogler",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Black%20Panther+trailer"
-  },
-  {
-    "name": "Doctor Strange",
-    "actors": [
-      "Benedict Cumberbatch",
-      "Chiwetel Ejiofor",
-      "Rachel McAdams"
-    ],
-    "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
-    "director": "Scott Derrickson",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Doctor%20Strange+trailer"
-  },
-  {
-    "name": "Guardians of the Galaxy",
-    "actors": [
-      "Chris Pratt",
-      "Vin Diesel",
-      "Bradley Cooper"
-    ],
-    "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
-    "director": "James Gunn",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Guardians%20of%20the%20Galaxy+trailer"
-  },
-  {
-    "name": "Guardians of the Galaxy Vol. 2",
-    "actors": [
-      "Chris Pratt",
-      "Zoe Saldana",
-      "Dave Bautista"
-    ],
-    "description": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father, the ambitious celestial being Ego.",
-    "director": "James Gunn",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Guardians%20of%20the%20Galaxy%20Vol.%202+trailer"
   },
   {
     "name": "Spider-Man: Homecoming",
@@ -1428,51 +282,74 @@
       "Robert Downey Jr."
     ],
     "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
-    "director": "Jon Watts",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20Homecoming+trailer"
   },
   {
-    "name": "Spider-Man: Far from Home",
+    "name": "Black Panther",
     "actors": [
-      "Tom Holland",
-      "Samuel L. Jackson",
-      "Jake Gyllenhaal"
+      "Chadwick Boseman",
+      "Michael B. Jordan",
+      "Lupita Nyong'o"
     ],
-    "description": "Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.",
-    "director": "Jon Watts",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BODA5MTY0OWUtNjdlOC00NDI5LWE3NjYtNDM4MDI2MzE4OWUxXkEyXkFqcGdeQXVyOTAzODkzMjI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20Far%20from%20Home+trailer"
+    "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Black%20Panther+trailer"
   },
   {
-    "name": "Spider-Man: No Way Home",
+    "name": "Guardians of the Galaxy",
     "actors": [
-      "Tom Holland",
-      "Zendaya",
-      "Benedict Cumberbatch"
+      "Chris Pratt",
+      "Vin Diesel",
+      "Bradley Cooper"
     ],
-    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
-    "director": "Jon Watts",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
+    "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Guardians%20of%20the%20Galaxy+trailer"
+  },
+  {
+    "name": "Captain America: The Winter Soldier",
+    "actors": [
+      "Chris Evans",
+      "Samuel L. Jackson",
+      "Scarlett Johansson"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20No%20Way%20Home+trailer"
+    "description": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzMyN2I0NjMtYmZhZS00MWJkLWE1MTktNGM2ZDhmNDE1ZDc0XkEyXkFqcGdeQXVyNDg2NzE0MjE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20The%20Winter%20Soldier+trailer"
+  },
+  {
+    "name": "Thor: Ragnarok",
+    "actors": [
+      "Chris Hemsworth",
+      "Tom Hiddleston",
+      "Cate Blanchett"
+    ],
+    "description": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Thor%3A%20Ragnarok+trailer"
+  },
+  {
+    "name": "Wonder Woman",
+    "actors": [
+      "Gal Gadot",
+      "Chris Pine",
+      "Robin Wright"
+    ],
+    "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Wonder%20Woman+trailer"
+  },
+  {
+    "name": "Man of Steel",
+    "actors": [
+      "Henry Cavill",
+      "Amy Adams",
+      "Michael Shannon"
+    ],
+    "description": "An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of his home planet invade Earth.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Man%20of%20Steel+trailer"
   },
   {
     "name": "Batman Begins",
@@ -1482,13 +359,6 @@
       "Ken Watanabe"
     ],
     "description": "After witnessing his parents' death, Bruce learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.",
-    "director": "Christopher Nolan",
-    "tags": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=Batman%20Begins+trailer"
   },
@@ -1500,1459 +370,700 @@
       "Anne Hathaway"
     ],
     "description": "Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.",
-    "director": "Christopher Nolan",
-    "tags": [
-      "Action",
-      "Drama",
-      "Thriller"
-    ],
-    "studio": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg",
     "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight%20Rises+trailer"
   },
   {
-    "name": "Man of Steel",
+    "name": "Joker",
     "actors": [
-      "Henry Cavill",
-      "Amy Adams",
-      "Michael Shannon"
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
     ],
-    "description": "An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of his home planet invade Earth.",
-    "director": "Zack Snyder",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Man%20of%20Steel+trailer"
-  },
-  {
-    "name": "Wonder Woman",
-    "actors": [
-      "Gal Gadot",
-      "Chris Pine",
-      "Robin Wright"
-    ],
-    "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
-    "director": "Patty Jenkins",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Wonder%20Woman+trailer"
-  },
-  {
-    "name": "Justice League",
-    "actors": [
-      "Ben Affleck",
-      "Gal Gadot",
-      "Jason Momoa"
-    ],
-    "description": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.",
-    "director": "Zack Snyder",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Justice%20League+trailer"
-  },
-  {
-    "name": "Aquaman",
-    "actors": [
-      "Jason Momoa",
-      "Amber Heard",
-      "Willem Dafoe"
-    ],
-    "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
-    "director": "James Wan",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Aquaman+trailer"
-  },
-  {
-    "name": "Batman v Superman: Dawn of Justice",
-    "actors": [
-      "Ben Affleck",
-      "Henry Cavill",
-      "Amy Adams"
-    ],
-    "description": "Batman is manipulated by Lex Luthor to fear Superman. Superman´s existence is meanwhile dividing the world and he is framed for murder during an international crisis. The heroes clash and force the neutral Wonder Woman to reemerge.",
-    "director": "Zack Snyder",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Batman%20v%20Superman%3A%20Dawn%20of%20Justice+trailer"
-  },
-  {
-    "name": "Suicide Squad",
-    "actors": [
-      "Will Smith",
-      "Jared Leto",
-      "Margot Robbie"
-    ],
-    "description": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
-    "director": "David Ayer",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Suicide%20Squad+trailer"
-  },
-  {
-    "name": "The Suicide Squad",
-    "actors": [
-      "Margot Robbie",
-      "Idris Elba",
-      "John Cena"
-    ],
-    "description": "Supervillains Harley Quinn, Bloodsport, Peacemaker, and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-    "director": "James Gunn",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzUzMjkxMzItMTc0MS00MjAxLWFiZGMtY2YwOGM2Yjk1ZjBmXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Suicide%20Squad+trailer"
-  },
-  {
-    "name": "Deadpool",
-    "actors": [
-      "Ryan Reynolds",
-      "Morena Baccarin",
-      "T.J. Miller"
-    ],
-    "description": "A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks.",
-    "director": "Tim Miller",
-    "tags": [
-      "Action",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Deadpool+trailer"
-  },
-  {
-    "name": "Deadpool 2",
-    "actors": [
-      "Ryan Reynolds",
-      "Josh Brolin",
-      "Morena Baccarin"
-    ],
-    "description": "Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with abilities from the brutal, time-traveling cyborg Cable.",
-    "director": "David Leitch",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ0NTk2MTYtMWZlYS00ZTliLThmZTEtNDVkODgxNmQ2ZGM2XkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Deadpool%202+trailer"
-  },
-  {
-    "name": "X-Men",
-    "actors": [
-      "Patrick Stewart",
-      "Hugh Jackman",
-      "Ian McKellen"
-    ],
-    "description": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
-    "director": "Bryan Singer",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZmIyMDk5NGYtYjQ5NS00ZWQxLTg2YzQtZDk1ZmM4ZDBlN2E3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men+trailer"
-  },
-  {
-    "name": "X2: X-Men United",
-    "actors": [
-      "Patrick Stewart",
-      "Hugh Jackman",
-      "Halle Berry"
-    ],
-    "description": "When anti-mutant Colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.",
-    "director": "Bryan Singer",
-    "tags": [
-      "Action",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDk0NjYxMzIzOF5BMl5BanBnXkFtZTYwMTc1MjU3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X2%3A%20X-Men%20United+trailer"
-  },
-  {
-    "name": "X-Men: The Last Stand",
-    "actors": [
-      "Patrick Stewart",
-      "Hugh Jackman",
-      "Halle Berry"
-    ],
-    "description": "The human government develops a cure for mutations, and Jean Grey becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
-    "director": "Brett Ratner",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDBhNDJiMWEtOTg4Yi00NTYzLWEzOGMtMjNmNjAxNTBlMzY3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20The%20Last%20Stand+trailer"
-  },
-  {
-    "name": "X-Men: First Class",
-    "actors": [
-      "James McAvoy",
-      "Michael Fassbender",
-      "Jennifer Lawrence"
-    ],
-    "description": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
-    "director": "Matthew Vaughn",
-    "tags": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20First%20Class+trailer"
-  },
-  {
-    "name": "X-Men: Days of Future Past",
-    "actors": [
-      "Patrick Stewart",
-      "Ian McKellen",
-      "Hugh Jackman"
-    ],
-    "description": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
-    "director": "Bryan Singer",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjk3MGZhMjEtOTM4NC00NzE2LTk2NzctZDc4YTUwN2E3NDhhXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20Days%20of%20Future%20Past+trailer"
-  },
-  {
-    "name": "X-Men: Apocalypse",
-    "actors": [
-      "James McAvoy",
-      "Michael Fassbender",
-      "Jennifer Lawrence"
-    ],
-    "description": "In the 1980s, the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive by bringing destruction to the world.",
-    "director": "Bryan Singer",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20Apocalypse+trailer"
-  },
-  {
-    "name": "Logan",
-    "actors": [
-      "Hugh Jackman",
-      "Patrick Stewart",
-      "Dafne Keen"
-    ],
-    "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
-    "director": "James Mangold",
-    "tags": [
-      "Action",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Logan+trailer"
-  },
-  {
-    "name": "Fantastic Beasts and Where to Find Them",
-    "actors": [
-      "Eddie Redmayne",
-      "Katherine Waterston",
-      "Alison Sudol"
-    ],
-    "description": "In 1926, magizoologist Newt Scamander arrives in New York during his worldwide tour to research and rescue magical creatures as something mysterious leaves trails of destruction in the city, threatening to expose the wizarding world.",
-    "director": "David Yates",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMxOTM1OTI4MV5BMl5BanBnXkFtZTgwODE5OTYxMDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%20and%20Where%20to%20Find%20Them+trailer"
-  },
-  {
-    "name": "Fantastic Beasts: The Crimes of Grindelwald",
-    "actors": [
-      "Eddie Redmayne",
-      "Katherine Waterston",
-      "Dan Fogler"
-    ],
-    "description": "Gellert Grindelwald plans to raise an army of wizards to rule over non-magical beings. In response, Newt Scamander's former professor, Albus Dumbledore, seeks his help to stop him.",
-    "director": "David Yates",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWVlMDI5N2UtZTIyMC00NjZkLWI5Y2QtODM5NGE5MzA0NmVjXkEyXkFqcGdeQXVyNzU3NjUxMzE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%3A%20The%20Crimes%20of%20Grindelwald+trailer"
-  },
-  {
-    "name": "Fantastic Beasts: The Secrets of Dumbledore",
-    "actors": [
-      "Eddie Redmayne",
-      "Jude Law",
-      "Ezra Miller"
-    ],
-    "description": "Albus Dumbledore knows that Gellert Grindelwald is moving to take control of the wizarding world. Unable to stop him alone, he asks Newt Scamander to lead an intrepid team on a dangerous mission.",
-    "director": "David Yates",
-    "tags": [
-      "Adventure",
-      "Family",
-      "Fantasy"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%3A%20The%20Secrets%20of%20Dumbledore+trailer"
-  },
-  {
-    "name": "Indiana Jones and the Temple of Doom",
-    "actors": [
-      "Harrison Ford",
-      "Kate Capshaw",
-      "Ke Huy Quan"
-    ],
-    "description": "In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a rock stolen from them by a secret cult beneath the catacombs of an ancient palace.",
-    "director": "Steven Spielberg",
-    "tags": [
-      "Action",
-      "Adventure"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzgzMTIzNzctNmNiZC00ZDYyLWJjNzktMmQ2MDM2ZDkwZGVhXkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Temple%20of%20Doom+trailer"
-  },
-  {
-    "name": "Indiana Jones and the Last Crusade",
-    "actors": [
-      "Harrison Ford",
-      "Sean Connery",
-      "Alison Doody"
-    ],
-    "description": "In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers.",
-    "director": "Steven Spielberg",
-    "tags": [
-      "Action",
-      "Adventure"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BY2Q0ODg4ZmItNDZiYi00ZWY5LTg2NzctNmYwZjA5OThmNzE1XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Last%20Crusade+trailer"
-  },
-  {
-    "name": "Indiana Jones and the Kingdom of the Crystal Skull",
-    "actors": [
-      "Harrison Ford",
-      "Cate Blanchett",
-      "Shia LaBeouf"
-    ],
-    "description": "Indiana Jones becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
-    "director": "Steven Spielberg",
-    "tags": [
-      "Action",
-      "Adventure"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZmY5ZTk3ZDMtZjA1MS00NzU4LTk5ZDItYmNhOTkxMGYxMjRlXkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Kingdom%20of%20the%20Crystal%20Skull+trailer"
-  },
-  {
-    "name": "Jurassic World",
-    "actors": [
-      "Chris Pratt",
-      "Bryce Dallas Howard",
-      "Ty Simpkins"
-    ],
-    "description": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
-    "director": "Colin Trevorrow",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQ3OTY4NjAtNzM5OS00N2ZhLWJlOWUtYzYwZjNmOWRiMzcyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World+trailer"
-  },
-  {
-    "name": "Jurassic World: Fallen Kingdom",
-    "actors": [
-      "Chris Pratt",
-      "Bryce Dallas Howard",
-      "Rafe Spall"
-    ],
-    "description": "When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
-    "director": "J.A. Bayona",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World%3A%20Fallen%20Kingdom+trailer"
-  },
-  {
-    "name": "Jurassic World Dominion",
-    "actors": [
-      "Chris Pratt",
-      "Bryce Dallas Howard",
-      "Laura Dern"
-    ],
-    "description": "Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood, while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.",
-    "director": "Colin Trevorrow",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTBjMjA4NmYtN2RjMi00YWZlLTliYTktOTIwMmNkYjYxYmE1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World%20Dominion+trailer"
-  },
-  {
-    "name": "Mad Max: Fury Road",
-    "actors": [
-      "Tom Hardy",
-      "Charlize Theron",
-      "Nicholas Hoult"
-    ],
-    "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshipper and a drifter named Max.",
-    "director": "George Miller",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mad%20Max%3A%20Fury%20Road+trailer"
-  },
-  {
-    "name": "The Terminator",
-    "actors": [
-      "Arnold Schwarzenegger",
-      "Linda Hamilton",
-      "Michael Biehn"
-    ],
-    "description": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvat...",
-    "director": "James Cameron",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Terminator+trailer"
-  },
-  {
-    "name": "Terminator 2: Judgment Day",
-    "actors": [
-      "Arnold Schwarzenegger",
-      "Linda Hamilton",
-      "Edward Furlong"
-    ],
-    "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg.",
-    "director": "James Cameron",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%202%3A%20Judgment%20Day+trailer"
-  },
-  {
-    "name": "Terminator 3: Rise of the Machines",
-    "actors": [
-      "Arnold Schwarzenegger",
-      "Nick Stahl",
-      "Kristanna Loken"
-    ],
-    "description": "A machine from a post-apocalyptic future travels back in time to protect a man and a woman from an advanced robotic assassin to ensure they both survive a nuclear attack.",
-    "director": "Jonathan Mostow",
-    "tags": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk5NzM1ODgyN15BMl5BanBnXkFtZTcwMzA5MjAzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%203%3A%20Rise%20of%20the%20Machines+trailer"
-  },
-  {
-    "name": "Terminator Salvation",
-    "actors": [
-      "Christian Bale",
-      "Sam Worthington",
-      "Anton Yelchin"
-    ],
-    "description": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
-    "director": "McG",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BODBlOTJhZjItMGRmYS00YzM1LWFmZTktOTJmNDMyZTBjMjBkXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%20Salvation+trailer"
-  },
-  {
-    "name": "Terminator Genisys",
-    "actors": [
-      "Arnold Schwarzenegger",
-      "Jason Clarke",
-      "Emilia Clarke"
-    ],
-    "description": "When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.",
-    "director": "Alan Taylor",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%20Genisys+trailer"
-  },
-  {
-    "name": "Terminator: Dark Fate",
-    "actors": [
-      "Linda Hamilton",
-      "Arnold Schwarzenegger",
-      "Mackenzie Davis"
-    ],
-    "description": "An augmented human and Sarah Connor must stop an advanced liquid Terminator from hunting down a young girl, whose fate is critical to the human race.",
-    "director": "Tim Miller",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzhlYjE5MjMtZDJmYy00MGZmLTgwN2MtZGM0NTk2ZTczNmU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%3A%20Dark%20Fate+trailer"
-  },
-  {
-    "name": "Rocky",
-    "actors": [
-      "Sylvester Stallone",
-      "Talia Shire",
-      "Burt Young"
-    ],
-    "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
-    "director": "John G. Avildsen",
-    "tags": [
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTBkMjg2MjYtYTZjOS00ODQ0LTg0MDEtM2FiNmJmOGU1NGEwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky+trailer"
-  },
-  {
-    "name": "Rocky II",
-    "actors": [
-      "Sylvester Stallone",
-      "Talia Shire",
-      "Burt Young"
-    ],
-    "description": "Rocky struggles in family life after his bout with Apollo Creed, while the embarrassed champ insistently goads him to accept a challenge for a rematch.",
-    "director": "Sylvester Stallone",
-    "tags": [
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjk2Y2FiYWEtNGViNy00ZDNkLThhZGItMDI5YjQ5NGYxYWJmXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20II+trailer"
-  },
-  {
-    "name": "Rocky III",
-    "actors": [
-      "Sylvester Stallone",
-      "Talia Shire",
-      "Burt Young"
-    ],
-    "description": "Rocky faces the ultimate challenge from a powerful new contender, and must turn to a former rival to help regain his throne as the undisputed fighting champion.",
-    "director": "Sylvester Stallone",
-    "tags": [
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDJiMzQ4YTAtZjUzZC00NTI4LWI3N2YtYWU4MTdiNzkwNWVmXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20III+trailer"
-  },
-  {
-    "name": "Rocky IV",
-    "actors": [
-      "Sylvester Stallone",
-      "Talia Shire",
-      "Burt Young"
-    ],
-    "description": "Rocky Balboa proudly holds the world heavyweight boxing championship, but a new challenger has stepped forward: Drago, a six-foot-four, 261-pound fighter who has the backing of the Soviet Union.",
-    "director": "Sylvester Stallone",
-    "tags": [
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQ0NmIyNzMtYTA4My00ZjY3LTkzNjctYzJiZGZmMzYxOTA1XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20IV+trailer"
-  },
-  {
-    "name": "Rocky V",
-    "actors": [
-      "Sylvester Stallone",
-      "Talia Shire",
-      "Burt Young"
-    ],
-    "description": "Reluctantly retired from fighting, Rocky takes charge of Mickey's gym and agrees to train a young protégé who's hungry for success.",
-    "director": "John G. Avildsen",
-    "tags": [
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTM2Mzc4MTYxM15BMl5BanBnXkFtZTcwODY5NTk1NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20V+trailer"
-  },
-  {
-    "name": "Rocky Balboa",
-    "actors": [
-      "Sylvester Stallone",
-      "Antonio Tarver",
-      "Milo Ventimiglia"
-    ],
-    "description": "Thirty years after the ring of the first bell, Rocky Balboa comes out of retirement and dons his gloves for his final fight against the reigning heavyweight champ Mason 'The Line' Dixon.",
-    "director": "Sylvester Stallone",
-    "tags": [
-      "Action",
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTM2OTUzNDE3NV5BMl5BanBnXkFtZTcwODczMzkzMQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20Balboa+trailer"
-  },
-  {
-    "name": "Creed",
-    "actors": [
-      "Michael B. Jordan",
-      "Sylvester Stallone",
-      "Tessa Thompson"
-    ],
-    "description": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
-    "director": "Ryan Coogler",
-    "tags": [
-      "Action",
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNmZkYjQzY2QtNjdkNC00YjkzLTk5NjUtY2MyNDNiYTBhN2M2XkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Creed+trailer"
-  },
-  {
-    "name": "Creed II",
-    "actors": [
-      "Michael B. Jordan",
-      "Sylvester Stallone",
-      "Tessa Thompson"
-    ],
-    "description": "Under the tutelage of Rocky Balboa, newly crowned heavyweight champion Adonis Creed faces off against Viktor Drago, the son of Ivan Drago.",
-    "director": "Steven Caple Jr.",
-    "tags": [
-      "Action",
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmEyNWZhM2YtZDAyNi00ZjYzLWI2ZWMtOWM4ZmI1MDE0OWNmXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Creed%20II+trailer"
-  },
-  {
-    "name": "Creed III",
-    "actors": [
-      "Michael B. Jordan",
-      "Tessa Thompson",
-      "Jonathan Majors"
-    ],
-    "description": "Adonis has been thriving in both his career and family life, but when a childhood friend and former boxing prodigy resurfaces, the face-off is more than just a fight.",
-    "director": "Michael B. Jordan",
-    "tags": [
-      "Action",
-      "Drama",
-      "Sport"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzIxOTk1NDQtMzJlOC00ODZlLWE1YTAtNTA5ODZlZmZmMDBhXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Creed%20III+trailer"
-  },
-  {
-    "name": "Mission: Impossible - Ghost Protocol",
-    "actors": [
-      "Tom Cruise",
-      "Jeremy Renner",
-      "Simon Pegg"
-    ],
-    "description": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
-    "director": "Brad Bird",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Ghost%20Protocol+trailer"
-  },
-  {
-    "name": "32. The Making of 'Mission: Impossible 2' (2000), Part 1",
-    "actors": [
-      "Charles Hood",
-      "Drew Taylor"
-    ],
-    "description": "N/A",
-    "director": "N/A",
-    "tags": [
-      "Talk-Show"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGUzOGQzODgtNzhlZS00NDY2LWJhMjYtMzE2MGFlNDU2MzYyXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=32.%20The%20Making%20of%20'Mission%3A%20Impossible%202'%20(2000)%2C%20Part%201+trailer"
-  },
-  {
-    "name": "Mission: Impossible III",
-    "actors": [
-      "Tom Cruise",
-      "Michelle Monaghan",
-      "Ving Rhames"
-    ],
-    "description": "IMF agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
-    "director": "J.J. Abrams",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOThhNTA1YjItYzk2Ny00M2Y1LWJlYWUtZDQyZDU0YmY5Y2M5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20III+trailer"
-  },
-  {
-    "name": "Mission: Impossible - Ghost Protocol",
-    "actors": [
-      "Tom Cruise",
-      "Jeremy Renner",
-      "Simon Pegg"
-    ],
-    "description": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
-    "director": "Brad Bird",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Ghost%20Protocol+trailer"
-  },
-  {
-    "name": "Mission: Impossible - Rogue Nation",
-    "actors": [
-      "Tom Cruise",
-      "Rebecca Ferguson",
-      "Jeremy Renner"
-    ],
-    "description": "Ethan and his team take on their most impossible mission yet when they have to eradicate an international rogue organization as highly skilled as they are and committed to destroying the IMF.",
-    "director": "Christopher McQuarrie",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTFmNDA3ZjMtN2Y0MC00NDYyLWFlY2UtNTQ4OTQxMmY1NmVjXkEyXkFqcGdeQXVyNTg4NDQ4NDY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Rogue%20Nation+trailer"
-  },
-  {
-    "name": "Mission: Impossible - Fallout",
-    "actors": [
-      "Tom Cruise",
-      "Henry Cavill",
-      "Ving Rhames"
-    ],
-    "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
-    "director": "Christopher McQuarrie",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Fallout+trailer"
-  },
-  {
-    "name": "Die Hard",
-    "actors": [
-      "Bruce Willis",
-      "Alan Rickman",
-      "Bonnie Bedelia"
-    ],
-    "description": "A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
-    "director": "John McTiernan",
-    "tags": [
-      "Action",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard+trailer"
-  },
-  {
-    "name": "Die Hard 2",
-    "actors": [
-      "Bruce Willis",
-      "William Atherton",
-      "Bonnie Bedelia"
-    ],
-    "description": "John McClane attempts to avert disaster as rogue military operatives seize control of Dulles International Airport in Washington, D.C.",
-    "director": "Renny Harlin",
-    "tags": [
-      "Action",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzMzYzk3ZTEtZDg0My00MTY5LWE3ZmQtYzNhYjhjN2RhZGRjL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard%202+trailer"
-  },
-  {
-    "name": "Die Hard with a Vengeance",
-    "actors": [
-      "Bruce Willis",
-      "Jeremy Irons",
-      "Samuel L. Jackson"
-    ],
-    "description": "John McClane and a Harlem store owner are targeted by German terrorist Simon in New York City, where he plans to rob the Federal Reserve Building.",
-    "director": "John McTiernan",
-    "tags": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjI0ZWFiMmQtMjRlZi00ZmFhLWI4NmYtMjQ5YmY0MzIyMzRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard%20with%20a%20Vengeance+trailer"
-  },
-  {
-    "name": "Live Free or Die Hard",
-    "actors": [
-      "Bruce Willis",
-      "Justin Long",
-      "Timothy Olyphant"
-    ],
-    "description": "John McClane and a young hacker join forces to take down master cyber-terrorist Thomas Gabriel in Washington D.C.",
-    "director": "Len Wiseman",
-    "tags": [
-      "Action",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDQxMDE1OTg4NV5BMl5BanBnXkFtZTcwMTMzOTQzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Live%20Free%20or%20Die%20Hard+trailer"
-  },
-  {
-    "name": "A Good Day to Die Hard",
-    "actors": [
-      "Bruce Willis",
-      "Jai Courtney",
-      "Sebastian Koch"
-    ],
-    "description": "John McClane travels to Russia to help out his seemingly wayward son, Jack, only to discover that Jack is a CIA operative working undercover, causing the father and son to team up against underworld forces.",
-    "director": "John Moore",
-    "tags": [
-      "Action",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcwNzgyNzUzOV5BMl5BanBnXkFtZTcwMzAwOTA5OA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=A%20Good%20Day%20to%20Die%20Hard+trailer"
-  },
-  {
-    "name": "The Fast and the Furious",
-    "actors": [
-      "Vin Diesel",
-      "Paul Walker",
-      "Michelle Rodriguez"
-    ],
-    "description": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to end it.",
-    "director": "Rob Cohen",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fast%20and%20the%20Furious+trailer"
-  },
-  {
-    "name": "2 Fast 2 Furious",
-    "actors": [
-      "Paul Walker",
-      "Tyrese Gibson",
-      "Cole Hauser"
-    ],
-    "description": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
-    "director": "John Singleton",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzExYjcyYWMtY2JkOC00NDUwLTg2OTgtMDI3MGY2OWQzMDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=2%20Fast%202%20Furious+trailer"
-  },
-  {
-    "name": "The Fast and the Furious: Tokyo Drift",
-    "actors": [
-      "Lucas Black",
-      "Zachery Ty Bryan",
-      "Shad Moss"
-    ],
-    "description": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
-    "director": "Justin Lin",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fast%20and%20the%20Furious%3A%20Tokyo%20Drift+trailer"
-  },
-  {
-    "name": "Fast & Furious",
-    "actors": [
-      "Vin Diesel",
-      "Paul Walker",
-      "Michelle Rodriguez"
-    ],
-    "description": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
-    "director": "Justin Lin",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20%26%20Furious+trailer"
-  },
-  {
-    "name": "Fast Five",
-    "actors": [
-      "Vin Diesel",
-      "Paul Walker",
-      "Dwayne Johnson"
-    ],
-    "description": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
-    "director": "Justin Lin",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTUxNTk5MTE0OF5BMl5BanBnXkFtZTcwMjA2NzY3NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20Five+trailer"
-  },
-  {
-    "name": "Fast & Furious 6",
-    "actors": [
-      "Vin Diesel",
-      "Paul Walker",
-      "Dwayne Johnson"
-    ],
-    "description": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries, but Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty.",
-    "director": "Justin Lin",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20%26%20Furious%206+trailer"
-  },
-  {
-    "name": "Furious 7",
-    "actors": [
-      "Vin Diesel",
-      "Paul Walker",
-      "Dwayne Johnson"
-    ],
-    "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
-    "director": "James Wan",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Furious%207+trailer"
-  },
-  {
-    "name": "The Fate of the Furious",
-    "actors": [
-      "Vin Diesel",
-      "Jason Statham",
-      "Dwayne Johnson"
-    ],
-    "description": "When a mysterious woman seduces Dominic Toretto into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.",
-    "director": "F. Gary Gray",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fate%20of%20the%20Furious+trailer"
+    "description": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Joker+trailer"
   },
   {
-    "name": "F9: The Fast Saga",
+    "name": "Harry Potter and the Sorcerer's Stone",
     "actors": [
-      "Vin Diesel",
-      "Michelle Rodriguez",
-      "Jordana Brewster"
-    ],
-    "description": "Dom and the crew must take on an international terrorist who turns out to be Dom and Mia's estranged brother.",
-    "director": "Justin Lin",
-    "tags": [
-      "Action",
-      "Crime",
-      "Thriller"
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=F9%3A%20The%20Fast%20Saga+trailer"
+    "description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Sorcerer's%20Stone+trailer"
   },
   {
-    "name": "The Exorcist",
+    "name": "Harry Potter and the Chamber of Secrets",
     "actors": [
-      "Ellen Burstyn",
-      "Max von Sydow",
-      "Linda Blair"
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson"
     ],
-    "description": "When a young girl is possessed by a mysterious entity, her mother seeks the help of two Catholic priests to save her life.",
-    "director": "William Friedkin",
-    "tags": [
-      "Horror"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWFlZGY2NDktY2ZjOS00ZWNkLTg0ZDAtZDY4MTM1ODU4ZjljXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Exorcist+trailer"
+    "description": "Harry Potter lives his second year at Hogwarts with Ron and Hermione when a message on the wall announces that the legendary Chamber of Secrets has been opened. The trio soon realize that, to save the school, it will take a lot of...",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Chamber%20of%20Secrets+trailer"
   },
   {
-    "name": "The Exorcist III",
+    "name": "Harry Potter and the Prisoner of Azkaban",
     "actors": [
-      "George C. Scott",
-      "Ed Flanders",
-      "Brad Dourif"
-    ],
-    "description": "A police lieutenant uncovers more than he bargained for as his investigation of a series of murders, which have all the hallmarks of the deceased Gemini serial killer, leads him to question the patients of a psychiatric ward.",
-    "director": "William Peter Blatty",
-    "tags": [
-      "Drama",
-      "Horror",
-      "Mystery"
+      "Daniel Radcliffe",
+      "Emma Watson",
+      "Rupert Grint"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2U2Y2ZmNjAtZDkwMy00MzZiLWEzODYtZGIxODAyMGEwMjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Exorcist%20III+trailer"
+    "description": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban+trailer"
   },
   {
-    "name": "Halloween",
+    "name": "Harry Potter and the Goblet of Fire",
     "actors": [
-      "Donald Pleasence",
-      "Jamie Lee Curtis",
-      "Tony Moran"
+      "Daniel Radcliffe",
+      "Emma Watson",
+      "Rupert Grint"
     ],
-    "description": "Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
-    "director": "John Carpenter",
-    "tags": [
-      "Horror",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween+trailer"
+    "description": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Goblet%20of%20Fire+trailer"
   },
   {
-    "name": "Halloween II",
+    "name": "Harry Potter and the Order of the Phoenix",
     "actors": [
-      "Jamie Lee Curtis",
-      "Donald Pleasence",
-      "Charles Cyphers"
+      "Daniel Radcliffe",
+      "Emma Watson",
+      "Rupert Grint"
     ],
-    "description": "While Dr. Loomis hunts for Michael Myers, a traumatized Laurie is rushed to Haddonfield Memorial Hospital, and The Shape is not far behind her.",
-    "director": "Rick Rosenthal",
-    "tags": [
-      "Horror"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjZmYjg0ODctOTIyYy00YzhkLTgyMzEtNjUyY2JiZjVmYzI2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20II+trailer"
+    "description": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTA3MmRmZDgtOWU1Ny00ZDc5LWFkN2YtNzNlY2UxZmY0N2IyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix+trailer"
   },
   {
-    "name": "Halloween III: Season of the Witch",
+    "name": "Harry Potter and the Half-Blood Prince",
     "actors": [
-      "Tom Atkins",
-      "Stacey Nelkin",
-      "Dan O'Herlihy"
-    ],
-    "description": "Kids all over America want Silver Shamrock masks for Halloween. Doctor Daniel Challis seeks to uncover a plot by Silver Shamrock owner Conal Cochran.",
-    "director": "Tommy Lee Wallace",
-    "tags": [
-      "Horror",
-      "Mystery",
-      "Sci-Fi"
+      "Daniel Radcliffe",
+      "Emma Watson",
+      "Rupert Grint"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2YzYjI0MWYtYWUyZS00ZDQ4LWEzN2EtMDU4NDJmNjA2ZWFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20III%3A%20Season%20of%20the%20Witch+trailer"
+    "description": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Half-Blood%20Prince+trailer"
   },
   {
-    "name": "Halloween 4: The Return of Michael Myers",
+    "name": "Harry Potter and the Deathly Hallows: Part 1",
     "actors": [
-      "Donald Pleasence",
-      "Ellie Cornell",
-      "Danielle Harris"
+      "Daniel Radcliffe",
+      "Emma Watson",
+      "Rupert Grint"
     ],
-    "description": "Ten years after his original massacre, the invalid Michael Myers awakens on Halloween Eve and returns to Haddonfield to kill his seven-year-old niece. Can Dr. Loomis stop him?",
-    "director": "Dwight H. Little",
-    "tags": [
-      "Horror",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWNiNjBhZjAtMzVkNi00MTJiLWI0NGQtODE2NmIyNmU2OTQwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%204%3A%20The%20Return%20of%20Michael%20Myers+trailer"
+    "description": "As Harry, Ron and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%201+trailer"
   },
   {
-    "name": "Halloween 5: The Revenge of Michael Myers",
+    "name": "Harry Potter and the Deathly Hallows: Part 2",
     "actors": [
-      "Donald Pleasence",
-      "Danielle Harris",
-      "Ellie Cornell"
-    ],
-    "description": "One year after the events of Halloween 4: The Return of Michael Myers (1988), the Shape returns to Haddonfield once again in an attempt to kill his now-mute niece.",
-    "director": "Dominique Othenin-Girard",
-    "tags": [
-      "Horror",
-      "Thriller"
+      "Daniel Radcliffe",
+      "Emma Watson",
+      "Rupert Grint"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZWE2YTU2ZjMtZjRjOS00NjQ3LWIyYzItMTk2N2YxMjY1ZGRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%205%3A%20The%20Revenge%20of%20Michael%20Myers+trailer"
+    "description": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%202+trailer"
   },
   {
-    "name": "Halloween: The Curse of Michael Myers",
+    "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "actors": [
-      "Donald Pleasence",
-      "Paul Rudd",
-      "Marianne Hagan"
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Orlando Bloom"
     ],
-    "description": "Six years after Michael Myers last terrorized Haddonfield, he returns there in pursuit of his niece, Jamie Lloyd, who has escaped with her newborn child, for which Michael and a mysterious cult have sinister plans.",
-    "director": "Joe Chappelle",
-    "tags": [
-      "Horror",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzQ3MjgzMWMtMjJhMy00MmVjLTllMzMtMWVjMmMxNTIzNWQ0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%3A%20The%20Curse%20of%20Michael%20Myers+trailer"
+    "description": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save Elizabeth Swann, the governor's daughter and his love, from Jack's former pirate allies, who are now undead.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20The%20Curse%20of%20the%20Black%20Pearl+trailer"
   },
   {
-    "name": "Halloween H20: 20 Years Later",
+    "name": "Pirates of the Caribbean: Dead Man's Chest",
     "actors": [
-      "Jamie Lee Curtis",
-      "Josh Hartnett",
-      "Adam Arkin"
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Keira Knightley"
     ],
-    "description": "Laurie Strode, now the dean of a Northern California private school with an assumed name, must battle the Shape one last time, as the life of her own son hangs in the balance.",
-    "director": "Steve Miner",
-    "tags": [
-      "Horror",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA3ZjMzZWItNWUyNy00ZmNiLWIwYmYtN2UxNWUwMGY5Yzc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20H20%3A%2020%20Years%20Later+trailer"
+    "description": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Man's%20Chest+trailer"
   },
   {
-    "name": "Halloween: Resurrection",
+    "name": "Pirates of the Caribbean: At World's End",
     "actors": [
-      "Jamie Lee Curtis",
-      "Busta Rhymes",
-      "Brad Loree"
-    ],
-    "description": "Three years after he last terrorized his sister, Michael Myers confronts her again, before traveling to Haddonfield to deal with the cast and crew of a reality show which is being broadcast from his old home.",
-    "director": "Rick Rosenthal",
-    "tags": [
-      "Horror",
-      "Thriller"
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Keira Knightley"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BODczZDMxNTMtZDIxOC00YWEzLWJkMmEtZjczNGUwZDA2NTNhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%3A%20Resurrection+trailer"
+    "description": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20At%20World's%20End+trailer"
   },
   {
-    "name": "Halloween Kills",
+    "name": "Pirates of the Caribbean: On Stranger Tides",
     "actors": [
-      "Jamie Lee Curtis",
-      "Judy Greer",
-      "Andi Matichak"
+      "Johnny Depp",
+      "Penélope Cruz",
+      "Ian McShane"
     ],
-    "description": "Surviving victims of Michael Myers form a vigilante mob and vow to end his reign of terror.",
-    "director": "David Gordon Green",
-    "tags": [
-      "Action",
-      "Drama",
-      "Horror"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2RmMGY2Y2UtNjA1NS00NGE4LThiNzItMmE1NTk5NzI5NmE0XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20Kills+trailer"
+    "description": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20On%20Stranger%20Tides+trailer"
   },
   {
-    "name": "Halloween Ends",
+    "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
     "actors": [
-      "Jamie Lee Curtis",
-      "Andi Matichak",
-      "James Jude Courtney"
-    ],
-    "description": "The saga of Michael Myers and Laurie Strode comes to a spine-chilling climax in the final installment of this trilogy.",
-    "director": "David Gordon Green",
-    "tags": [
-      "Drama",
-      "Horror",
-      "Mystery"
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Javier Bardem"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZTg1Y2Q3MzctMDlkOS00OGE1LWE4MjUtNmJjNDNkZmM2YmVkXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20Ends+trailer"
+    "description": "Captain Jack Sparrow searches for the Trident of Poseidon to rule the sea while being pursued by old rival Captain Salazar and a crew of deadly ghosts who have escaped from the Devil's Triangle.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Men%20Tell%20No%20Tales+trailer"
   },
   {
-    "name": "Saw",
+    "name": "Toy Story",
     "actors": [
-      "Cary Elwes",
-      "Leigh Whannell",
-      "Danny Glover"
+      "Tom Hanks",
+      "Tim Allen",
+      "Don Rickles"
     ],
-    "description": "Two strangers awaken in a room with no recollection of how they got there, and soon discover they're pawns in a deadly game.",
-    "director": "James Wan",
-    "tags": [
-      "Horror",
-      "Mystery",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2M1MzI1MWYtYmM2ZC00OWY3LTk0ZGMtNmRkNzU1NzEzMWE5XkEyXkFqcGdeQXVyODUwOTkwODk@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw+trailer"
+    "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story+trailer"
   },
   {
-    "name": "Saw II",
+    "name": "Toy Story 2",
     "actors": [
-      "Donnie Wahlberg",
-      "Beverley Mitchell",
-      "Franky G"
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack"
     ],
-    "description": "A detective and his team must rescue 8 people trapped in a factory by a man known as Jigsaw.",
-    "director": "Darren Lynn Bousman",
-    "tags": [
-      "Horror",
-      "Mystery"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjY4Mjg4YTgtZWU2MC00MzVlLTg3MDgtYzUyYzU1NGMyMmU5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20II+trailer"
+    "description": "When Woody is stolen by a toy collector, Buzz and his friends set out on a rescue mission to save Woody before he becomes a museum toy property with his roundup gang Jessie, Prospector, and Bullseye.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMWM5ZDcxMTYtNTEyNS00MDRkLWI3YTItNThmMGExMWY4NDIwXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%202+trailer"
   },
   {
-    "name": "Saw III",
+    "name": "Toy Story 3",
     "actors": [
-      "Tobin Bell",
-      "Shawnee Smith",
-      "Angus Macfadyen"
-    ],
-    "description": "Jigsaw abducts a doctor in order to keep himself alive while he watches his new apprentice put an unlucky citizen named Jeff through a brutal test.",
-    "director": "Darren Lynn Bousman",
-    "tags": [
-      "Horror",
-      "Mystery",
-      "Thriller"
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMxMDBiZWItNDk1NS00ODJkLTlkMmEtNjI0OWQ2NDJkNDQxXkEyXkFqcGdeQXVyMTY2MjE4Njc1._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20III+trailer"
+    "description": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%203+trailer"
   },
   {
-    "name": "Saw IV",
+    "name": "Toy Story 4",
     "actors": [
-      "Tobin Bell",
-      "Scott Patterson",
-      "Louis Ferreira"
+      "Tom Hanks",
+      "Tim Allen",
+      "Annie Potts"
     ],
-    "description": "Despite Jigsaw's death, and in order to save the lives of two of his colleagues, Lieutenant Rigg is forced to take part in a new game, which promises to test him to the limit.",
-    "director": "Darren Lynn Bousman",
-    "tags": [
-      "Horror",
-      "Mystery",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20IV+trailer"
+    "description": "When a new toy called \"Forky\" joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%204+trailer"
   },
   {
-    "name": "Saw V",
+    "name": "Finding Nemo",
     "actors": [
-      "Scott Patterson",
-      "Costas Mandylor",
-      "Tobin Bell"
-    ],
-    "description": "Following Jigsaw's grisly demise, Mark Hoffman is commended as a hero, but Agent Strahm is suspicious, and delves into Hoffman's past. Meanwhile, another group of people are put through a series of gruesome tests.",
-    "director": "David Hackl",
-    "tags": [
-      "Horror",
-      "Thriller"
+      "Albert Brooks",
+      "Ellen DeGeneres",
+      "Alexander Gould"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjczOTYxOTktYjJkYy00ZWM2LWEzN2ItNTY1MmI1ZDBiZDU2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20V+trailer"
+    "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWE0MzUzNDctNTFiYS00YzY3LWEzYWMtMDQyMWE5OTMxOTBiXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Finding%20Nemo+trailer"
   },
   {
-    "name": "Saw VI",
+    "name": "Finding Dory",
     "actors": [
-      "Tobin Bell",
-      "Costas Mandylor",
-      "Mark Rolston"
+      "Ellen DeGeneres",
+      "Albert Brooks",
+      "Ed O'Neill"
     ],
-    "description": "Agent Strahm is dead, and FBI agent Erickson draws nearer to Hoffman. Meanwhile, a pair of insurance executives find themselves in another game set by Jigsaw.",
-    "director": "Kevin Greutert",
-    "tags": [
-      "Horror",
-      "Mystery",
-      "Thriller"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMyNTM5MDcyOV5BMl5BanBnXkFtZTcwMzkzMzY4Mg@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20VI+trailer"
+    "description": "Friendly but forgetful blue tang Dory begins a search for her long-lost parents and everyone learns a few things about the real meaning of family along the way.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWVmYTcwZDYtYzNmNC00M2U2LWFjZWYtOWRlY2NiNjc5ZjdiXkEyXkFqcGdeQXVyNjY5Mjg5MjA@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Finding%20Dory+trailer"
   },
   {
-    "name": "Saw 3D",
+    "name": "Monsters, Inc.",
     "actors": [
-      "Tobin Bell",
-      "Costas Mandylor",
-      "Betsy Russell"
+      "Billy Crystal",
+      "John Goodman",
+      "Mary Gibbs"
     ],
-    "description": "As a deadly battle rages over Jigsaw's brutal legacy, a group of Jigsaw survivors gathers to seek the support of self-help guru and fellow survivor Bobby Dagen, a man whose own dark secrets unleash a new wave of terror.",
-    "director": "Kevin Greutert",
-    "tags": [
-      "Horror",
-      "Mystery"
-    ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYjRhNWIwNzYtODEyYS00YzcxLWEzMmQtZmFhZTJjYjhkYjA3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%203D+trailer"
+    "description": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Monsters%2C%20Inc.+trailer"
   },
   {
-    "name": "Jigsaw",
+    "name": "Monsters University",
     "actors": [
-      "Matt Passmore",
-      "Tobin Bell",
-      "Callum Keith Rennie"
-    ],
-    "description": "Bodies are turning up around the city, each having met a uniquely gruesome demise. As the investigation proceeds, evidence points to one suspect: John Kramer, the man known as Jigsaw, who has been dead for over 10 years.",
-    "director": "Michael Spierig, Peter Spierig",
-    "tags": [
-      "Horror",
-      "Mystery",
-      "Thriller"
+      "Billy Crystal",
+      "John Goodman",
+      "Steve Buscemi"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNmRiZDM4ZmMtOTVjMi00YTNlLTkyNjMtMjI2OTAxNjgwMWM1XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jigsaw+trailer"
+    "description": "A look at the relationship between Mike Wazowski and James P. \"Sully\" Sullivan during their days at Monsters University, when they weren't necessarily the best of friends.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTUyODgwMDU3M15BMl5BanBnXkFtZTcwOTM4MjcxOQ@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Monsters%20University+trailer"
   },
   {
-    "name": "Spiral",
+    "name": "The Incredibles",
     "actors": [
-      "Chris Rock",
+      "Craig T. Nelson",
       "Samuel L. Jackson",
-      "Max Minghella"
+      "Holly Hunter"
     ],
-    "description": "A criminal mastermind unleashes a twisted form of justice in Spiral, the terrifying new chapter from the book of Saw.",
-    "director": "Darren Lynn Bousman",
-    "tags": [
-      "Horror",
-      "Mystery",
-      "Thriller"
+    "description": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Incredibles+trailer"
+  },
+  {
+    "name": "Cars",
+    "actors": [
+      "Owen Wilson",
+      "Bonnie Hunt",
+      "Paul Newman"
     ],
-    "studio": "N/A",
-    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjI4ZWQwYzctMGJlMi00OTE1LWFkNjMtY2VlOGQxZmVhNDYyXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Spiral+trailer"
+    "description": "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Cars+trailer"
+  },
+  {
+    "name": "Cars 2",
+    "actors": [
+      "Owen Wilson",
+      "Larry the Cable Guy",
+      "Michael Caine"
+    ],
+    "description": "Star race car Lightning McQueen and his pal Mater head overseas to compete in the World Grand Prix race. But the road to the championship becomes rocky as Mater gets caught up in an intriguing adventure of his own: international e...",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTUzNTc3MTU3M15BMl5BanBnXkFtZTcwMzIxNTc3NA@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Cars%202+trailer"
+  },
+  {
+    "name": "Cars 3",
+    "actors": [
+      "Owen Wilson",
+      "Cristela Alonzo",
+      "Chris Cooper"
+    ],
+    "description": "Lightning McQueen sets out to prove to a new generation of racers that he's still the best race car in the world.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTc0NzU2OTYyN15BMl5BanBnXkFtZTgwMTkwOTg2MTI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Cars%203+trailer"
+  },
+  {
+    "name": "Ratatouille",
+    "actors": [
+      "Brad Garrett",
+      "Lou Romano",
+      "Patton Oswalt"
+    ],
+    "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Ratatouille+trailer"
+  },
+  {
+    "name": "WALL·E",
+    "actors": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ],
+    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=WALL%C2%B7E+trailer"
+  },
+  {
+    "name": "Up",
+    "actors": [
+      "Edward Asner",
+      "Jordan Nagai",
+      "John Ratzenberger"
+    ],
+    "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYjBkM2RjMzItM2M3Ni00N2NjLWE3NzMtMGY4MzE4MDAzMTRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Up+trailer"
+  },
+  {
+    "name": "Coco",
+    "actors": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt"
+    ],
+    "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Coco+trailer"
+  },
+  {
+    "name": "Inside Out",
+    "actors": [
+      "Amy Poehler",
+      "Bill Hader",
+      "Lewis Black"
+    ],
+    "description": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Inside%20Out+trailer"
+  },
+  {
+    "name": "Brave",
+    "actors": [
+      "Kelly Macdonald",
+      "Billy Connolly",
+      "Emma Thompson"
+    ],
+    "description": "Determined to make her own path in life, Princess Merida defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Brave+trailer"
+  },
+  {
+    "name": "Frozen",
+    "actors": [
+      "Kristen Bell",
+      "Idina Menzel",
+      "Jonathan Groff"
+    ],
+    "description": "Fearless optimist Anna teams up with rugged mountain man Kristoff and his loyal reindeer Sven in an epic journey to find Anna's sister Elsa, whose icy powers have trapped the kingdom of Arendelle in eternal winter.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Frozen+trailer"
+  },
+  {
+    "name": "Frozen II",
+    "actors": [
+      "Kristen Bell",
+      "Idina Menzel",
+      "Josh Gad"
+    ],
+    "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Frozen%20II+trailer"
+  },
+  {
+    "name": "Moana",
+    "actors": [
+      "Auli'i Cravalho",
+      "Dwayne Johnson",
+      "Rachel House"
+    ],
+    "description": "In ancient Polynesia, when a terrible curse incurred by the demigod Maui reaches Moana's island, she answers the Ocean's call to seek out Maui to set things right.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Moana+trailer"
+  },
+  {
+    "name": "Zootopia",
+    "actors": [
+      "Ginnifer Goodwin",
+      "Jason Bateman",
+      "Idris Elba"
+    ],
+    "description": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Zootopia+trailer"
+  },
+  {
+    "name": "Tangled",
+    "actors": [
+      "Mandy Moore",
+      "Zachary Levi",
+      "Donna Murphy"
+    ],
+    "description": "The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Tangled+trailer"
+  },
+  {
+    "name": "Wreck-It Ralph",
+    "actors": [
+      "John C. Reilly",
+      "Jack McBrayer",
+      "Jane Lynch"
+    ],
+    "description": "A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Wreck-It%20Ralph+trailer"
+  },
+  {
+    "name": "Ralph Breaks the Internet",
+    "actors": [
+      "John C. Reilly",
+      "Sarah Silverman",
+      "Gal Gadot"
+    ],
+    "description": "Six years after the events of \"Wreck-It Ralph,\" Ralph and Vanellope, now friends, discover a wi-fi router in their arcade, leading them into a new adventure.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Ralph%20Breaks%20the%20Internet+trailer"
+  },
+  {
+    "name": "Big Hero 6",
+    "actors": [
+      "Ryan Potter",
+      "Scott Adsit",
+      "Jamie Chung"
+    ],
+    "description": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDliOTIzNmUtOTllOC00NDU3LWFiNjYtMGM0NDc1YTMxNjYxXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Big%20Hero%206+trailer"
+  },
+  {
+    "name": "Aladdin",
+    "actors": [
+      "Scott Weinger",
+      "Robin Williams",
+      "Linda Larkin"
+    ],
+    "description": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZTg5ZTVmM2EtZjdhZC00MzBjLWEwZTYtNWIwZDczYzZkMzA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Aladdin+trailer"
+  },
+  {
+    "name": "The Little Mermaid",
+    "actors": [
+      "Jodi Benson",
+      "Samuel E. Wright",
+      "Rene Auberjonois"
+    ],
+    "description": "A mermaid princess makes a Faustian bargain in an attempt to become human and win a prince's love.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOWUyNDA0ZmItMzg2My00YjJhLTk1N2QtYTAxYTc0NzMzNDI0XkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Little%20Mermaid+trailer"
+  },
+  {
+    "name": "Beauty and the Beast",
+    "actors": [
+      "Paige O'Hara",
+      "Robby Benson",
+      "Jesse Corti"
+    ],
+    "description": "A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzE5MDM1NDktY2I0OC00YWI5LTk2NzUtYjczNDczOWQxYjM0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Beauty%20and%20the%20Beast+trailer"
+  },
+  {
+    "name": "Mulan",
+    "actors": [
+      "Ming-Na Wen",
+      "Eddie Murphy",
+      "BD Wong"
+    ],
+    "description": "To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BODkxNGQ1NWYtNzg0Ny00Yjg3LThmZTItMjE2YjhmZTQ0ODY5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Mulan+trailer"
+  },
+  {
+    "name": "Pocahontas",
+    "actors": [
+      "Mel Gibson",
+      "Linda Hunt",
+      "Christian Bale"
+    ],
+    "description": "An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth century Virginia.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzc4YzhiN2ItY2Y4NC00YTA0LWEyMjEtNzllNTcxZDdjODhiXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pocahontas+trailer"
+  },
+  {
+    "name": "The Hunchback of Notre Dame",
+    "actors": [
+      "Demi Moore",
+      "Jason Alexander",
+      "Mary Kay Bergman"
+    ],
+    "description": "A deformed bell-ringer must assert his independence from a vicious government minister in order to help his friend, a gypsy dancer.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZmYxNjE2M2UtYzJhOC00MzVlLWJhM2ItYzkzZWJkZWFhNTE1L2ltYWdlXkEyXkFqcGdeQXVyMzMyODMwMTI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunchback%20of%20Notre%20Dame+trailer"
+  },
+  {
+    "name": "Hercules",
+    "actors": [
+      "Tate Donovan",
+      "Susan Egan",
+      "James Woods"
+    ],
+    "description": "The son of Zeus and Hera is stripped of his immortality as an infant and must become a true hero in order to reclaim it.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZDcwYjEyNWItMGI1Mi00MjI1LWIyMDEtMTQ4YjhkNjM4NDU3XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Hercules+trailer"
+  },
+  {
+    "name": "Tarzan",
+    "actors": [
+      "Tony Goldwyn",
+      "Minnie Driver",
+      "Brian Blessed"
+    ],
+    "description": "A man raised by gorillas must decide where he really belongs when he discovers he is a human.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BY2ZiYWUxN2ItYmQxZi00NDlkLWE2NDAtOTNmYTg1MDI0NDk1XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Tarzan+trailer"
+  },
+  {
+    "name": "Lilo & Stitch",
+    "actors": [
+      "Daveigh Chase",
+      "Chris Sanders",
+      "Tia Carrere"
+    ],
+    "description": "A young and parentless girl adopts a 'dog' from the local pound, completely unaware that it's supposedly a dangerous scientific experiment that's taken refuge on Earth and is now hiding from its creator and those who see it as a m...",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTY5MGE4MjEtNTMzYy00ODAxLWFiNDQtNzhlOGJiZWIzNDhkXkEyXkFqcGdeQXVyNTM5NzI0NDY@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Lilo%20%26%20Stitch+trailer"
+  },
+  {
+    "name": "The Emperor's New Groove",
+    "actors": [
+      "David Spade",
+      "John Goodman",
+      "Eartha Kitt"
+    ],
+    "description": "Emperor Kuzco is turned into a llama by his ex-administrator Yzma, and must now regain his throne with the help of Pacha, the gentle llama herder.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjFkMzk2OWUtNjFmZC00ZTJhLTlkNGYtYjc2YWNkNmJmNzczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Emperor's%20New%20Groove+trailer"
+  },
+  {
+    "name": "Treasure Planet",
+    "actors": [
+      "Joseph Gordon-Levitt",
+      "Emma Thompson",
+      "Martin Short"
+    ],
+    "description": "Jim Hawkins is a teenager who finds the map of a great treasure hidden by a space pirate. Together with some friends, he sets off in a large spaceship, shaped like a caravel, on his quest.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGI0N2EzZDktNDY3OS00NWFmLTgxZjEtMTc1OTNlMzQxNDZkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Treasure%20Planet+trailer"
+  },
+  {
+    "name": "Brother Bear",
+    "actors": [
+      "Joaquin Phoenix",
+      "Jeremy Suarez",
+      "Rick Moranis"
+    ],
+    "description": "When a young Inuit hunter needlessly kills a bear, he is magically changed into a bear himself as punishment with a talkative cub being his only guide to changing back.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTIyNTAyNDYxNF5BMl5BanBnXkFtZTYwNjYwMjg2._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Brother%20Bear+trailer"
+  },
+  {
+    "name": "Chicken Little",
+    "actors": [
+      "Zach Braff",
+      "Joan Cusack",
+      "Garry Marshall"
+    ],
+    "description": "After ruining his reputation with the town, a courageous chicken must come to the rescue of his fellow citizens when aliens start an invasion.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTM3MTIzMDQxMV5BMl5BanBnXkFtZTYwNTE0Mjg3._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Chicken%20Little+trailer"
+  },
+  {
+    "name": "Bolt",
+    "actors": [
+      "John Travolta",
+      "Miley Cyrus",
+      "Susie Essman"
+    ],
+    "description": "The canine star of a fictional sci-fi/action show that believes his powers are real embarks on a cross country trek to save his co-star from a threat he believes is just as real.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDQyNDE5NjQ1N15BMl5BanBnXkFtZTcwMDExMTAwMg@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Bolt+trailer"
+  },
+  {
+    "name": "The Princess and the Frog",
+    "actors": [
+      "Anika Noni Rose",
+      "Keith David",
+      "Oprah Winfrey"
+    ],
+    "description": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNmJkZjk1OTUtNzQ3NC00M2I1LTgzNTQtYzk4MmMyNDk0MTY3XkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Princess%20and%20the%20Frog+trailer"
+  },
+  {
+    "name": "Tangled",
+    "actors": [
+      "Mandy Moore",
+      "Zachary Levi",
+      "Donna Murphy"
+    ],
+    "description": "The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Tangled+trailer"
+  },
+  {
+    "name": "Wreck-It Ralph",
+    "actors": [
+      "John C. Reilly",
+      "Jack McBrayer",
+      "Jane Lynch"
+    ],
+    "description": "A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Wreck-It%20Ralph+trailer"
+  },
+  {
+    "name": "Frozen",
+    "actors": [
+      "Kristen Bell",
+      "Idina Menzel",
+      "Jonathan Groff"
+    ],
+    "description": "Fearless optimist Anna teams up with rugged mountain man Kristoff and his loyal reindeer Sven in an epic journey to find Anna's sister Elsa, whose icy powers have trapped the kingdom of Arendelle in eternal winter.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Frozen+trailer"
+  },
+  {
+    "name": "Big Hero 6",
+    "actors": [
+      "Ryan Potter",
+      "Scott Adsit",
+      "Jamie Chung"
+    ],
+    "description": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDliOTIzNmUtOTllOC00NDU3LWFiNjYtMGM0NDc1YTMxNjYxXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Big%20Hero%206+trailer"
+  },
+  {
+    "name": "Zootopia",
+    "actors": [
+      "Ginnifer Goodwin",
+      "Jason Bateman",
+      "Idris Elba"
+    ],
+    "description": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Zootopia+trailer"
+  },
+  {
+    "name": "Moana",
+    "actors": [
+      "Auli'i Cravalho",
+      "Dwayne Johnson",
+      "Rachel House"
+    ],
+    "description": "In ancient Polynesia, when a terrible curse incurred by the demigod Maui reaches Moana's island, she answers the Ocean's call to seek out Maui to set things right.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Moana+trailer"
+  },
+  {
+    "name": "Ralph Breaks the Internet",
+    "actors": [
+      "John C. Reilly",
+      "Sarah Silverman",
+      "Gal Gadot"
+    ],
+    "description": "Six years after the events of \"Wreck-It Ralph,\" Ralph and Vanellope, now friends, discover a wi-fi router in their arcade, leading them into a new adventure.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Ralph%20Breaks%20the%20Internet+trailer"
+  },
+  {
+    "name": "Frozen II",
+    "actors": [
+      "Kristen Bell",
+      "Idina Menzel",
+      "Josh Gad"
+    ],
+    "description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SX300.jpg",
+    "trailerUrl": "https://www.youtube.com/results?search_query=Frozen%20II+trailer"
   }
 ]

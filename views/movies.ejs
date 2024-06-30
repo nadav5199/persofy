@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= movie.name %></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<%- include('partials/header') %>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="<%= movie.posterUrl %>" class="img-fluid" alt="<%= movie.name %>">
+        </div>
+        <div class="col-md-6">
+            <h2><%= movie.name %></h2>
+            <p><strong>Director:</strong> <%= movie.director %></p>
+            <p><strong>Actors:</strong> <%= movie.actors.join(', ') %></p>
+            <p><strong>Tags:</strong> <%= movie.tags.join(', ') %></p>
+            <p><strong>Description:</strong> <%= movie.description %></p>
+            <p><strong>Rating:</strong> <%= movie.rating %></p>
+            <h3>Trailer</h3>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed?listType=search&list=<%= encodeURIComponent(movie.name + ' trailer') %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+</body>
+</html>

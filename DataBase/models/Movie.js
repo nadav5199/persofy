@@ -8,6 +8,7 @@ const movieSchema = new mongoose.Schema({
     trailerUrl: String,
     director: String,
     tags: [String],
+    rating: String
 });
 
 const Movie = mongoose.model('Movie', movieSchema);

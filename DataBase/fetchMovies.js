@@ -78,6 +78,7 @@ async function fetchMovieData(title) {
                 director: data.Director,
                 tags: data.Genre.split(', '),
                 studio: data.Production,
+                rating: data.imdbRating, // Fetch the rating
                 posterUrl: data.Poster,
                 trailerUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(data.Title)}+trailer`
             };

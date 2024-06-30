@@ -30,6 +30,22 @@ app.get('/store', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
+
+// Route for individual movie pages
+app.get('/movie/:id', async (req, res) => {
+    try {
+        const movie = await Movie.findById(req.params.id);
+        if (!movie) {
+            return res.status(404).send('Movie not found');
+        }
+        res.render('movies', { movie });
+    } catch (err) {
+        console.error('Error fetching movie:', err);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+
 app.get('/', (req, res) => {
     res.send('Welcome to the fullstack app!');
 })

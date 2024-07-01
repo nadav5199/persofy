@@ -41,31 +41,51 @@ const UserModel = userDb.model('User', User.schema);
 
 // Sign-in and Sign-up routes
 app.get('/signin', (req, res) => {
-    res.render('signin');
+    res.render('signin', { error: null });
 });
 
 app.get('/signup', (req, res) => {
-    res.render('signup');
+    res.render('signup', { error: null });
 });
 
 app.post('/signin', async (req, res) => {
-    const { email, password } = req.body;
-    const user = await UserModel.findOne({ email });
-    if (user && user.password === password) {
-        req.session.userId = user._id;
-        res.redirect('/');
-    } else {
-        res.redirect('/signin');
+    const { name, password } = req.body;
+    try {
+        const user = await UserModel.findOne({ name });
+        if (!user) {
+            res.render('signin', { error: 'User doesn\'t exist' });
+        } else if (user.password !== password) {
+            res.render('signin', { error: 'Incorrect password' });
+        } else {
+            req.session.userId = user._id;
+            req.session.userName = user.name;
+            res.redirect('/');
+        }
+    } catch (err) {
+        console.error(err);
+        res.render('signin', { error: 'An error occurred. Please try again.' });
     }
 });
 
 app.post('/signup', async (req, res) => {
     const { name, email, password } = req.body;
-    const user = new UserModel({ name, email, password });
-    await user.save();
-    req.session.userId = user._id;
-    res.redirect('/');
+    try {
+        const existingUser = await UserModel.findOne({ email });
+        if (existingUser) {
+            res.render('signup', { error: 'User already exists' });
+        } else {
+            const user = new UserModel({ name, email, password });
+            await user.save();
+            req.session.userId = user._id;
+            req.session.userName = user.name;
+            res.redirect('/');
+        }
+    } catch (err) {
+        console.error(err);
+        res.render('signup', { error: 'An error occurred. Please try again.' });
+    }
 });
+
 
 app.get('/', async (req, res) => {
     const { sort, search } = req.query;

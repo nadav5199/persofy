@@ -39,6 +39,17 @@ userDb.once('open', () => {
 // Use the userDb connection for the User model
 const UserModel = userDb.model('User', User.schema);
 
+
+// Middleware to check if the user is authenticated
+function isAuthenticated(req, res, next) {
+    if (req.session.userId) {
+        return next();
+    } else {
+        res.redirect('/signin');
+    }
+}
+
+
 // Sign-in and Sign-up routes
 app.get('/signin', (req, res) => {
     const userName = req.session.userName; // Retrieve the user name from the session
@@ -98,7 +109,7 @@ app.post('/logout', (req, res) => {
     });
 });
 
-app.post('/cart/add', async (req, res) => {
+app.post('/cart/add', isAuthenticated, async (req, res) => {
     const { movieId } = req.body;
     if (!req.session.cart) {
         req.session.cart = [];

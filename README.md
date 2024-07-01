@@ -1,6 +1,6 @@
 # persofy
 final project in full stack course
 
-created a streaming app.
+an online shop to buy movies.
 
-populated hte db with OMDb API.
+populated the db with OMDb API.

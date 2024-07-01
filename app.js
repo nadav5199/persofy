@@ -1,53 +1,93 @@
 const express = require('express');
 const path = require('path');
-const Movie = require('./DataBase/models/Movie');
 const mongoose = require('mongoose');
-const app = express();
+const bodyParser = require('body-parser');
+const session = require('express-session');
+const Movie = require('./DataBase/models/Movie');
+const User = require('./DataBase/models/User'); // Include the User model
 
+const app = express();
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-// Serve static files from the "public" directory
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(session({
+    secret: 'secret-key',
+    resave: false,
+    saveUninitialized: true,
+}));
 
-
+// Connect to movies database
 mongoose.connect('mongodb://127.0.0.1:27017/movies');
 
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', () => {
-    console.log('Database connected');
+const movieDb = mongoose.connection;
+movieDb.on('error', console.error.bind(console, 'connection error:'));
+movieDb.once('open', () => {
+    console.log('Movies database connected');
 });
 
+// Create a new connection for the user database
+const userDb = mongoose.createConnection('mongodb://127.0.0.1:27017/users');
 
-app.get('/', async (req, res) => {
-    try {
-        const { sort, search } = req.query;
-        let query = {};
-        let sortOption = {};
+userDb.on('error', console.error.bind(console, 'connection error:'));
+userDb.once('open', () => {
+    console.log('Users database connected');
+});
 
-        if (search) {
-            query.name = { $regex: search, $options: 'i' }; // Case-insensitive search
-        }
+// Use the userDb connection for the User model
+const UserModel = userDb.model('User', User.schema);
 
-        if (sort === 'name') {
-            sortOption.name = 1;
-        } else if (sort === 'rating') {
-            sortOption.rating = -1;
-        } else if (sort === 'date') {
-            sortOption.releaseDate = -1; // Assuming you have a releaseDate field
-        }
+// Sign-in and Sign-up routes
+app.get('/signin', (req, res) => {
+    res.render('signin');
+});
 
-        const movies = await Movie.find(query).sort(sortOption);
-        res.render('store', { movies, sort, search });
-    } catch (err) {
-        console.error('Error fetching movies:', err);
-        res.status(500).send('Internal Server Error');
+app.get('/signup', (req, res) => {
+    res.render('signup');
+});
+
+app.post('/signin', async (req, res) => {
+    const { email, password } = req.body;
+    const user = await UserModel.findOne({ email });
+    if (user && user.password === password) {
+        req.session.userId = user._id;
+        res.redirect('/');
+    } else {
+        res.redirect('/signin');
     }
 });
 
+app.post('/signup', async (req, res) => {
+    const { name, email, password } = req.body;
+    const user = new UserModel({ name, email, password });
+    await user.save();
+    req.session.userId = user._id;
+    res.redirect('/');
+});
 
+app.get('/', async (req, res) => {
+    const { sort, search } = req.query;
+    let query = {};
+    let sortOption = {};
+
+    if (search) {
+        query.name = { $regex: search, $options: 'i' }; // Case-insensitive search
+    }
+
+    if (sort === 'name') {
+        sortOption.name = 1;
+    } else if (sort === 'rating') {
+        sortOption.rating = -1;
+    } else if (sort === 'date') {
+        sortOption.releaseDate = -1; // Assuming you have a releaseDate field
+    }
+
+    const movies = await Movie.find(query).sort(sortOption);
+    const userName = req.session.userName; // Retrieve the user name from the session
+    res.render('store', { movies, sort, search, userName });
+});
 // Route for individual movie pages
 app.get('/movie/:id', async (req, res) => {
     try {
@@ -61,11 +101,6 @@ app.get('/movie/:id', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
-
-
-app.get('/', (req, res) => {
-    res.send('Welcome to the fullstack app!');
-})
 app.listen(3000, () => {
-    console.log('Server is running on port 3000')
+    console.log('Server is running on port 3000');
 });

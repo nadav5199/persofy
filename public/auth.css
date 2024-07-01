@@ -1,0 +1,55 @@
+body {
+    background-color: #f4f4f4;
+}
+
+/* Auth Pages */
+.auth-body {
+    background-image: url('../images/resized_background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.auth-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    color: white;
+}
+
+.auth-form {
+    text-align: center;
+}
+
+.auth-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffc107;
+}
+
+.auth-form .form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+}
+
+.auth-form .form-control:focus {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.auth-form .btn-primary {
+    background: #ffc107;
+    border: none;
+}
+
+.auth-form .btn-primary:hover {
+    background: #e0a800;
+}

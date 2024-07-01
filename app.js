@@ -42,12 +42,12 @@ const UserModel = userDb.model('User', User.schema);
 // Sign-in and Sign-up routes
 app.get('/signin', (req, res) => {
     const userName = req.session.userName; // Retrieve the user name from the session
-    res.render('signin', { error: null, userName: req.session.userName });
+    res.render('signin', { error: null, userName: req.session.userName, cart: req.session.cart || [] });
 });
 
 app.get('/signup', (req, res) => {
     const userName = req.session.userName; // Retrieve the user name from the session
-    res.render('signup', { error: null, userName });
+    res.render('signup', { error: null, userName, cart: req.session.cart || [] });
 });
 
 app.post('/signin', async (req, res) => {
@@ -98,6 +98,18 @@ app.post('/logout', (req, res) => {
     });
 });
 
+app.post('/cart/add', async (req, res) => {
+    const { movieId } = req.body;
+    if (!req.session.cart) {
+        req.session.cart = [];
+    }
+    const movie = await Movie.findById(movieId);
+    if (movie) {
+        req.session.cart.push(movie);
+    }
+    res.redirect('/');
+});
+
 app.get('/', async (req, res) => {
     const { sort, search } = req.query;
     let query = {};
@@ -117,7 +129,7 @@ app.get('/', async (req, res) => {
 
     const movies = await Movie.find(query).sort(sortOption);
     const userName = req.session.userName; // Retrieve the user name from the session
-    res.render('store', { movies, sort, search, userName });
+    res.render('store', { movies, sort, search, userName, cart: req.session.cart || [] });
 });
 // Route for individual movie pages
 app.get('/movie/:id', async (req, res) => {
@@ -126,8 +138,7 @@ app.get('/movie/:id', async (req, res) => {
         if (!movie) {
             return res.status(404).send('Movie not found');
         }
-        const userName = req.session.userName; // Retrieve the user name from the session
-        res.render('movies', { movie, userName });
+        res.render('movies', { movie, userName: req.session.userName, cart: req.session.cart || []});
     } catch (err) {
         console.error('Error fetching movie:', err);
         res.status(500).send('Internal Server Error');

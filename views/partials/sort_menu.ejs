@@ -32,5 +32,11 @@
             </div>
             <button type="submit" class="btn btn-primary">Apply</button>
         </form>
+            <h3>Your Cart</h3>
+            <ul>
+                <% cart.forEach(item => { %>
+                    <li><%= item.name %></li>
+                <% }) %>
+            </ul>
     </div>
 </div>

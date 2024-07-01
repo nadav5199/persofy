@@ -41,11 +41,13 @@ const UserModel = userDb.model('User', User.schema);
 
 // Sign-in and Sign-up routes
 app.get('/signin', (req, res) => {
-    res.render('signin', { error: null });
+    const userName = req.session.userName; // Retrieve the user name from the session
+    res.render('signin', { error: null, userName: req.session.userName });
 });
 
 app.get('/signup', (req, res) => {
-    res.render('signup', { error: null });
+    const userName = req.session.userName; // Retrieve the user name from the session
+    res.render('signup', { error: null, userName });
 });
 
 app.post('/signin', async (req, res) => {
@@ -124,7 +126,8 @@ app.get('/movie/:id', async (req, res) => {
         if (!movie) {
             return res.status(404).send('Movie not found');
         }
-        res.render('movies', { movie });
+        const userName = req.session.userName; // Retrieve the user name from the session
+        res.render('movies', { movie, userName });
     } catch (err) {
         console.error('Error fetching movie:', err);
         res.status(500).send('Internal Server Error');

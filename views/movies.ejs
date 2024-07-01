@@ -26,5 +26,16 @@
         </div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var toggleButton = document.querySelector('.hamburger-btn');
+        var offcanvasElement = document.querySelector('#offcanvasRight');
+
+        toggleButton.addEventListener('click', function () {
+            var bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
+            bsOffcanvas.toggle();
+        });
+    });
+</script>
 </body>
 </html>

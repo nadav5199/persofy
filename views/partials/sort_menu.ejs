@@ -1,0 +1,34 @@
+
+
+<button class="hamburger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</button>
+
+
+<!-- Offcanvas Menu -->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Filter & Sort</h5>
+<!--        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>-->
+    </div>
+    <div class="offcanvas-body">
+        <form class="form-inline" method="get" action="/">
+            <div class="form-group mb-3">
+                <input type="text" name="search" class="form-control" placeholder="Search by name" value="<%= search || '' %>">
+            </div>
+            <div class="form-group mb-3">
+                <select name="sort" class="form-control">
+                    <option value="">Sort by</option>
+                    <option value="name" <%= sort === 'name' ? 'selected' : '' %>>Name</option>
+                    <option value="rating" <%= sort === 'rating' ? 'selected' : '' %>>Rating</option>
+                    <option value="date" <%= sort === 'date' ? 'selected' : '' %>>Release Date</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Apply</button>
+        </form>
+    </div>
+</div>

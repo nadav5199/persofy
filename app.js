@@ -21,15 +21,32 @@ db.once('open', () => {
 });
 
 
-app.get('/store', async (req, res) => {
+app.get('/', async (req, res) => {
     try {
-        const movies = await Movie.find({});
-        res.render('store', {movies});
+        const { sort, search } = req.query;
+        let query = {};
+        let sortOption = {};
+
+        if (search) {
+            query.name = { $regex: search, $options: 'i' }; // Case-insensitive search
+        }
+
+        if (sort === 'name') {
+            sortOption.name = 1;
+        } else if (sort === 'rating') {
+            sortOption.rating = -1;
+        } else if (sort === 'date') {
+            sortOption.releaseDate = -1; // Assuming you have a releaseDate field
+        }
+
+        const movies = await Movie.find(query).sort(sortOption);
+        res.render('store', { movies, sort, search });
     } catch (err) {
         console.error('Error fetching movies:', err);
         res.status(500).send('Internal Server Error');
     }
 });
+
 
 // Route for individual movie pages
 app.get('/movie/:id', async (req, res) => {

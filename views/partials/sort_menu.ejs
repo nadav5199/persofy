@@ -9,6 +9,10 @@
     <div class="offcanvas-body">
         <% if (userName) { %>
             <p class="mb-3">Logged in as: <strong><%= userName %></strong></p>
+            <form action="/logout" method="POST" style="display: inline;">
+                <button type="submit" class="btn btn-secondary">Log Out</button>
+                <span><br><br></span>
+            </form>
         <% } else { %>
             <p class="mb-3">Not logged in</p>
                 <a href="/signin">sign in</a>

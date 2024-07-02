@@ -62,42 +62,67 @@ app.get('/signup', (req, res) => {
 });
 
 app.post('/signin', async (req, res) => {
-    const { name, password } = req.body;
+    const { name, password, rememberMe } = req.body;
     try {
         const user = await UserModel.findOne({ name });
         if (!user) {
-            res.render('signin', { error: 'User doesn\'t exist' });
+            res.render('signin', { error: 'User doesn\'t exist', userName: null, cart: [] });
         } else if (user.password !== password) {
-            res.render('signin', { error: 'Incorrect password' });
+            res.render('signin', { error: 'Incorrect password', userName: null, cart: [] });
         } else {
-            req.session.userId = user._id;
-            req.session.userName = user.name;
-            res.redirect('/');
+            req.session.regenerate(err => {
+                if (err) {
+                    console.error(err);
+                    return res.render('signin', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
+                }
+
+                req.session.userId = user._id;
+                req.session.userName = user.name;
+                req.session.cart = req.session.cart || [];
+
+                // Set cookie max age based on "Remember Me" checkbox
+                if (rememberMe) {
+                    req.session.cookie.maxAge = 10 * 24 * 60 * 60 * 1000; // 10 days
+                } else {
+                    req.session.cookie.maxAge = 30 * 60 * 1000; // 30 minutes
+                }
+                res.redirect('/');
+            });
         }
     } catch (err) {
         console.error(err);
-        res.render('signin', { error: 'An error occurred. Please try again.' });
+        res.render('signin', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
     }
 });
+
 
 app.post('/signup', async (req, res) => {
     const { name, email, password } = req.body;
     try {
         const existingUser = await UserModel.findOne({ email });
         if (existingUser) {
-            res.render('signup', { error: 'User already exists' });
+            res.render('signup', { error: 'User already exists', userName: null, cart: [] });
         } else {
             const user = new UserModel({ name, email, password });
             await user.save();
-            req.session.userId = user._id;
-            req.session.userName = user.name;
-            res.redirect('/');
+            req.session.regenerate(err => {
+                if (err) {
+                    console.error(err);
+                    return res.render('signup', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
+                }
+
+                req.session.userId = user._id;
+                req.session.userName = user.name;
+                req.session.cart = [];
+                res.redirect('/');
+            });
         }
     } catch (err) {
         console.error(err);
-        res.render('signup', { error: 'An error occurred. Please try again.' });
+        res.render('signup', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
     }
 });
+
 
 app.post('/logout', (req, res) => {
     req.session.destroy(err => {

@@ -24,6 +24,11 @@
                     </li>
                 <% }) %>
             </ul>
+            <% if (cart.length > 0) { %>
+                <form action="/payment" method="GET" style="margin-top: 10px;">
+                    <button type="submit">Proceed to Payment</button>
+                </form>
+            <% } %>
         <% } else { %>
             <p class="mb-3">Not logged in</p>
             <a href="/signin">sign in</a>

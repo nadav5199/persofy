@@ -192,6 +192,23 @@ app.get('/movie/:id', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
+
+// Route for payment page
+app.get('/payment', isAuthenticated, (req, res) => {
+    const cart = req.session.cart || [];
+    const userName = req.session.userName;
+    res.render('payment', { cart, userName });
+});
+
+// Route for completing payment
+app.post('/complete-payment', isAuthenticated, (req, res) => {
+    // Logic for completing payment goes here
+    // For now, we'll just clear the cart and redirect to the home page
+    req.session.cart = [];
+    res.redirect('/');
+});
+
+
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });

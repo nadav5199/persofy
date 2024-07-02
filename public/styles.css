@@ -83,3 +83,7 @@ header h1 {
     height: 4px;
     background-color: #989393;
 }
+
+img {
+    padding-bottom: 15px;
+}

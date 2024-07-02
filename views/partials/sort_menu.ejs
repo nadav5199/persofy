@@ -35,7 +35,14 @@
             <h3>Your Cart</h3>
             <ul>
                 <% cart.forEach(item => { %>
-                    <li><%= item.name %></li>
+                    <li style="display: flex; align-items: center;">
+                        <img src="<%= item.posterUrl %>" alt="<%= item.name %>" style="width: 50px; height: 75px; margin-right: 10px;">
+                        <%= item.name %>
+                        <form action="/cart/remove" method="POST" style="display: inline; margin-left: 10px;">
+                            <input type="hidden" name="movieId" value="<%= item._id %>">
+                            <button type="submit" style="background: none; border: none; color: red; cursor: pointer;">&times;</button>
+                        </form>
+                    </li>
                 <% }) %>
             </ul>
     </div>

@@ -121,13 +121,23 @@ app.post('/cart/add', isAuthenticated, async (req, res) => {
     res.redirect('/');
 });
 
+app.post('/cart/remove', isAuthenticated, (req, res) => {
+    const { movieId } = req.body;
+    req.session.cart = req.session.cart.filter(movie => movie._id.toString() !== movieId);
+    res.redirect('/');
+});
+
 app.get('/', async (req, res) => {
-    const { sort, search } = req.query;
+    const { sort, search, genre } = req.query;
     let query = {};
     let sortOption = {};
 
     if (search) {
         query.name = { $regex: search, $options: 'i' }; // Case-insensitive search
+    }
+
+    if (genre) {
+        query.tags = genre; // Filter by genre
     }
 
     if (sort === 'name') {
@@ -140,8 +150,10 @@ app.get('/', async (req, res) => {
 
     const movies = await Movie.find(query).sort(sortOption);
     const userName = req.session.userName; // Retrieve the user name from the session
-    res.render('store', { movies, sort, search, userName, cart: req.session.cart || [] });
+    const cart = req.session.cart || [];
+    res.render('store', { movies, sort, search, genre, userName, cart });
 });
+
 // Route for individual movie pages
 app.get('/movie/:id', async (req, res) => {
     try {

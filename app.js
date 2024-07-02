@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const Movie = require('./DataBase/models/Movie');
 const User = require('./DataBase/models/User'); // Include the User model
+const Activity = require('./DataBase/models/Activity');
 
 const app = express();
 
@@ -108,6 +109,10 @@ app.post('/signin', async (req, res) => {
                 req.session.userName = user.name;
                 req.session.cart = req.session.cart || [];
 
+                // Log the login activity
+                const loginActivity = new Activity({ username: user.name, type: 'login' });
+                loginActivity.save();
+
                 // Set cookie max age based on "Remember Me" checkbox
                 if (rememberMe) {
                     req.session.cookie.maxAge = 10 * 24 * 60 * 60 * 1000; // 10 days
@@ -122,6 +127,7 @@ app.post('/signin', async (req, res) => {
         res.render('signin', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
     }
 });
+
 
 
 app.post('/signup', async (req, res) => {
@@ -153,6 +159,10 @@ app.post('/signup', async (req, res) => {
 
 
 app.post('/logout', (req, res) => {
+    // Log the logout activity
+    const logoutActivity = new Activity({ username: req.session.userName, type: 'logout' });
+    logoutActivity.save();
+
     req.session.destroy(err => {
         if (err) {
             return res.redirect('/');
@@ -162,6 +172,7 @@ app.post('/logout', (req, res) => {
     });
 });
 
+
 app.post('/cart/add', isAuthenticated, async (req, res) => {
     const { movieId } = req.body;
     if (!req.session.cart) {
@@ -170,9 +181,14 @@ app.post('/cart/add', isAuthenticated, async (req, res) => {
     const movie = await Movie.findById(movieId);
     if (movie) {
         req.session.cart.push(movie);
+
+        // Log the add-to-cart activity
+        const addToCartActivity = new Activity({ username: req.session.userName, type: 'add-to-cart' });
+        addToCartActivity.save();
     }
     res.redirect('/');
 });
+
 
 app.post('/cart/remove', isAuthenticated, (req, res) => {
     const { movieId } = req.body;
@@ -305,6 +321,28 @@ app.delete('/admin/movies/:id', isAuthenticated, isAdmin, async (req, res) => {
     await Movie.findByIdAndDelete(req.params.id);
     res.redirect('/admin/movies');
 });
+
+app.get('/admin/activity', isAuthenticated, isAdmin, async (req, res) => {
+    const { username } = req.query;
+    let query = {};
+
+    if (username) {
+        query.username = { $regex: '^' + username, $options: 'i' }; // Case-insensitive prefix match
+    }
+
+    console.log('Query:', query); // Debugging: Log the query
+
+    const activities = await Activity.find(query).sort({ datetime: -1 }); // Sort by datetime descending
+    console.log('Activities:', activities); // Debugging: Log the activities
+
+    const userName = req.session.userName; // Retrieve the user name from the session
+    const cart = req.session.cart || []; // Retrieve the cart from the session
+    res.render('adminActivity', { activities, userName, cart });
+});
+
+
+
+
 
 app.listen(3000, () => {
     console.log('Server is running on port 3000');

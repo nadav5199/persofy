@@ -25,9 +25,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/?genre=Sci-Fi">Sci-Fi</a>
                 </li>
-                <% if (userName) { %>
+                <% if (userName === 'admin') { %>
                     <li class="nav-item">
                         <a class="nav-link" href="/admin/movies">Edit Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/activity">Activity logs</a>
                     </li>
                 <%}%>
                 <li>

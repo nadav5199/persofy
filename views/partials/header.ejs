@@ -25,9 +25,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/?genre=Sci-Fi">Sci-Fi</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
+                <% if (userName) { %>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/movies">admin mode</a>
+                    </li>
+                <%}%>
                 <li>
                     <button class="hamburger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                         <div class="hamburger">

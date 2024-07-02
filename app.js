@@ -2,11 +2,18 @@ const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+
+
 const session = require('express-session');
 const Movie = require('./DataBase/models/Movie');
 const User = require('./DataBase/models/User'); // Include the User model
 
 const app = express();
+
+
+const methodOverride = require('method-override');
+app.use(methodOverride('_method'));
+
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -32,8 +39,21 @@ movieDb.once('open', () => {
 const userDb = mongoose.createConnection('mongodb://127.0.0.1:27017/users');
 
 userDb.on('error', console.error.bind(console, 'connection error:'));
-userDb.once('open', () => {
+userDb.once('open', async () => {
     console.log('Users database connected');
+
+    try {
+        const existingAdmin = await User.findOne({ name: 'admin' });
+        if (!existingAdmin) {
+            const adminUser = new User({ name: 'admin', password: 'admin' , email: 'admin@admin.com' });
+            await adminUser.save();
+            console.log('Admin user created');
+        } else {
+            console.log('Admin user already exists');
+        }
+    } catch (err) {
+        console.error('Error creating admin user:', err);
+    }
 });
 
 // Use the userDb connection for the User model
@@ -49,6 +69,14 @@ function isAuthenticated(req, res, next) {
     }
 }
 
+// Middleware to check if the user is an admin
+function isAdmin(req, res, next) {
+    if (req.session.userName === 'admin') {
+        return next();
+    } else {
+        res.status(403).send('Access denied');
+    }
+}
 
 // Sign-in and Sign-up routes
 app.get('/signin', (req, res) => {
@@ -208,6 +236,59 @@ app.post('/complete-payment', isAuthenticated, (req, res) => {
     res.redirect('/');
 });
 
+// Admin CRUD routes
+app.get('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
+    const movies = await Movie.find({});
+    const userName = req.session.userName;
+    const cart = req.session.cart || [];
+    res.render('editStore', { movies, userName, cart });
+});
+
+app.post('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
+    const { name, description, director, actors, rating, posterUrl, trailerUrl, tags } = req.body;
+
+    // Ensure actors and tags are arrays, even if they are empty
+    const actorsArray = actors ? actors.split(',').map(actor => actor.trim()) : [];
+    const tagsArray = tags ? tags.split(',').map(tag => tag.trim()) : [];
+
+    const movie = new Movie({
+        name,
+        description,
+        director,
+        actors: actorsArray,
+        rating,
+        posterUrl,
+        trailerUrl,
+        tags: tagsArray
+    });
+    await movie.save();
+    res.redirect('/admin/movies');
+});
+
+app.put('/admin/movies/:id', isAuthenticated, isAdmin, async (req, res) => {
+    const { name, description, director, actors, rating, posterUrl, trailerUrl, tags } = req.body;
+
+    // Ensure actors and tags are arrays, even if they are empty
+    const actorsArray = actors ? actors.split(',').map(actor => actor.trim()) : [];
+    const tagsArray = tags ? tags.split(',').map(tag => tag.trim()) : [];
+
+    await Movie.findByIdAndUpdate(req.params.id, {
+        name,
+        description,
+        director,
+        actors: actorsArray,
+        rating,
+        posterUrl,
+        trailerUrl,
+        tags: tagsArray
+    });
+    res.redirect('/admin/movies');
+});
+
+app.delete('/admin/movies/:id', isAuthenticated, isAdmin, async (req, res) => {
+    await Movie.findByIdAndDelete(req.params.id);
+    res.redirect('/admin/movies');
+});
 
 app.listen(3000, () => {
     console.log('Server is running on port 3000');

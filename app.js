@@ -238,10 +238,26 @@ app.post('/complete-payment', isAuthenticated, (req, res) => {
 
 // Admin CRUD routes
 app.get('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
-    const movies = await Movie.find({});
+    const { sort, search } = req.query;
+    let query = {};
+    let sortOption = {};
+
+    if (search) {
+        query.name = { $regex: search, $options: 'i' }; // Case-insensitive search
+    }
+
+    if (sort === 'name') {
+        sortOption.name = 1;
+    } else if (sort === 'rating') {
+        sortOption.rating = -1;
+    } else if (sort === 'date') {
+        sortOption.releaseDate = -1; // Assuming you have a releaseDate field
+    }
+
+    const movies = await Movie.find(query).sort(sortOption);
     const userName = req.session.userName;
     const cart = req.session.cart || [];
-    res.render('editStore', { movies, userName, cart });
+    res.render('editStore', { movies, sort, search, userName, cart });
 });
 
 app.post('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {

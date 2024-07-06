@@ -322,6 +322,7 @@ app.delete('/admin/movies/:id', isAuthenticated, isAdmin, async (req, res) => {
     res.redirect('/admin/movies');
 });
 
+// Admin activity log route
 app.get('/admin/activity', isAuthenticated, isAdmin, async (req, res) => {
     const { username } = req.query;
     let query = {};
@@ -330,17 +331,11 @@ app.get('/admin/activity', isAuthenticated, isAdmin, async (req, res) => {
         query.username = { $regex: '^' + username, $options: 'i' }; // Case-insensitive prefix match
     }
 
-    console.log('Query:', query); // Debugging: Log the query
-
     const activities = await Activity.find(query).sort({ datetime: -1 }); // Sort by datetime descending
-    console.log('Activities:', activities); // Debugging: Log the activities
-
     const userName = req.session.userName; // Retrieve the user name from the session
-    const cart = req.session.cart || []; // Retrieve the cart from the session
+    const cart = req.session.cart || []; // Define and retrieve the cart from the session
     res.render('adminActivity', { activities, userName, cart });
 });
-
-
 
 
 

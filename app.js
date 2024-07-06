@@ -107,6 +107,7 @@ app.post('/signin', async (req, res) => {
 
                 req.session.userId = user._id;
                 req.session.userName = user.name;
+                req.session.userIcon = user.icon; // Save the icon in the session
                 req.session.cart = req.session.cart || [];
 
                 // Log the login activity
@@ -128,6 +129,18 @@ app.post('/signin', async (req, res) => {
     }
 });
 
+app.post('/choose-icon', isAuthenticated, async (req, res) => {
+    const { icon } = req.body;
+    const user = await UserModel.findById(req.session.userId);
+    if (user) {
+        user.icon = icon;
+        await user.save();
+        req.session.userIcon = icon; // Save the icon in the session
+    }
+    res.redirect('/');
+});
+
+
 
 
 app.post('/signup', async (req, res) => {
@@ -148,7 +161,7 @@ app.post('/signup', async (req, res) => {
                 req.session.userId = user._id;
                 req.session.userName = user.name;
                 req.session.cart = [];
-                res.redirect('/');
+                res.redirect('/choose-icon');
             });
         }
     } catch (err) {
@@ -156,6 +169,7 @@ app.post('/signup', async (req, res) => {
         res.render('signup', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
     }
 });
+
 
 
 app.post('/logout', (req, res) => {
@@ -206,7 +220,7 @@ app.get('/', async (req, res) => {
     }
 
     if (genre) {
-        query.tags = genre; // Filter by genre
+        query.tags = genre;
     }
 
     if (sort === 'name') {
@@ -219,9 +233,11 @@ app.get('/', async (req, res) => {
 
     const movies = await Movie.find(query).sort(sortOption);
     const userName = req.session.userName; // Retrieve the user name from the session
+    const userIcon = req.session.userIcon; // Retrieve the user icon from the session
     const cart = req.session.cart || [];
-    res.render('store', { movies, sort, search, genre, userName, cart });
+    res.render('store', { movies, sort, search, genre, userName, userIcon, cart });
 });
+
 
 // Route for individual movie pages
 app.get('/movie/:id', async (req, res) => {
@@ -230,7 +246,7 @@ app.get('/movie/:id', async (req, res) => {
         if (!movie) {
             return res.status(404).send('Movie not found');
         }
-        res.render('movies', { movie, userName: req.session.userName, cart: req.session.cart || []});
+        res.render('movies', { userIcon,movie, userName: req.session.userName, cart: req.session.cart || []});
     } catch (err) {
         console.error('Error fetching movie:', err);
         res.status(500).send('Internal Server Error');
@@ -241,16 +257,31 @@ app.get('/movie/:id', async (req, res) => {
 app.get('/payment', isAuthenticated, (req, res) => {
     const cart = req.session.cart || [];
     const userName = req.session.userName;
-    res.render('payment', { cart, userName });
+    res.render('payment', { userIcon,cart, userName });
 });
 
 // Route for completing payment
-app.post('/complete-payment', isAuthenticated, (req, res) => {
-    // Logic for completing payment goes here
-    // For now, we'll just clear the cart and redirect to the home page
+app.post('/complete-payment', isAuthenticated, async (req, res) => {
+    const user = await UserModel.findById(req.session.userId);
+    if (user) {
+        user.purchasedMovies.push(...req.session.cart.map(movie => movie._id));
+        await user.save();
+
+        // Log the purchase activity
+        const purchaseActivity = new Activity({ username: user.name, type: 'purchase', datetime: new Date() });
+        purchaseActivity.save();
+    }
     req.session.cart = [];
     res.redirect('/');
 });
+
+app.get('/choose-icon', isAuthenticated, (req, res) => {
+    const cart = req.session.cart || [];
+    res.render('chooseIcon', { userName: req.session.userName, userIcon: req.session.userIcon, cart });
+});
+
+
+
 
 // Admin CRUD routes
 app.get('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
@@ -333,9 +364,11 @@ app.get('/admin/activity', isAuthenticated, isAdmin, async (req, res) => {
 
     const activities = await Activity.find(query).sort({ datetime: -1 }); // Sort by datetime descending
     const userName = req.session.userName; // Retrieve the user name from the session
-    const cart = req.session.cart || []; // Define and retrieve the cart from the session
-    res.render('adminActivity', { activities, userName, cart });
+    const userIcon = req.session.userIcon; // Retrieve the user icon from the session
+    const cart = req.session.cart || [];
+    res.render('adminActivity', { activities, userName, userIcon, cart });
 });
+
 
 
 

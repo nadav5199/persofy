@@ -29,8 +29,9 @@ module.exports = function (userDb) {
         }
 
         const movies = await Movie.find(query).sort(sortOption);
-        res.render('editStore', { movies, sort, search, userName: req.session.userName, cart: req.session.cart || [] });
+        res.render('editStore', { movies, sort, search, userName: req.session.userName, userIcon: req.session.userIcon, cart: req.session.cart || [] });
     });
+
 
     router.post('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
         const { name, description, director, actors, rating, posterUrl, trailerUrl, tags } = req.body;

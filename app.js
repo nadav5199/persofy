@@ -129,6 +129,12 @@ app.post('/signin', async (req, res) => {
     }
 });
 
+app.get('/choose-icon', isAuthenticated, (req, res) => {
+    const cart = req.session.cart || [];
+    res.render('chooseIcon', { userName: req.session.userName, userIcon: req.session.userIcon, cart });
+});
+
+
 app.post('/choose-icon', isAuthenticated, async (req, res) => {
     const { icon } = req.body;
     const user = await UserModel.findById(req.session.userId);
@@ -246,7 +252,8 @@ app.get('/movie/:id', async (req, res) => {
         if (!movie) {
             return res.status(404).send('Movie not found');
         }
-        res.render('movies', { userIcon,movie, userName: req.session.userName, cart: req.session.cart || []});
+        const userIcon = req.session.userIcon || ''; // Add a default value
+        res.render('movies', { userIcon: userIcon ,movie, userName: req.session.userName, cart: req.session.cart || []});
     } catch (err) {
         console.error('Error fetching movie:', err);
         res.status(500).send('Internal Server Error');
@@ -257,6 +264,7 @@ app.get('/movie/:id', async (req, res) => {
 app.get('/payment', isAuthenticated, (req, res) => {
     const cart = req.session.cart || [];
     const userName = req.session.userName;
+    const userIcon = req.session.userIcon || ''; // Add a default value
     res.render('payment', { userIcon,cart, userName });
 });
 
@@ -275,10 +283,6 @@ app.post('/complete-payment', isAuthenticated, async (req, res) => {
     res.redirect('/');
 });
 
-app.get('/choose-icon', isAuthenticated, (req, res) => {
-    const cart = req.session.cart || [];
-    res.render('chooseIcon', { userName: req.session.userName, userIcon: req.session.userIcon, cart });
-});
 
 
 

@@ -18,7 +18,7 @@ module.exports = function (userDb) {
         Purchased Movies and Ratings: ${JSON.stringify(userPreferences.reviews)}
 
         Available Movies:
-        ${movieData.map(movie => `Name: ${movie.name}, Description: ${movie.description}, Genres: ${movie.tags.join(', ')}`).join('\n')}
+        ${movieData.map(movie => `Name: ${movie.name}, Description: ${movie.description}, Genres: ${movie.tags.join(', ')}, Rating: ${movie.rating}`).join('\n')}
 
         Based on the user preferences and the available movies, recommend movies for the user. 
         Please return only the names of the movies exactly as they appear in the database, each on a new line without any additional text.

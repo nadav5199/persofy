@@ -5,7 +5,8 @@ const userSchema = new mongoose.Schema({
     email: String,
     password: String,
     purchasedMovies: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Movie' }],
-    icon: String // Add this line
+    icon: String,
+    reviews: { type: Map, of: String }
 });
 
 const User = mongoose.model('User', userSchema);

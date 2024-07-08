@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review Movies</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<h1>Rate Your Movies</h1>
+<form action="/review" method="POST">
+    <% movies.forEach(movie => { %>
+        <div class="movie-review">
+            <img src="<%= movie.posterUrl %>" alt="<%= movie.name %>">
+            <h2><%= movie.name %></h2>
+            <label for="rating-<%= movie._id %>">Rating:</label>
+            <select name="reviews[<%= movie._id %>]" id="rating-<%= movie._id %>">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+    <% }) %>
+    <button type="submit">Submit Reviews</button>
+</form>
+</body>
+</html>

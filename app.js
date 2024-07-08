@@ -21,12 +21,24 @@ app.use(session);
 connectMoviesDb();
 const userDb = connectUsersDb();
 
+// Make the userDb connection accessible to other modules
+app.set('userDb', userDb);
+
+
+app.use((req, res, next) => {
+    console.log('Session Data:', req.session);
+    next();
+});
+
 // Routes
 const authRoutes = require('./routes/auth')(userDb);
 const cartRoutes = require('./routes/cart');
-const movieRoutes = require('./routes/movies');
+const movieRoutes = require('./routes/movies')(userDb);
 const adminRoutes = require('./routes/admin')(userDb);
+const reviewRoutes = require('./routes/reviews')(userDb);
 
+
+app.use(reviewRoutes);
 app.use(authRoutes);
 app.use(cartRoutes);
 app.use(movieRoutes);

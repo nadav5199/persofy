@@ -7,8 +7,9 @@ const Activity = require('../DataBase/models/Activity');
  * @param {mongoose.Connection} userDb - The users database connection.
  * @returns {Router} Express router.
  */
+
+const router = express.Router();
 module.exports = function (userDb) {
-    const router = express.Router();
     const UserModel = userDb.model('User', require('../DataBase/models/User').schema);
 
     router.get('/signin', (req, res) => {
@@ -38,7 +39,7 @@ module.exports = function (userDb) {
                         });
                     }
 
-                    req.session.userId = user._id;
+                    req.session.userId = user._id; // Ensure userId is set in session
                     req.session.userName = user.name;
                     req.session.userIcon = user.icon;
                     req.session.cart = req.session.cart || [];
@@ -59,6 +60,7 @@ module.exports = function (userDb) {
             res.render('signin', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
         }
     });
+
 
     router.post('/signup', async (req, res) => {
         const { name, email, password } = req.body;

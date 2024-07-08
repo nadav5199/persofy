@@ -8,8 +8,9 @@ const Activity = require('../DataBase/models/Activity');
  * @param {mongoose.Connection} userDb - The users database connection.
  * @returns {Router} Express router.
  */
+
+const router = express.Router();
 module.exports = function (userDb) {
-    const router = express.Router();
 
     router.get('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
         const { sort, search } = req.query;

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Your Favorite Genres</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<h1>Select Your Favorite Genres</h1>
+<form action="/genres" method="POST">
+    <% genres.forEach(genre => { %>
+        <div class="genre-selection">
+            <input type="checkbox" id="<%= genre %>" name="favoriteGenres" value="<%= genre %>">
+            <label for="<%= genre %>"><%= genre %></label>
+        </div>
+    <% }) %>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

@@ -118,7 +118,7 @@ module.exports = function (userDb) {
             await user.save();
             req.session.userIcon = icon;
         }
-        res.redirect('/');
+        res.redirect('/genres'); // Redirect to the genres selection page after sign-up
     });
 
     return router;

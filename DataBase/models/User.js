@@ -10,7 +10,8 @@ const userSchema = new mongoose.Schema({
         type: Map,
         of: String,
         default: {}
-    }
+    },
+    favoriteGenres: [String] // Add this line for favorite genres
 });
 
 const User = mongoose.model('User', userSchema);

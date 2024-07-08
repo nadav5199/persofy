@@ -4,8 +4,11 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const session = require('./config/session');
 const { connectMoviesDb, connectUsersDb } = require('./config/database');
-
+const Movie = require('./DataBase/models/Movie');
 const app = express();
+
+require('dotenv').config();
+
 
 // Set view engine and static files directory
 app.set('views', path.join(__dirname, 'views'));
@@ -24,8 +27,11 @@ const userDb = connectUsersDb();
 // Make the userDb and movieDb connections accessible to other modules
 app.set('userDb', userDb);
 
-
-
+Movie.find().then(movies => {
+    app.locals.allMovies = movies;
+}).catch(err => {
+    console.error('Error fetching movies:', err);
+});
 
 app.use((req, res, next) => {
     console.log('Session Data:', req.session);
@@ -38,13 +44,16 @@ const cartRoutes = require('./routes/cart');
 const movieRoutes = require('./routes/movies')(userDb);
 const adminRoutes = require('./routes/admin')(userDb);
 const reviewRoutes = require('./routes/reviews')(userDb);
+const genreRoutes = require('./routes/genres')(userDb);
+const recommendationRoutes = require('./routes/recommendations')(userDb);
 
-
+app.use(genreRoutes);
 app.use(reviewRoutes);
 app.use(authRoutes);
 app.use(cartRoutes);
 app.use(movieRoutes);
 app.use(adminRoutes);
+app.use(recommendationRoutes);
 
 app.listen(3000, () => {
     console.log('Server is running on port 3000');

@@ -1,13 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const { isAuthenticated } = require('../middleware/auth');
+const Movie = require('../DataBase/models/Movie');
 
 module.exports = function (userDb) {
     const router = express.Router();
 
-    // Use the userDb connection to get the User model
+    // Use the userDb connection to get the User model and register the Movie model
     const User = userDb.model('User');
-    const Movie = userDb.model('Movie', require('../DataBase/models/Movie').schema);
 
     // Route to display the review page
     router.get('/review', isAuthenticated, async (req, res) => {
@@ -18,16 +18,20 @@ module.exports = function (userDb) {
             // Convert userId to ObjectId
             const objectId = new mongoose.Types.ObjectId(userId);
 
-            const user = await User.findById(objectId).populate('purchasedMovies');
+            const user = await User.findById(objectId);
             if (!user) {
                 console.log('User not found with ID:', userId);
                 return res.status(404).send('User not found');
             }
 
-            const movies = user.purchasedMovies;
-            console.log('Purchased movies:', movies);
+            // Fetch only the recently purchased movies
+            const recentlyPurchasedMovieIds = req.session.recentlyPurchasedMovies || [];
+            console.log('Recently purchased movie IDs:', recentlyPurchasedMovieIds);
 
-            res.render('review', { userName: req.session.userName, userIcon: req.session.userIcon, movies });
+            const movies = await Movie.find({ _id: { $in: recentlyPurchasedMovieIds } });
+            console.log('Fetched recently purchased movies:', movies);
+
+            res.render('review', { userName: req.session.userName, userIcon: req.session.userIcon, movies, cart: req.session.cart || []  });
         } catch (err) {
             console.error('Error fetching movies for review:', err);
             res.status(500).send('Internal Server Error');

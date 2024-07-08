@@ -21,8 +21,10 @@ app.use(session);
 connectMoviesDb();
 const userDb = connectUsersDb();
 
-// Make the userDb connection accessible to other modules
+// Make the userDb and movieDb connections accessible to other modules
 app.set('userDb', userDb);
+
+
 
 
 app.use((req, res, next) => {

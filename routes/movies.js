@@ -88,6 +88,8 @@ module.exports = function (userDb) {
 
             console.log('User saved successfully');
 
+            // Store recently purchased movie IDs in session
+            req.session.recentlyPurchasedMovies = movieIds;
             req.session.cart = [];
 
             const purchaseActivity = new Activity({ username: user.name, type: 'purchase', datetime: new Date() });

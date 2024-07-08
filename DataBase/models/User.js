@@ -6,7 +6,11 @@ const userSchema = new mongoose.Schema({
     password: String,
     purchasedMovies: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Movie' }],
     icon: String,
-    reviews: { type: Map, of: String }
+    reviews: {
+        type: Map,
+        of: String,
+        default: {}
+    }
 });
 
 const User = mongoose.model('User', userSchema);

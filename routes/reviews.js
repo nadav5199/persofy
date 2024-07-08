@@ -41,12 +41,13 @@ module.exports = function (userDb) {
     // Route to handle review submission
     router.post('/review', isAuthenticated, async (req, res) => {
         const { reviews } = req.body; // Assuming reviews is an object with movieId:rating pairs
+        console.log('Received reviews:', reviews);
         try {
             const userId = req.session.userId;
             console.log('Saving reviews for user ID:', userId);
 
             // Convert userId to ObjectId
-            const objectId = mongoose.Types.ObjectId(userId);
+            const objectId = new mongoose.Types.ObjectId(userId);
 
             const user = await User.findById(objectId);
             if (!user) {
@@ -54,13 +55,20 @@ module.exports = function (userDb) {
                 return res.status(404).send('User not found');
             }
 
-            user.reviews = user.reviews || {};
-
-            for (const [movieId, rating] of Object.entries(reviews)) {
-                user.reviews[movieId] = rating;
+            // Ensure reviews is an object
+            if (!user.reviews || typeof user.reviews !== 'object') {
+                user.reviews = {};
             }
 
+            for (const [movieId, rating] of Object.entries(reviews)) {
+                console.log(`Setting rating for movie ${movieId} to ${rating}`);
+                user.reviews.set(movieId, rating);  // Use .set() to update the Map
+            }
+
+            console.log('Updated user reviews:', user.reviews);
+
             await user.save();
+            console.log('User reviews saved successfully');
             res.redirect('/');
         } catch (err) {
             console.error('Error saving reviews:', err);

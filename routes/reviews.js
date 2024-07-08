@@ -1,13 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const { isAuthenticated } = require('../middleware/auth');
-const Movie = require('../DataBase/models/Movie');
 
 module.exports = function (userDb) {
     const router = express.Router();
 
     // Use the userDb connection to get the User model
     const User = userDb.model('User');
+    const Movie = userDb.model('Movie', require('../DataBase/models/Movie').schema);
 
     // Route to display the review page
     router.get('/review', isAuthenticated, async (req, res) => {
@@ -16,7 +16,7 @@ module.exports = function (userDb) {
             console.log('Fetching user with ID:', userId);
 
             // Convert userId to ObjectId
-            const objectId = mongoose.Types.ObjectId(userId);
+            const objectId = new mongoose.Types.ObjectId(userId);
 
             const user = await User.findById(objectId).populate('purchasedMovies');
             if (!user) {

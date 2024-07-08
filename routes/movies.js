@@ -29,7 +29,7 @@ module.exports = function (userDb) {
         } else if (sort === 'rating') {
             sortOption.rating = -1;
         } else if (sort === 'date') {
-            sortOption.releaseDate = -1; // Assuming you have a releaseDate field
+            sortOption.date = -1; // Assuming you have a releaseDate field
         }
 
         const movies = await Movie.find(query).sort(sortOption);

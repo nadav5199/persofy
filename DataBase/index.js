@@ -5,7 +5,7 @@ const Movie = require('./models/Movie');
 async function importData() {
     try {
         // Connect to MongoDB
-        await mongoose.connect('mongodb://127.0.0.1:27017/movies', { useNewUrlParser: true, useUnifiedTopology: true });
+        await mongoose.connect('mongodb://127.0.0.1:27017/movies');
         console.log('Database connected');
 
         // Read the JSON file

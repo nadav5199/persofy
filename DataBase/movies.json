@@ -13,10 +13,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Inception+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Inception+trailer",
+    "date": "16 Jul 2010"
   },
   {
     "name": "The Matrix",
@@ -31,10 +31,10 @@
       "Action",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Matrix+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Matrix+trailer",
+    "date": "31 Mar 1999"
   },
   {
     "name": "The Dark Knight",
@@ -50,10 +50,10 @@
       "Crime",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "9.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight+trailer",
+    "date": "18 Jul 2008"
   },
   {
     "name": "Interstellar",
@@ -69,10 +69,10 @@
       "Drama",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Interstellar+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Interstellar+trailer",
+    "date": "07 Nov 2014"
   },
   {
     "name": "Fight Club",
@@ -86,10 +86,10 @@
     "tags": [
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fight%20Club+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Fight%20Club+trailer",
+    "date": "15 Oct 1999"
   },
   {
     "name": "Pulp Fiction",
@@ -104,10 +104,10 @@
       "Crime",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pulp%20Fiction+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pulp%20Fiction+trailer",
+    "date": "14 Oct 1994"
   },
   {
     "name": "Forrest Gump",
@@ -122,10 +122,10 @@
       "Drama",
       "Romance"
     ],
-    "studio": "N/A",
     "rating": "8.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Forrest%20Gump+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Forrest%20Gump+trailer",
+    "date": "06 Jul 1994"
   },
   {
     "name": "The Lord of the Rings: The Fellowship of the Ring",
@@ -141,10 +141,10 @@
       "Adventure",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring+trailer",
+    "date": "19 Dec 2001"
   },
   {
     "name": "The Lord of the Rings: The Two Towers",
@@ -160,10 +160,10 @@
       "Adventure",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers+trailer",
+    "date": "18 Dec 2002"
   },
   {
     "name": "The Lord of the Rings: The Return of the King",
@@ -179,10 +179,10 @@
       "Adventure",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "9.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King+trailer",
+    "date": "17 Dec 2003"
   },
   {
     "name": "The Shawshank Redemption",
@@ -196,10 +196,10 @@
     "tags": [
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "9.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Shawshank%20Redemption+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Shawshank%20Redemption+trailer",
+    "date": "14 Oct 1994"
   },
   {
     "name": "The Godfather",
@@ -214,10 +214,10 @@
       "Crime",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "9.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Godfather+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Godfather+trailer",
+    "date": "24 Mar 1972"
   },
   {
     "name": "The Godfather Part II",
@@ -232,10 +232,10 @@
       "Crime",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "9.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Godfather%20Part%20II+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Godfather%20Part%20II+trailer",
+    "date": "18 Dec 1974"
   },
   {
     "name": "The Dark Knight Rises",
@@ -251,10 +251,10 @@
       "Drama",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "8.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight%20Rises+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight%20Rises+trailer",
+    "date": "20 Jul 2012"
   },
   {
     "name": "The Social Network",
@@ -269,10 +269,10 @@
       "Biography",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "7.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Social%20Network+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Social%20Network+trailer",
+    "date": "01 Oct 2010"
   },
   {
     "name": "The Avengers",
@@ -287,10 +287,10 @@
       "Action",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Avengers+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Avengers+trailer",
+    "date": "04 May 2012"
   },
   {
     "name": "Avengers: Endgame",
@@ -306,10 +306,10 @@
       "Adventure",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Avengers%3A%20Endgame+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Avengers%3A%20Endgame+trailer",
+    "date": "26 Apr 2019"
   },
   {
     "name": "Avatar",
@@ -325,10 +325,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Avatar+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Avatar+trailer",
+    "date": "18 Dec 2009"
   },
   {
     "name": "Titanic",
@@ -343,10 +343,10 @@
       "Drama",
       "Romance"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Titanic+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Titanic+trailer",
+    "date": "19 Dec 1997"
   },
   {
     "name": "The Lion King",
@@ -362,10 +362,10 @@
       "Adventure",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lion%20King+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Lion%20King+trailer",
+    "date": "24 Jun 1994"
   },
   {
     "name": "Gladiator",
@@ -381,10 +381,10 @@
       "Adventure",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Gladiator+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Gladiator+trailer",
+    "date": "05 May 2000"
   },
   {
     "name": "Jurassic Park",
@@ -400,10 +400,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20Park+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20Park+trailer",
+    "date": "11 Jun 1993"
   },
   {
     "name": "Terminator 2: Judgment Day",
@@ -419,10 +419,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%202%3A%20Judgment%20Day+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%202%3A%20Judgment%20Day+trailer",
+    "date": "03 Jul 1991"
   },
   {
     "name": "Toy Story",
@@ -438,10 +438,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "8.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story+trailer",
+    "date": "22 Nov 1995"
   },
   {
     "name": "Toy Story 2",
@@ -457,10 +457,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMWM5ZDcxMTYtNTEyNS00MDRkLWI3YTItNThmMGExMWY4NDIwXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%202+trailer",
+    "date": "24 Nov 1999"
   },
   {
     "name": "Toy Story 3",
@@ -476,10 +476,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "8.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%203+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%203+trailer",
+    "date": "29 Jun 2010"
   },
   {
     "name": "Toy Story 4",
@@ -495,10 +495,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%204+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Toy%20Story%204+trailer",
+    "date": "21 Jun 2019"
   },
   {
     "name": "Finding Nemo",
@@ -514,10 +514,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "8.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWE0MzUzNDctNTFiYS00YzY3LWEzYWMtMDQyMWE5OTMxOTBiXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Finding%20Nemo+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Finding%20Nemo+trailer",
+    "date": "30 May 2003"
   },
   {
     "name": "The Incredibles",
@@ -533,10 +533,10 @@
       "Action",
       "Adventure"
     ],
-    "studio": "N/A",
     "rating": "8.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Incredibles+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Incredibles+trailer",
+    "date": "05 Nov 2004"
   },
   {
     "name": "Shrek",
@@ -552,10 +552,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek+trailer",
+    "date": "18 May 2001"
   },
   {
     "name": "Shrek 2",
@@ -571,10 +571,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDJhMGRjN2QtNDUxYy00NGM3LThjNGQtMmZiZTRhNjM4YzUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%202+trailer",
+    "date": "19 May 2004"
   },
   {
     "name": "Shrek the Third",
@@ -590,10 +590,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "6.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTgyMjc3ODk2MV5BMl5BanBnXkFtZTcwMjY0MjEzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%20the%20Third+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%20the%20Third+trailer",
+    "date": "18 May 2007"
   },
   {
     "name": "Shrek Forever After",
@@ -609,10 +609,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "6.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY0OTU1NzkxMl5BMl5BanBnXkFtZTcwMzI2NDUzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%20Forever%20After+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Shrek%20Forever%20After+trailer",
+    "date": "21 May 2010"
   },
   {
     "name": "Lego Harry Potter and the Philosopher's Stone",
@@ -630,7 +630,8 @@
     ],
     "rating": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWMwM2FhNDMtZmQ2Ni00ZjA0LWFlMTgtZjVhYzU1NGYzYzhiXkEyXkFqcGdeQXVyMTI2NTU5NzQw._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Lego%20Harry%20Potter%20and%20the%20Philosopher's%20Stone+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Lego%20Harry%20Potter%20and%20the%20Philosopher's%20Stone+trailer",
+    "date": "08 Dec 2020"
   },
   {
     "name": "Harry Potter and the Chamber of Secrets",
@@ -646,10 +647,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Chamber%20of%20Secrets+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Chamber%20of%20Secrets+trailer",
+    "date": "15 Nov 2002"
   },
   {
     "name": "Harry Potter and the Prisoner of Azkaban",
@@ -665,10 +666,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban+trailer",
+    "date": "04 Jun 2004"
   },
   {
     "name": "Harry Potter and the Goblet of Fire",
@@ -684,10 +685,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Goblet%20of%20Fire+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Goblet%20of%20Fire+trailer",
+    "date": "18 Nov 2005"
   },
   {
     "name": "Harry Potter and the Order of the Phoenix",
@@ -703,10 +704,10 @@
       "Adventure",
       "Family"
     ],
-    "studio": "N/A",
     "rating": "7.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTA3MmRmZDgtOWU1Ny00ZDc5LWFkN2YtNzNlY2UxZmY0N2IyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix+trailer",
+    "date": "11 Jul 2007"
   },
   {
     "name": "Harry Potter and the Half-Blood Prince",
@@ -722,10 +723,10 @@
       "Adventure",
       "Family"
     ],
-    "studio": "N/A",
     "rating": "7.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Half-Blood%20Prince+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Half-Blood%20Prince+trailer",
+    "date": "15 Jul 2009"
   },
   {
     "name": "Harry Potter and the Deathly Hallows: Part 1",
@@ -741,10 +742,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%201+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%201+trailer",
+    "date": "19 Nov 2010"
   },
   {
     "name": "Harry Potter and the Deathly Hallows: Part 2",
@@ -760,10 +761,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "8.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Harry%20Potter%20and%20the%20Deathly%20Hallows%3A%20Part%202+trailer",
+    "date": "15 Jul 2011"
   },
   {
     "name": "Star Wars: Episode IV - A New Hope",
@@ -779,10 +780,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "8.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20IV%20-%20A%20New%20Hope+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20IV%20-%20A%20New%20Hope+trailer",
+    "date": "25 May 1977"
   },
   {
     "name": "Star Wars: Episode V - The Empire Strikes Back",
@@ -798,10 +799,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "8.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20V%20-%20The%20Empire%20Strikes%20Back+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20V%20-%20The%20Empire%20Strikes%20Back+trailer",
+    "date": "18 Jun 1980"
   },
   {
     "name": "Star Wars: Episode VI - Return of the Jedi",
@@ -817,10 +818,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "8.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VI%20-%20Return%20of%20the%20Jedi+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VI%20-%20Return%20of%20the%20Jedi+trailer",
+    "date": "25 May 1983"
   },
   {
     "name": "Star Wars: Episode I - The Phantom Menace",
@@ -836,10 +837,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20I%20-%20The%20Phantom%20Menace+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20I%20-%20The%20Phantom%20Menace+trailer",
+    "date": "19 May 1999"
   },
   {
     "name": "Star Wars: Episode II - Attack of the Clones",
@@ -855,10 +856,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20II%20-%20Attack%20of%20the%20Clones+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20II%20-%20Attack%20of%20the%20Clones+trailer",
+    "date": "16 May 2002"
   },
   {
     "name": "Star Wars: Episode III - Revenge of the Sith",
@@ -874,10 +875,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20III%20-%20Revenge%20of%20the%20Sith+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20III%20-%20Revenge%20of%20the%20Sith+trailer",
+    "date": "19 May 2005"
   },
   {
     "name": "Star Wars: Episode VII - The Force Awakens",
@@ -893,10 +894,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VII%20-%20The%20Force%20Awakens+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VII%20-%20The%20Force%20Awakens+trailer",
+    "date": "18 Dec 2015"
   },
   {
     "name": "Star Wars: Episode VIII - The Last Jedi",
@@ -912,10 +913,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VIII%20-%20The%20Last%20Jedi+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20VIII%20-%20The%20Last%20Jedi+trailer",
+    "date": "15 Dec 2017"
   },
   {
     "name": "Star Wars: Episode IX - The Rise of Skywalker",
@@ -931,10 +932,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20IX%20-%20The%20Rise%20of%20Skywalker+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Star%20Wars%3A%20Episode%20IX%20-%20The%20Rise%20of%20Skywalker+trailer",
+    "date": "20 Dec 2019"
   },
   {
     "name": "The Hobbit: An Unexpected Journey",
@@ -949,10 +950,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20An%20Unexpected%20Journey+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20An%20Unexpected%20Journey+trailer",
+    "date": "14 Dec 2012"
   },
   {
     "name": "The Hobbit: The Desolation of Smaug",
@@ -968,10 +969,10 @@
       "Drama",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20The%20Desolation%20of%20Smaug+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20The%20Desolation%20of%20Smaug+trailer",
+    "date": "13 Dec 2013"
   },
   {
     "name": "The Hobbit: The Battle of the Five Armies",
@@ -986,10 +987,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzNDE3OTQ3MF5BMl5BanBnXkFtZTgwODczMTg4MjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20The%20Battle%20of%20the%20Five%20Armies+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hobbit%3A%20The%20Battle%20of%20the%20Five%20Armies+trailer",
+    "date": "17 Dec 2014"
   },
   {
     "name": "The Hunger Games",
@@ -1005,10 +1006,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games+trailer",
+    "date": "23 Mar 2012"
   },
   {
     "name": "The Hunger Games: Catching Fire",
@@ -1024,10 +1025,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Catching%20Fire+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Catching%20Fire+trailer",
+    "date": "22 Nov 2013"
   },
   {
     "name": "The Hunger Games: Mockingjay - Part 1",
@@ -1043,10 +1044,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Mockingjay%20-%20Part%201+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Mockingjay%20-%20Part%201+trailer",
+    "date": "21 Nov 2014"
   },
   {
     "name": "The Hunger Games: Mockingjay - Part 2",
@@ -1062,10 +1063,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Mockingjay%20-%20Part%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Hunger%20Games%3A%20Mockingjay%20-%20Part%202+trailer",
+    "date": "20 Nov 2015"
   },
   {
     "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
@@ -1081,10 +1082,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "8.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20The%20Curse%20of%20the%20Black%20Pearl+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20The%20Curse%20of%20the%20Black%20Pearl+trailer",
+    "date": "09 Jul 2003"
   },
   {
     "name": "Pirates of the Caribbean: Dead Man's Chest",
@@ -1100,10 +1101,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Man's%20Chest+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Man's%20Chest+trailer",
+    "date": "07 Jul 2006"
   },
   {
     "name": "Pirates of the Caribbean: At World's End",
@@ -1119,10 +1120,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20At%20World's%20End+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20At%20World's%20End+trailer",
+    "date": "25 May 2007"
   },
   {
     "name": "Pirates of the Caribbean: On Stranger Tides",
@@ -1138,10 +1139,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20On%20Stranger%20Tides+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20On%20Stranger%20Tides+trailer",
+    "date": "20 May 2011"
   },
   {
     "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
@@ -1157,10 +1158,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Men%20Tell%20No%20Tales+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Pirates%20of%20the%20Caribbean%3A%20Dead%20Men%20Tell%20No%20Tales+trailer",
+    "date": "26 May 2017"
   },
   {
     "name": "The Bourne Identity",
@@ -1176,10 +1177,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2JkNGU0ZGMtZjVjNS00NjgyLWEyOWYtZmRmZGQyN2IxZjA2XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Identity+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Identity+trailer",
+    "date": "14 Jun 2002"
   },
   {
     "name": "The Bourne Supremacy",
@@ -1195,10 +1196,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTIyMDFmMmItMWQzYy00MjBiLTg2M2UtM2JiNDRhOWE4NjBhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Supremacy+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Supremacy+trailer",
+    "date": "23 Jul 2004"
   },
   {
     "name": "The Bourne Ultimatum",
@@ -1214,10 +1215,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "8.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGNiNmU2YTMtZmU4OS00MjM0LTlmYWUtMjVlYjAzYjE2N2RjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Ultimatum+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Ultimatum+trailer",
+    "date": "03 Aug 2007"
   },
   {
     "name": "The Bourne Legacy",
@@ -1233,10 +1234,10 @@
       "Adventure",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTc4Njk3MDM1Nl5BMl5BanBnXkFtZTcwODgyOTMxOA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Legacy+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Bourne%20Legacy+trailer",
+    "date": "10 Aug 2012"
   },
   {
     "name": "Jason Bourne",
@@ -1251,10 +1252,10 @@
       "Action",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjk0ZWMwNWItZjUwYy00NzgwLWFiOWMtNmRhYzEyZjhhYzgyXkEyXkFqcGdeQXVyMTcwOTQzOTYy._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jason%20Bourne+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Jason%20Bourne+trailer",
+    "date": "29 Jul 2016"
   },
   {
     "name": "Iron Man",
@@ -1270,10 +1271,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man+trailer",
+    "date": "02 May 2008"
   },
   {
     "name": "Iron Man 2",
@@ -1288,10 +1289,10 @@
       "Action",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGVkNDAyM2EtYzYxYy00ZWUxLTgwMjgtY2VmODE5OTk3N2M5XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man%202+trailer",
+    "date": "07 May 2010"
   },
   {
     "name": "Iron Man 3",
@@ -1307,10 +1308,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man%203+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Iron%20Man%203+trailer",
+    "date": "03 May 2013"
   },
   {
     "name": "Captain America: The First Avenger",
@@ -1326,10 +1327,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzAxMjg0NjYtNjNlOS00NTdlLThkMGEtMjAwYjk3NmNkOGFhXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20The%20First%20Avenger+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20The%20First%20Avenger+trailer",
+    "date": "22 Jul 2011"
   },
   {
     "name": "Captain America: The Winter Soldier",
@@ -1345,10 +1346,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzMyN2I0NjMtYmZhZS00MWJkLWE1MTktNGM2ZDhmNDE1ZDc0XkEyXkFqcGdeQXVyNDg2NzE0MjE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20The%20Winter%20Soldier+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20The%20Winter%20Soldier+trailer",
+    "date": "04 Apr 2014"
   },
   {
     "name": "Captain America: Civil War",
@@ -1363,10 +1364,10 @@
       "Action",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20Civil%20War+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Captain%20America%3A%20Civil%20War+trailer",
+    "date": "06 May 2016"
   },
   {
     "name": "Thor",
@@ -1381,10 +1382,10 @@
       "Action",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Thor+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Thor+trailer",
+    "date": "06 May 2011"
   },
   {
     "name": "Thor: The Dark World",
@@ -1400,10 +1401,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Thor%3A%20The%20Dark%20World+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Thor%3A%20The%20Dark%20World+trailer",
+    "date": "08 Nov 2013"
   },
   {
     "name": "Thor: Ragnarok",
@@ -1419,10 +1420,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Thor%3A%20Ragnarok+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Thor%3A%20Ragnarok+trailer",
+    "date": "03 Nov 2017"
   },
   {
     "name": "Black Panther",
@@ -1438,10 +1439,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Black%20Panther+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Black%20Panther+trailer",
+    "date": "16 Feb 2018"
   },
   {
     "name": "Doctor Strange",
@@ -1457,10 +1458,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Doctor%20Strange+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Doctor%20Strange+trailer",
+    "date": "04 Nov 2016"
   },
   {
     "name": "Guardians of the Galaxy",
@@ -1476,10 +1477,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "8.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Guardians%20of%20the%20Galaxy+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Guardians%20of%20the%20Galaxy+trailer",
+    "date": "01 Aug 2014"
   },
   {
     "name": "Guardians of the Galaxy Vol. 2",
@@ -1495,10 +1496,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Guardians%20of%20the%20Galaxy%20Vol.%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Guardians%20of%20the%20Galaxy%20Vol.%202+trailer",
+    "date": "05 May 2017"
   },
   {
     "name": "Spider-Man: Homecoming",
@@ -1514,10 +1515,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20Homecoming+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20Homecoming+trailer",
+    "date": "07 Jul 2017"
   },
   {
     "name": "Spider-Man: Far from Home",
@@ -1533,10 +1534,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BODA5MTY0OWUtNjdlOC00NDI5LWE3NjYtNDM4MDI2MzE4OWUxXkEyXkFqcGdeQXVyOTAzODkzMjI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20Far%20from%20Home+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20Far%20from%20Home+trailer",
+    "date": "02 Jul 2019"
   },
   {
     "name": "Spider-Man: No Way Home",
@@ -1552,10 +1553,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "8.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20No%20Way%20Home+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Spider-Man%3A%20No%20Way%20Home+trailer",
+    "date": "17 Dec 2021"
   },
   {
     "name": "Batman Begins",
@@ -1571,10 +1572,10 @@
       "Crime",
       "Drama"
     ],
-    "studio": "N/A",
     "rating": "8.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Batman%20Begins+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Batman%20Begins+trailer",
+    "date": "15 Jun 2005"
   },
   {
     "name": "The Dark Knight Rises",
@@ -1590,10 +1591,10 @@
       "Drama",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "8.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight%20Rises+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Dark%20Knight%20Rises+trailer",
+    "date": "20 Jul 2012"
   },
   {
     "name": "Man of Steel",
@@ -1609,10 +1610,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Man%20of%20Steel+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Man%20of%20Steel+trailer",
+    "date": "14 Jun 2013"
   },
   {
     "name": "Wonder Woman",
@@ -1628,10 +1629,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Wonder%20Woman+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Wonder%20Woman+trailer",
+    "date": "02 Jun 2017"
   },
   {
     "name": "Justice League",
@@ -1647,10 +1648,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Justice%20League+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Justice%20League+trailer",
+    "date": "17 Nov 2017"
   },
   {
     "name": "Aquaman",
@@ -1666,10 +1667,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Aquaman+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Aquaman+trailer",
+    "date": "21 Dec 2018"
   },
   {
     "name": "Batman v Superman: Dawn of Justice",
@@ -1685,10 +1686,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Batman%20v%20Superman%3A%20Dawn%20of%20Justice+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Batman%20v%20Superman%3A%20Dawn%20of%20Justice+trailer",
+    "date": "25 Mar 2016"
   },
   {
     "name": "Suicide Squad",
@@ -1704,10 +1705,10 @@
       "Adventure",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "5.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Suicide%20Squad+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Suicide%20Squad+trailer",
+    "date": "05 Aug 2016"
   },
   {
     "name": "The Suicide Squad",
@@ -1723,10 +1724,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzUzMjkxMzItMTc0MS00MjAxLWFiZGMtY2YwOGM2Yjk1ZjBmXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Suicide%20Squad+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Suicide%20Squad+trailer",
+    "date": "05 Aug 2021"
   },
   {
     "name": "Deadpool",
@@ -1741,10 +1742,10 @@
       "Action",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "8.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Deadpool+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Deadpool+trailer",
+    "date": "12 Feb 2016"
   },
   {
     "name": "Deadpool 2",
@@ -1760,10 +1761,10 @@
       "Adventure",
       "Comedy"
     ],
-    "studio": "N/A",
     "rating": "7.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ0NTk2MTYtMWZlYS00ZTliLThmZTEtNDVkODgxNmQ2ZGM2XkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Deadpool%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Deadpool%202+trailer",
+    "date": "18 May 2018"
   },
   {
     "name": "X-Men",
@@ -1779,10 +1780,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZmIyMDk5NGYtYjQ5NS00ZWQxLTg2YzQtZDk1ZmM4ZDBlN2E3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men+trailer",
+    "date": "14 Jul 2000"
   },
   {
     "name": "X2: X-Men United",
@@ -1798,10 +1799,10 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDk0NjYxMzIzOF5BMl5BanBnXkFtZTYwMTc1MjU3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X2%3A%20X-Men%20United+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=X2%3A%20X-Men%20United+trailer",
+    "date": "02 May 2003"
   },
   {
     "name": "X-Men: The Last Stand",
@@ -1817,10 +1818,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDBhNDJiMWEtOTg4Yi00NTYzLWEzOGMtMjNmNjAxNTBlMzY3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20The%20Last%20Stand+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20The%20Last%20Stand+trailer",
+    "date": "26 May 2006"
   },
   {
     "name": "X-Men: First Class",
@@ -1835,10 +1836,10 @@
       "Action",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20First%20Class+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20First%20Class+trailer",
+    "date": "03 Jun 2011"
   },
   {
     "name": "X-Men: Days of Future Past",
@@ -1854,10 +1855,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "7.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjk3MGZhMjEtOTM4NC00NzE2LTk2NzctZDc4YTUwN2E3NDhhXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20Days%20of%20Future%20Past+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20Days%20of%20Future%20Past+trailer",
+    "date": "23 May 2014"
   },
   {
     "name": "X-Men: Apocalypse",
@@ -1873,10 +1874,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20Apocalypse+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=X-Men%3A%20Apocalypse+trailer",
+    "date": "27 May 2016"
   },
   {
     "name": "Logan",
@@ -1892,10 +1893,10 @@
       "Drama",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Logan+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Logan+trailer",
+    "date": "03 Mar 2017"
   },
   {
     "name": "Fantastic Beasts and Where to Find Them",
@@ -1911,10 +1912,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "7.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMxOTM1OTI4MV5BMl5BanBnXkFtZTgwODE5OTYxMDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%20and%20Where%20to%20Find%20Them+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%20and%20Where%20to%20Find%20Them+trailer",
+    "date": "18 Nov 2016"
   },
   {
     "name": "Fantastic Beasts: The Crimes of Grindelwald",
@@ -1930,10 +1931,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWVlMDI5N2UtZTIyMC00NjZkLWI5Y2QtODM5NGE5MzA0NmVjXkEyXkFqcGdeQXVyNzU3NjUxMzE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%3A%20The%20Crimes%20of%20Grindelwald+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%3A%20The%20Crimes%20of%20Grindelwald+trailer",
+    "date": "16 Nov 2018"
   },
   {
     "name": "Fantastic Beasts: The Secrets of Dumbledore",
@@ -1949,10 +1950,10 @@
       "Family",
       "Fantasy"
     ],
-    "studio": "N/A",
     "rating": "6.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%3A%20The%20Secrets%20of%20Dumbledore+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Fantastic%20Beasts%3A%20The%20Secrets%20of%20Dumbledore+trailer",
+    "date": "15 Apr 2022"
   },
   {
     "name": "Indiana Jones and the Temple of Doom",
@@ -1967,10 +1968,10 @@
       "Action",
       "Adventure"
     ],
-    "studio": "N/A",
     "rating": "7.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzgzMTIzNzctNmNiZC00ZDYyLWJjNzktMmQ2MDM2ZDkwZGVhXkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Temple%20of%20Doom+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Temple%20of%20Doom+trailer",
+    "date": "23 May 1984"
   },
   {
     "name": "Indiana Jones and the Last Crusade",
@@ -1985,10 +1986,10 @@
       "Action",
       "Adventure"
     ],
-    "studio": "N/A",
     "rating": "8.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BY2Q0ODg4ZmItNDZiYi00ZWY5LTg2NzctNmYwZjA5OThmNzE1XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Last%20Crusade+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Last%20Crusade+trailer",
+    "date": "24 May 1989"
   },
   {
     "name": "Indiana Jones and the Kingdom of the Crystal Skull",
@@ -2003,10 +2004,10 @@
       "Action",
       "Adventure"
     ],
-    "studio": "N/A",
     "rating": "6.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZmY5ZTk3ZDMtZjA1MS00NzU4LTk5ZDItYmNhOTkxMGYxMjRlXkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Kingdom%20of%20the%20Crystal%20Skull+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Indiana%20Jones%20and%20the%20Kingdom%20of%20the%20Crystal%20Skull+trailer",
+    "date": "22 May 2008"
   },
   {
     "name": "Jurassic World",
@@ -2022,10 +2023,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQ3OTY4NjAtNzM5OS00N2ZhLWJlOWUtYzYwZjNmOWRiMzcyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World+trailer",
+    "date": "12 Jun 2015"
   },
   {
     "name": "Jurassic World: Fallen Kingdom",
@@ -2041,10 +2042,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World%3A%20Fallen%20Kingdom+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World%3A%20Fallen%20Kingdom+trailer",
+    "date": "22 Jun 2018"
   },
   {
     "name": "Jurassic World Dominion",
@@ -2060,10 +2061,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "5.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTBjMjA4NmYtN2RjMi00YWZlLTliYTktOTIwMmNkYjYxYmE1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World%20Dominion+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Jurassic%20World%20Dominion+trailer",
+    "date": "10 Jun 2022"
   },
   {
     "name": "Mad Max: Fury Road",
@@ -2079,10 +2080,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mad%20Max%3A%20Fury%20Road+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Mad%20Max%3A%20Fury%20Road+trailer",
+    "date": "15 May 2015"
   },
   {
     "name": "The Terminator",
@@ -2098,10 +2099,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Terminator+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Terminator+trailer",
+    "date": "26 Oct 1984"
   },
   {
     "name": "Terminator 2: Judgment Day",
@@ -2117,10 +2118,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "8.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%202%3A%20Judgment%20Day+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%202%3A%20Judgment%20Day+trailer",
+    "date": "03 Jul 1991"
   },
   {
     "name": "Terminator 3: Rise of the Machines",
@@ -2135,10 +2136,10 @@
       "Action",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTk5NzM1ODgyN15BMl5BanBnXkFtZTcwMzA5MjAzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%203%3A%20Rise%20of%20the%20Machines+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%203%3A%20Rise%20of%20the%20Machines+trailer",
+    "date": "02 Jul 2003"
   },
   {
     "name": "Terminator Salvation",
@@ -2154,10 +2155,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BODBlOTJhZjItMGRmYS00YzM1LWFmZTktOTJmNDMyZTBjMjBkXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%20Salvation+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%20Salvation+trailer",
+    "date": "21 May 2009"
   },
   {
     "name": "Terminator Genisys",
@@ -2173,10 +2174,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%20Genisys+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%20Genisys+trailer",
+    "date": "01 Jul 2015"
   },
   {
     "name": "Terminator: Dark Fate",
@@ -2192,10 +2193,10 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "6.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzhlYjE5MjMtZDJmYy00MGZmLTgwN2MtZGM0NTk2ZTczNmU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%3A%20Dark%20Fate+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Terminator%3A%20Dark%20Fate+trailer",
+    "date": "01 Nov 2019"
   },
   {
     "name": "Rocky",
@@ -2210,10 +2211,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "8.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTBkMjg2MjYtYTZjOS00ODQ0LTg0MDEtM2FiNmJmOGU1NGEwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky+trailer",
+    "date": "03 Dec 1976"
   },
   {
     "name": "Rocky II",
@@ -2228,10 +2229,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "7.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjk2Y2FiYWEtNGViNy00ZDNkLThhZGItMDI5YjQ5NGYxYWJmXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20II+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20II+trailer",
+    "date": "15 Jun 1979"
   },
   {
     "name": "Rocky III",
@@ -2246,10 +2247,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "6.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDJiMzQ4YTAtZjUzZC00NTI4LWI3N2YtYWU4MTdiNzkwNWVmXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20III+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20III+trailer",
+    "date": "28 May 1982"
   },
   {
     "name": "Rocky IV",
@@ -2264,10 +2265,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "6.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQ0NmIyNzMtYTA4My00ZjY3LTkzNjctYzJiZGZmMzYxOTA1XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20IV+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20IV+trailer",
+    "date": "27 Nov 1985"
   },
   {
     "name": "Rocky V",
@@ -2282,10 +2283,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "5.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTM2Mzc4MTYxM15BMl5BanBnXkFtZTcwODY5NTk1NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20V+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20V+trailer",
+    "date": "16 Nov 1990"
   },
   {
     "name": "Rocky Balboa",
@@ -2301,10 +2302,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTM2OTUzNDE3NV5BMl5BanBnXkFtZTcwODczMzkzMQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20Balboa+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Rocky%20Balboa+trailer",
+    "date": "20 Dec 2006"
   },
   {
     "name": "Creed",
@@ -2320,10 +2321,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "7.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNmZkYjQzY2QtNjdkNC00YjkzLTk5NjUtY2MyNDNiYTBhN2M2XkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Creed+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Creed+trailer",
+    "date": "25 Nov 2015"
   },
   {
     "name": "Creed II",
@@ -2339,10 +2340,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmEyNWZhM2YtZDAyNi00ZjYzLWI2ZWMtOWM4ZmI1MDE0OWNmXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Creed%20II+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Creed%20II+trailer",
+    "date": "21 Nov 2018"
   },
   {
     "name": "Creed III",
@@ -2358,10 +2359,10 @@
       "Drama",
       "Sport"
     ],
-    "studio": "N/A",
     "rating": "6.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzIxOTk1NDQtMzJlOC00ODZlLWE1YTAtNTA5ODZlZmZmMDBhXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Creed%20III+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Creed%20III+trailer",
+    "date": "03 Mar 2023"
   },
   {
     "name": "Mission: Impossible - Ghost Protocol",
@@ -2377,10 +2378,10 @@
       "Adventure",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Ghost%20Protocol+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Ghost%20Protocol+trailer",
+    "date": "21 Dec 2011"
   },
   {
     "name": "32. The Making of 'Mission: Impossible 2' (2000), Part 1",
@@ -2393,10 +2394,10 @@
     "tags": [
       "Talk-Show"
     ],
-    "studio": "N/A",
     "rating": "N/A",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGUzOGQzODgtNzhlZS00NDY2LWJhMjYtMzE2MGFlNDU2MzYyXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=32.%20The%20Making%20of%20'Mission%3A%20Impossible%202'%20(2000)%2C%20Part%201+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=32.%20The%20Making%20of%20'Mission%3A%20Impossible%202'%20(2000)%2C%20Part%201+trailer",
+    "date": "25 Jan 2019"
   },
   {
     "name": "Mission: Impossible III",
@@ -2412,10 +2413,10 @@
       "Adventure",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOThhNTA1YjItYzk2Ny00M2Y1LWJlYWUtZDQyZDU0YmY5Y2M5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20III+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20III+trailer",
+    "date": "05 May 2006"
   },
   {
     "name": "Mission: Impossible - Ghost Protocol",
@@ -2431,10 +2432,10 @@
       "Adventure",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Ghost%20Protocol+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Ghost%20Protocol+trailer",
+    "date": "21 Dec 2011"
   },
   {
     "name": "Mission: Impossible - Rogue Nation",
@@ -2450,10 +2451,10 @@
       "Adventure",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.4",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTFmNDA3ZjMtN2Y0MC00NDYyLWFlY2UtNTQ4OTQxMmY1NmVjXkEyXkFqcGdeQXVyNTg4NDQ4NDY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Rogue%20Nation+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Rogue%20Nation+trailer",
+    "date": "31 Jul 2015"
   },
   {
     "name": "Mission: Impossible - Fallout",
@@ -2469,10 +2470,10 @@
       "Adventure",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Fallout+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Mission%3A%20Impossible%20-%20Fallout+trailer",
+    "date": "27 Jul 2018"
   },
   {
     "name": "Die Hard",
@@ -2487,10 +2488,10 @@
       "Action",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "8.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard+trailer",
+    "date": "20 Jul 1988"
   },
   {
     "name": "Die Hard 2",
@@ -2505,10 +2506,10 @@
       "Action",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzMzYzk3ZTEtZDg0My00MTY5LWE3ZmQtYzNhYjhjN2RhZGRjL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard%202+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard%202+trailer",
+    "date": "03 Jul 1990"
   },
   {
     "name": "Die Hard with a Vengeance",
@@ -2524,10 +2525,10 @@
       "Adventure",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjI0ZWFiMmQtMjRlZi00ZmFhLWI4NmYtMjQ5YmY0MzIyMzRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard%20with%20a%20Vengeance+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Die%20Hard%20with%20a%20Vengeance+trailer",
+    "date": "19 May 1995"
   },
   {
     "name": "Live Free or Die Hard",
@@ -2542,10 +2543,10 @@
       "Action",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDQxMDE1OTg4NV5BMl5BanBnXkFtZTcwMTMzOTQzMw@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Live%20Free%20or%20Die%20Hard+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Live%20Free%20or%20Die%20Hard+trailer",
+    "date": "27 Jun 2007"
   },
   {
     "name": "A Good Day to Die Hard",
@@ -2560,10 +2561,10 @@
       "Action",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTcwNzgyNzUzOV5BMl5BanBnXkFtZTcwMzAwOTA5OA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=A%20Good%20Day%20to%20Die%20Hard+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=A%20Good%20Day%20to%20Die%20Hard+trailer",
+    "date": "14 Feb 2013"
   },
   {
     "name": "The Fast and the Furious",
@@ -2579,10 +2580,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fast%20and%20the%20Furious+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fast%20and%20the%20Furious+trailer",
+    "date": "22 Jun 2001"
   },
   {
     "name": "2 Fast 2 Furious",
@@ -2598,10 +2599,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzExYjcyYWMtY2JkOC00NDUwLTg2OTgtMDI3MGY2OWQzMDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=2%20Fast%202%20Furious+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=2%20Fast%202%20Furious+trailer",
+    "date": "06 Jun 2003"
   },
   {
     "name": "The Fast and the Furious: Tokyo Drift",
@@ -2617,10 +2618,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fast%20and%20the%20Furious%3A%20Tokyo%20Drift+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fast%20and%20the%20Furious%3A%20Tokyo%20Drift+trailer",
+    "date": "16 Jun 2006"
   },
   {
     "name": "Fast & Furious",
@@ -2636,10 +2637,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20%26%20Furious+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20%26%20Furious+trailer",
+    "date": "03 Apr 2009"
   },
   {
     "name": "Fast Five",
@@ -2655,10 +2656,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.3",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTUxNTk5MTE0OF5BMl5BanBnXkFtZTcwMjA2NzY3NA@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20Five+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20Five+trailer",
+    "date": "29 Apr 2011"
   },
   {
     "name": "Fast & Furious 6",
@@ -2674,10 +2675,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20%26%20Furious%206+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Fast%20%26%20Furious%206+trailer",
+    "date": "24 May 2013"
   },
   {
     "name": "Furious 7",
@@ -2693,10 +2694,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Furious%207+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Furious%207+trailer",
+    "date": "03 Apr 2015"
   },
   {
     "name": "The Fate of the Furious",
@@ -2712,10 +2713,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fate%20of%20the%20Furious+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Fate%20of%20the%20Furious+trailer",
+    "date": "14 Apr 2017"
   },
   {
     "name": "F9: The Fast Saga",
@@ -2731,10 +2732,10 @@
       "Crime",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=F9%3A%20The%20Fast%20Saga+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=F9%3A%20The%20Fast%20Saga+trailer",
+    "date": "25 Jun 2021"
   },
   {
     "name": "The Exorcist",
@@ -2748,10 +2749,10 @@
     "tags": [
       "Horror"
     ],
-    "studio": "N/A",
     "rating": "8.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWFlZGY2NDktY2ZjOS00ZWNkLTg0ZDAtZDY4MTM1ODU4ZjljXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Exorcist+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Exorcist+trailer",
+    "date": "26 Dec 1973"
   },
   {
     "name": "The Exorcist III",
@@ -2767,10 +2768,10 @@
       "Horror",
       "Mystery"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2U2Y2ZmNjAtZDkwMy00MzZiLWEzODYtZGIxODAyMGEwMjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Exorcist%20III+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=The%20Exorcist%20III+trailer",
+    "date": "17 Aug 1990"
   },
   {
     "name": "Halloween",
@@ -2785,10 +2786,10 @@
       "Horror",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween+trailer",
+    "date": "27 Oct 1978"
   },
   {
     "name": "Halloween II",
@@ -2802,10 +2803,10 @@
     "tags": [
       "Horror"
     ],
-    "studio": "N/A",
     "rating": "6.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjZmYjg0ODctOTIyYy00YzhkLTgyMzEtNjUyY2JiZjVmYzI2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20II+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20II+trailer",
+    "date": "30 Oct 1981"
   },
   {
     "name": "Halloween III: Season of the Witch",
@@ -2821,10 +2822,10 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "studio": "N/A",
     "rating": "5.1",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2YzYjI0MWYtYWUyZS00ZDQ4LWEzN2EtMDU4NDJmNjA2ZWFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20III%3A%20Season%20of%20the%20Witch+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20III%3A%20Season%20of%20the%20Witch+trailer",
+    "date": "22 Oct 1982"
   },
   {
     "name": "Halloween 4: The Return of Michael Myers",
@@ -2839,10 +2840,10 @@
       "Horror",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWNiNjBhZjAtMzVkNi00MTJiLWI0NGQtODE2NmIyNmU2OTQwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%204%3A%20The%20Return%20of%20Michael%20Myers+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%204%3A%20The%20Return%20of%20Michael%20Myers+trailer",
+    "date": "21 Oct 1988"
   },
   {
     "name": "Halloween 5: The Revenge of Michael Myers",
@@ -2857,10 +2858,10 @@
       "Horror",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "4.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZWE2YTU2ZjMtZjRjOS00NjQ3LWIyYzItMTk2N2YxMjY1ZGRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%205%3A%20The%20Revenge%20of%20Michael%20Myers+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%205%3A%20The%20Revenge%20of%20Michael%20Myers+trailer",
+    "date": "13 Oct 1989"
   },
   {
     "name": "Halloween: The Curse of Michael Myers",
@@ -2875,10 +2876,10 @@
       "Horror",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "4.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMzQ3MjgzMWMtMjJhMy00MmVjLTllMzMtMWVjMmMxNTIzNWQ0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%3A%20The%20Curse%20of%20Michael%20Myers+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%3A%20The%20Curse%20of%20Michael%20Myers+trailer",
+    "date": "29 Sep 1995"
   },
   {
     "name": "Halloween H20: 20 Years Later",
@@ -2893,10 +2894,10 @@
       "Horror",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA3ZjMzZWItNWUyNy00ZmNiLWIwYmYtN2UxNWUwMGY5Yzc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20H20%3A%2020%20Years%20Later+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20H20%3A%2020%20Years%20Later+trailer",
+    "date": "05 Aug 1998"
   },
   {
     "name": "Halloween: Resurrection",
@@ -2911,10 +2912,10 @@
       "Horror",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "3.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BODczZDMxNTMtZDIxOC00YWEzLWJkMmEtZjczNGUwZDA2NTNhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%3A%20Resurrection+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%3A%20Resurrection+trailer",
+    "date": "12 Jul 2002"
   },
   {
     "name": "Halloween Kills",
@@ -2930,10 +2931,10 @@
       "Drama",
       "Horror"
     ],
-    "studio": "N/A",
     "rating": "5.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2RmMGY2Y2UtNjA1NS00NGE4LThiNzItMmE1NTk5NzI5NmE0XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20Kills+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20Kills+trailer",
+    "date": "15 Oct 2021"
   },
   {
     "name": "Halloween Ends",
@@ -2949,10 +2950,10 @@
       "Horror",
       "Mystery"
     ],
-    "studio": "N/A",
     "rating": "5.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZTg1Y2Q3MzctMDlkOS00OGE1LWE4MjUtNmJjNDNkZmM2YmVkXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20Ends+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Halloween%20Ends+trailer",
+    "date": "14 Oct 2022"
   },
   {
     "name": "Saw",
@@ -2968,10 +2969,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "7.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2M1MzI1MWYtYmM2ZC00OWY3LTk0ZGMtNmRkNzU1NzEzMWE5XkEyXkFqcGdeQXVyODUwOTkwODk@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Saw+trailer",
+    "date": "29 Oct 2004"
   },
   {
     "name": "Saw II",
@@ -2986,10 +2987,10 @@
       "Horror",
       "Mystery"
     ],
-    "studio": "N/A",
     "rating": "6.6",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjY4Mjg4YTgtZWU2MC00MzVlLTg3MDgtYzUyYzU1NGMyMmU5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20II+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20II+trailer",
+    "date": "28 Oct 2005"
   },
   {
     "name": "Saw III",
@@ -3005,10 +3006,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMxMDBiZWItNDk1NS00ODJkLTlkMmEtNjI0OWQ2NDJkNDQxXkEyXkFqcGdeQXVyMTY2MjE4Njc1._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20III+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20III+trailer",
+    "date": "27 Oct 2006"
   },
   {
     "name": "Saw IV",
@@ -3024,10 +3025,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.9",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20IV+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20IV+trailer",
+    "date": "26 Oct 2007"
   },
   {
     "name": "Saw V",
@@ -3042,10 +3043,10 @@
       "Horror",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.8",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjczOTYxOTktYjJkYy00ZWM2LWEzN2ItNTY1MmI1ZDBiZDU2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20V+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20V+trailer",
+    "date": "24 Oct 2008"
   },
   {
     "name": "Saw VI",
@@ -3061,10 +3062,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "6.0",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMyNTM5MDcyOV5BMl5BanBnXkFtZTcwMzkzMzY4Mg@@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20VI+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%20VI+trailer",
+    "date": "23 Oct 2009"
   },
   {
     "name": "Saw 3D",
@@ -3079,10 +3080,10 @@
       "Horror",
       "Mystery"
     ],
-    "studio": "N/A",
     "rating": "5.5",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYjRhNWIwNzYtODEyYS00YzcxLWEzMmQtZmFhZTJjYjhkYjA3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%203D+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Saw%203D+trailer",
+    "date": "29 Oct 2010"
   },
   {
     "name": "Jigsaw",
@@ -3098,10 +3099,10 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.7",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNmRiZDM4ZmMtOTVjMi00YTNlLTkyNjMtMjI2OTAxNjgwMWM1XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Jigsaw+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Jigsaw+trailer",
+    "date": "27 Oct 2017"
   },
   {
     "name": "Spiral",
@@ -3117,9 +3118,9 @@
       "Mystery",
       "Thriller"
     ],
-    "studio": "N/A",
     "rating": "5.2",
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjI4ZWQwYzctMGJlMi00OTE1LWFkNjMtY2VlOGQxZmVhNDYyXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
-    "trailerUrl": "https://www.youtube.com/results?search_query=Spiral+trailer"
+    "trailerUrl": "https://www.youtube.com/results?search_query=Spiral+trailer",
+    "date": "14 May 2021"
   }
 ]

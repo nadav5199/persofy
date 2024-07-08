@@ -77,10 +77,10 @@ async function fetchMovieData(title) {
                 description: data.Plot,
                 director: data.Director,
                 tags: data.Genre.split(', '),
-                studio: data.Production,
                 rating: data.imdbRating, // Fetch the rating
                 posterUrl: data.Poster,
-                trailerUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(data.Title)}+trailer`
+                trailerUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(data.Title)}+trailer`,
+                date : data.Released
             };
         } else {
             console.error(`Error fetching data for ${title}: ${data.Error}`);

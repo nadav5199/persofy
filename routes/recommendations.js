@@ -12,16 +12,36 @@ module.exports = function (userDb) {
 
 
     async function getRecommendations(userPreferences, movieData, retries = 3) {
+        // Collect user watch history and ratings
+        const watchedMovies = Object.keys(userPreferences.reviews)
+            .map(movieId => {
+                const movie = movieData.find(m => m._id.toString() === movieId);
+                return movie ? `${movie.name} (${userPreferences.reviews[movieId]})` : '';
+            })
+            .filter(Boolean)
+            .join(', ');
+
+        // List all available movies in the database
+        const availableMovies = movieData.map(movie => movie.name).join(', ');
+
+        // Generate prompt for the OpenAI API
         const prompt = `
-        User Preferences:
-        Favorite Genres: ${userPreferences.favoriteGenres.join(', ')}
-        Purchased Movies and Ratings: ${JSON.stringify(userPreferences.reviews)}
+    The user has watched and rated the following movies:
+    ${watchedMovies}
 
-        Available Movies:
-        ${movieData.map(movie => `Name: ${movie.name}, Description: ${movie.description}, Genres: ${movie.tags.join(', ')}, Rating: ${movie.rating}`).join('\n')}
+    The user prefers the following genres:
+    ${userPreferences.favoriteGenres.join(', ')}
 
-        Based on the user preferences and the available movies, recommend movies for the user. 
-        Please return only the names of the movies exactly as they appear in the database, each on a new line without any additional text.
+    Here is a list of movies available in the database:
+    ${availableMovies}
+
+    Based on the user's watch history, ratings, and favorite genres, recommend 10 movies from the available movies list. 
+    Prioritize the following:
+    1. Movies from the same series that the user has watched if applicable.
+    2. Movies with similar tags to the ones the user rated highly.
+    3. Movies that fall under the user's favorite genres.
+
+    Please return only the names of the movies, each on a new line, without any additional text.
     `;
 
         try {
@@ -74,7 +94,7 @@ module.exports = function (userDb) {
 
             // Use stored movies from app locals
             const allMovies = req.app.locals.allMovies;
-            console.log('All movies:', allMovies);
+            //console.log('All movies:', allMovies);
 
             // Use OpenAI API to get recommendations
             const recommendedMovieNames = await getRecommendations({ favoriteGenres, reviews }, allMovies);

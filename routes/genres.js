@@ -12,7 +12,7 @@ module.exports = function (userDb) {
             const genres = await Movie.distinct('tags');
             console.log('Fetched genres:', genres);
 
-            res.render('genres', { genres });
+            res.render('genres', {  userIcon: req.session.userIcon, userName: req.session.userName, cart: req.session.cart || [],genres });
         } catch (err) {
             console.error('Error fetching genres:', err);
             res.status(500).send('Internal Server Error');

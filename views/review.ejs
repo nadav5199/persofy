@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Review Movies</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/review.css">
 </head>
 <body>
 <%- include('partials/header') %>
 <%- include('partials/menu',{userIcon: userIcon,userName: userName ,cart: cart}) %>
-<h1>Rate Your Movies</h1>
-<form action="/review" method="POST">
-    <% movies.forEach(movie => { %>
-        <div class="movie-review">
-            <img src="<%= movie.posterUrl %>" alt="<%= movie.name %>">
-            <h2><%= movie.name %></h2>
-            <label for="rating-<%= movie._id %>">Rating:</label>
-            <select name="reviews[<%= movie._id %>]" id="rating-<%= movie._id %>">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
+<div class="container mt-5">
+    <h1 class="mb-4">Rate Your Movies</h1>
+    <form action="/review" method="POST">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <% movies.forEach(movie => { %>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="<%= movie.posterUrl %>" class="card-img-top" alt="<%= movie.name %>">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= movie.name %></h5>
+                            <div class="star-rating" data-movie-id="<%= movie._id %>">
+                                <span class="star" data-value="5">★</span>
+                                <span class="star" data-value="4">★</span>
+                                <span class="star" data-value="3">★</span>
+                                <span class="star" data-value="2">★</span>
+                                <span class="star" data-value="1">★</span>
+                            </div>
+                            <input type="hidden" name="reviews[<%= movie._id %>]" value="0">
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
         </div>
-    <% }) %>
-    <button type="submit">Submit Reviews</button>
-</form>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <button type="submit" class="btn btn-primary mt-4">Submit Reviews</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/review.js"></script>
 </body>
 </html>

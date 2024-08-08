@@ -1,0 +1,36 @@
+.genre-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.genre-card {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.genre-card:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.genre-card.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.genre-checkbox {
+    display: none;
+}
+
+.genre-label {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}

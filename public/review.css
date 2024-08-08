@@ -1,0 +1,54 @@
+.col {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.star-rating {
+    font-size: 1.2rem;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.star-rating .star {
+    color: #ddd;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 1px;
+}
+
+.star-rating .star:hover,
+.star-rating .star:hover ~ .star {
+    color: #FFD700;
+}
+
+.star-rating .star.active,
+.star-rating .star.active ~ .star {
+    color: #FFD700;
+}

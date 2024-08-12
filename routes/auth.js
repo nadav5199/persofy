@@ -1,6 +1,7 @@
 const express = require('express');
 const { isAuthenticated } = require('../middleware/auth');
 const Activity = require('../DataBase/models/Activity');
+const Movie = require('../DataBase/models/Movie');
 
 /**
  * Defines authentication routes.
@@ -29,7 +30,7 @@ module.exports = function (userDb) {
             } else if (user.password !== password) {
                 res.render('signin', { error: 'Incorrect password', userName: null, cart: [] });
             } else {
-                req.session.regenerate(err => {
+                req.session.regenerate(async err => {
                     if (err) {
                         console.error(err);
                         return res.render('signin', {
@@ -42,9 +43,10 @@ module.exports = function (userDb) {
                     req.session.userId = user._id; // Ensure userId is set in session
                     req.session.userName = user.name;
                     req.session.userIcon = user.icon;
-                    req.session.cart = req.session.cart || [];
+                    // Fetch movie objects based on movie IDs in user's cart
+                    req.session.cart = await Movie.find({_id: {$in: user.cart}}); // Store the movie objects in session.cart;
 
-                    const loginActivity = new Activity({ username: user.name, type: 'login' });
+                    const loginActivity = new Activity({username: user.name, type: 'login'});
                     loginActivity.save();
 
                     if (rememberMe) {
@@ -93,9 +95,20 @@ module.exports = function (userDb) {
         }
     });
 
-    router.post('/logout', (req, res) => {
-        const logoutActivity = new Activity({ username: req.session.userName, type: 'logout' });
+    router.post('/logout', async (req, res) => {
+        const logoutActivity = new Activity({username: req.session.userName, type: 'logout'});
         logoutActivity.save();
+
+        const user = await UserModel.findOne({name: req.session.userName});
+
+        // Extract the movie IDs from the session's cart and save them to the user's cart in the database
+        if (req.session.cart) {
+            user.cart = req.session.cart.map(movie => movie._id);
+        } else {
+            user.cart = [];
+        }
+
+        await user.save();
 
         req.session.destroy(err => {
             if (err) {

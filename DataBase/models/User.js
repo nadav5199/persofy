@@ -11,7 +11,8 @@ const userSchema = new mongoose.Schema({
         of: String,
         default: {}
     },
-    favoriteGenres: [String] // Add this line for favorite genres
+    favoriteGenres: [String], // Add this line for favorite genres
+    cart: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Movie' }]
 });
 
 const User = mongoose.model('User', userSchema);

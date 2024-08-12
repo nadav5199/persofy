@@ -37,9 +37,10 @@ module.exports = function (userDb) {
 
     Based on the user's watch history, ratings, and favorite genres, recommend 10 movies from the available movies list. 
     Prioritize the following:
-    1. Movies from the same series that the user has watched if applicable.
-    2. Movies with similar tags to the ones the user rated highly.
-    3. Movies that fall under the user's favorite genres.
+    1. Movies that were not watched by this user.
+    2. Movies from the same series that the user has watched if applicable.
+    3. Movies with similar tags to the ones the user rated highly.
+    4. Movies that fall under the user's favorite genres.
 
     Please return only the names of the movies, each on a new line, without any additional text.
     `;

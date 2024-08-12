@@ -47,6 +47,28 @@
                         </div>
                     </button>
                 </li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <% cart.forEach(item => { %>
+                            <li style="display: flex; align-items: center;">
+                                <img src="<%= item.posterUrl %>" alt="<%= item.name %>" style="width: 50px; height: 75px; margin-right: 10px;">
+                                <%= item.name %>
+                                <form action="/cart/remove" method="POST" style="display: inline; margin-left: 10px;">
+                                    <input type="hidden" name="movieId" value="<%= item._id %>">
+                                    <button type="submit" style="background: none; border: none; color: red; cursor: pointer;">&times;</button>
+                                </form>
+                            </li>
+                        <% }) %>
+                            <% if (cart.length > 0) { %>
+                                <form action="/payment" method="GET" style="margin-top: 10px;">
+                                    <button type="submit">Proceed to Payment</button>
+                                </form>
+                            <% } %>
+                    </ul>
+                </div>
             </ul>
         </div>
     </div>

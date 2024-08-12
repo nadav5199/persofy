@@ -15,10 +15,20 @@
     <div class="row">
         <div class="col-md-6">
             <img src="<%= movie.posterUrl %>" class="img-fluid" alt="<%= movie.name %>">
-            <form action="/cart/add" method="POST">
-                <input type="hidden" name="movieId" value="<%= movie._id %>">
-                <button type="submit">Add to Cart</button>
-            </form>
+            <%
+            // Check if the movie is already in the cart
+            const movieInCart = cart.some(item => item._id.toString() === movie._id.toString());
+            %>
+            <% if (movieInCart) { %>
+                <div class="alert alert-warning">
+                    Movie already in the cart
+                </div>
+            <% } else { %>
+                <form action="/cart/add" method="POST">
+                    <input type="hidden" name="movieId" value="<%= movie._id %>">
+                    <button type="submit" class="btn btn-primary">Add to Cart</button>
+                </form>
+            <% } %>
         </div>
         <div class="col-md-6">
             <h2><%= movie.name %></h2>

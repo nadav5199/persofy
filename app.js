@@ -3,11 +3,9 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const session = require('./config/session');
-const { connectMoviesDb, connectUsersDb } = require('./config/database');
+const {connectMoviesDb, connectUsersDb} = require('./config/database');
 const Movie = require('./DataBase/models/Movie');
-const rateLimit = require('express-rate-limit');
-const helmet = require('helmet');
-const xss = require('xss-clean');
+const securityMiddleware = require('./middleware/security');
 const app = express();
 
 require('dotenv').config();
@@ -17,32 +15,12 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Security middleware
-app.use(helmet({
-    contentSecurityPolicy: {
-        directives: {
-            defaultSrc: ["'self'"],
-            scriptSrc: ["'self'", "'unsafe-inline'", 'https://cdn.jsdelivr.net'],
-            styleSrc: ["'self'", "'unsafe-inline'", 'https://cdn.jsdelivr.net', 'https://stackpath.bootstrapcdn.com'],
-            imgSrc: ["'self'", 'data:', 'https:'],
-            mediaSrc: ["'self'", 'https:'],
-            frameSrc: ["'self'", 'https:'],
-        },
-    },
-    crossOriginEmbedderPolicy: false,
-}));
-app.use(xss());
-
-// Rate limiting
-const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 100 // limit each IP to 100 requests per windowMs
-});
-app.use(limiter);
+// Apply Security Middleware
+securityMiddleware(app);
 
 // Middleware setup
-app.use(bodyParser.json({ limit: '10kb' }));
-app.use(bodyParser.urlencoded({ extended: true, limit: '10kb' }));
+app.use(bodyParser.json({limit: '10kb'}));
+app.use(bodyParser.urlencoded({extended: true, limit: '10kb'}));
 app.use(methodOverride('_method'));
 app.use(session);
 

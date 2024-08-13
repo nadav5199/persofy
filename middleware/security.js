@@ -7,7 +7,7 @@ const mongoSanitize = require('express-mongo-sanitize');
 module.exports = (app) => {
     // Middleware to bypass security for specific routes
     app.use((req, res, next) => {
-        if (req.path.startsWith('/icons') || req.path.endsWith('/chooseIcon.js') || req.path.startsWith('/choose-icon')) {
+        if (req.path.startsWith('/icons') || req.path.endsWith('/chooseIcon.js') || req.path.startsWith('/admin') || req.path.endsWith('/admin.js') || req.path.startsWith('/choose-icon')) {
             return next();
         }
         helmet({

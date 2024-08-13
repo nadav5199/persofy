@@ -1,5 +1,5 @@
 const express = require('express');
-const { isAuthenticated } = require('../middleware/auth');
+const {isAuthenticated} = require('../middleware/auth');
 const Activity = require('../DataBase/models/Activity');
 const Movie = require('../DataBase/models/Movie');
 const fs = require('fs');
@@ -16,21 +16,21 @@ module.exports = function (userDb) {
     const UserModel = userDb.model('User', require('../DataBase/models/User').schema);
 
     router.get('/signin', (req, res) => {
-        res.render('signin', { error: null, userName: req.session.userName, cart: req.session.cart || [] });
+        res.render('signin', {error: null, userName: req.session.userName, cart: req.session.cart || []});
     });
 
     router.get('/signup', (req, res) => {
-        res.render('signup', { error: null, userName: req.session.userName, cart: req.session.cart || [] });
+        res.render('signup', {error: null, userName: req.session.userName, cart: req.session.cart || []});
     });
 
     router.post('/signin', async (req, res) => {
-        const { name, password, rememberMe } = req.body;
+        const {name, password, rememberMe} = req.body;
         try {
-            const user = await UserModel.findOne({ name });
+            const user = await UserModel.findOne({name});
             if (!user) {
-                res.render('signin', { error: 'User doesn\'t exist', userName: null, cart: [] });
+                res.render('signin', {error: 'User doesn\'t exist', userName: null, cart: []});
             } else if (user.password !== password) {
-                res.render('signin', { error: 'Incorrect password', userName: null, cart: [] });
+                res.render('signin', {error: 'Incorrect password', userName: null, cart: []});
             } else {
                 req.session.regenerate(async err => {
                     if (err) {
@@ -61,19 +61,19 @@ module.exports = function (userDb) {
             }
         } catch (err) {
             console.error(err);
-            res.render('signin', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
+            res.render('signin', {error: 'An error occurred. Please try again.', userName: null, cart: []});
         }
     });
 
 
     router.post('/signup', async (req, res) => {
-        const { name, email, password } = req.body;
+        const {name, email, password} = req.body;
         try {
-            const existingUser = await UserModel.findOne({ email });
+            const existingUser = await UserModel.findOne({email});
             if (existingUser) {
-                res.render('signup', { error: 'User already exists', userName: null, cart: [] });
+                res.render('signup', {error: 'User already exists', userName: null, cart: []});
             } else {
-                const user = new UserModel({ name, email, password });
+                const user = new UserModel({name, email, password});
                 await user.save();
                 req.session.regenerate(err => {
                     if (err) {
@@ -93,7 +93,7 @@ module.exports = function (userDb) {
             }
         } catch (err) {
             console.error(err);
-            res.render('signup', { error: 'An error occurred. Please try again.', userName: null, cart: [] });
+            res.render('signup', {error: 'An error occurred. Please try again.', userName: null, cart: []});
         }
     });
 
@@ -121,35 +121,6 @@ module.exports = function (userDb) {
         });
     });
 
-    router.get('/choose-icon', isAuthenticated, (req, res) => {
-        const iconsDirectory = path.join(__dirname, '../public/icons');
-
-        fs.readdir(iconsDirectory, (err, files) => {
-            if (err) {
-                console.error("Could not list the directory.", err);
-                res.status(500).send("Server Error");
-            } else {
-                const images = files.filter(file => file.endsWith('.jpg') || file.endsWith('.jpeg'));
-                res.render('chooseIcon', {
-                    userName: req.session.userName,
-                    userIcon: req.session.userIcon,
-                    cart: req.session.cart || [],
-                    images: images
-                });
-            }
-        });
-    });
-
-    router.post('/choose-icon', isAuthenticated, async (req, res) => {
-        const { icon } = req.body;
-        const user = await UserModel.findById(req.session.userId);
-        if (user) {
-            user.icon = icon;
-            await user.save();
-            req.session.userIcon = icon;
-        }
-        res.redirect('/genres'); // Redirect to the genres selection page after sign-up
-    });
 
     return router;
 };

@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Apply Security Middleware
-// securityMiddleware(app);
+securityMiddleware(app);
 
 // Middleware setup
 app.use(bodyParser.json({limit: '10kb'}));
@@ -51,6 +51,7 @@ const adminRoutes = require('./routes/admin')(userDb);
 const reviewRoutes = require('./routes/reviews')(userDb);
 const genreRoutes = require('./routes/genres')(userDb);
 const recommendationRoutes = require('./routes/recommendations')(userDb);
+const chooseIconRoutes = require('./routes/chooseIcon')(userDb);
 
 app.use(genreRoutes);
 app.use(reviewRoutes);
@@ -59,6 +60,7 @@ app.use(cartRoutes);
 app.use(movieRoutes);
 app.use(adminRoutes);
 app.use(recommendationRoutes);
+app.use(chooseIconRoutes);
 
 // Global error handler
 app.use((err, req, res, next) => {

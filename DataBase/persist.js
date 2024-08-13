@@ -22,6 +22,7 @@ async function getMovieById(movieId) {
     }
 }
 
+
 // Function to get all movies with optional filters
 async function getAllMovies(query = {}, sortOption = {}) {
     try {
@@ -66,7 +67,7 @@ async function deleteMovieById(movieId) {
 // Function to get a user by ID
 async function getUserById(objectId) {
     try {
-        return await UserModel.findById(objectId);
+        return await UserModel.findById({objectId});
     } catch (error) {
         console.error('Error fetching user by ID:', error);
         throw error;
@@ -76,7 +77,7 @@ async function getUserById(objectId) {
 // Function to get a user by ID
 async function getUserByName(name) {
     try {
-        return await UserModel.findOne(name);
+        return await UserModel.findOne({name});
     } catch (error) {
         console.error('Error fetching user by ID:', error);
         throw error;
@@ -94,7 +95,7 @@ async function saveOrUpdateUser(user) {
 }
 
 
-async function setUser({ name, email, password }) {
+async function setUser(name, email, password ) {
     try {
         const user = new User({ name, email, password }); // Initialize the User model with an object
         await user.save(); // Save and return the user

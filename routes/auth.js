@@ -4,6 +4,8 @@ const Activity = require('../DataBase/models/Activity');
 const Movie = require('../DataBase/models/Movie');
 const fs = require('fs');
 const path = require('path');
+const {getUserByName, getMovieById, logActivity, getMoviesByIds, saveOrUpdateUser} = require("../DataBase/persist");
+
 
 /**
  * Defines authentication routes.
@@ -26,7 +28,7 @@ module.exports = function (userDb) {
     router.post('/signin', async (req, res) => {
         const {name, password, rememberMe} = req.body;
         try {
-            const user = await UserModel.findOne({name});
+            const user = await getUserByName(name);
             if (!user) {
                 res.render('signin', {error: 'User doesn\'t exist', userName: null, cart: []});
             } else if (user.password !== password) {
@@ -46,10 +48,9 @@ module.exports = function (userDb) {
                     req.session.userName = user.name;
                     req.session.userIcon = user.icon;
                     // Fetch movie objects based on movie IDs in user's cart
-                    req.session.cart = await Movie.find({_id: {$in: user.cart}}); // Store the movie objects in session.cart;
+                    req.session.cart = await getMoviesByIds(user.cart); // Store the movie objects in session.cart;
 
-                    const loginActivity = new Activity({username: user.name, type: 'login'});
-                    loginActivity.save();
+                    await logActivity(user.name, 'login');
 
                     if (rememberMe) {
                         req.session.cookie.maxAge = 10 * 24 * 60 * 60 * 1000; // 10 days
@@ -69,7 +70,7 @@ module.exports = function (userDb) {
     router.post('/signup', async (req, res) => {
         const {name, email, password} = req.body;
         try {
-            const existingUser = await UserModel.findOne({email});
+            const existingUser = await getUserByName(name);
             if (existingUser) {
                 res.render('signup', {error: 'User already exists', userName: null, cart: []});
             } else {
@@ -98,10 +99,9 @@ module.exports = function (userDb) {
     });
 
     router.post('/logout', async (req, res) => {
-        const logoutActivity = new Activity({username: req.session.userName, type: 'logout'});
-        logoutActivity.save();
+        await logActivity(req.session.userName, 'logout');
 
-        const user = await UserModel.findOne({name: req.session.userName});
+        const user = await getUserByName(req.session.userName);
 
         // Extract the movie IDs from the session's cart and save them to the user's cart in the database
         if (req.session.cart) {
@@ -110,7 +110,7 @@ module.exports = function (userDb) {
             user.cart = [];
         }
 
-        await user.save();
+        await saveOrUpdateUser(user);
 
         req.session.destroy(err => {
             if (err) {

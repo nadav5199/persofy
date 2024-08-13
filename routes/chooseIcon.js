@@ -2,6 +2,7 @@ const express = require('express');
 const {isAuthenticated} = require('../middleware/auth');
 const fs = require('fs');
 const path = require('path');
+const {getUserById, saveOrUpdateUser} = require("../DataBase/persist");
 
 /**
  * Defines the choose icon routes.
@@ -9,8 +10,6 @@ const path = require('path');
  */
 
 const router = express.Router();
-module.exports = function (userDb) {
-    const UserModel = userDb.model('User', require('../DataBase/models/User').schema);
 
     router.get('/choose-icon', isAuthenticated, (req, res) => {
         const iconsDirectory = path.join(__dirname, '../public/icons');
@@ -33,13 +32,13 @@ module.exports = function (userDb) {
 
     router.post('/choose-icon', isAuthenticated, async (req, res) => {
         const {icon} = req.body;
-        const user = await UserModel.findById(req.session.userId);
+        const user = await getUserById(req.session.userId);
         if (user) {
             user.icon = icon;
-            await user.save();
+            await saveOrUpdateUser(user);
             req.session.userIcon = icon;
         }
         res.redirect('/genres'); // Redirect to the genres selection page after sign-up
-    });
-    return router;
-}
+    })
+    module.exports = router;
+

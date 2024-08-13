@@ -49,9 +49,9 @@ const cartRoutes = require('./routes/cart');
 const movieRoutes = require('./routes/movies');
 const adminRoutes = require('./routes/admin');
 const reviewRoutes = require('./routes/reviews');
-const genreRoutes = require('./routes/genres')(userDb);
+const genreRoutes = require('./routes/genres');
 const recommendationRoutes = require('./routes/recommendations');
-const chooseIconRoutes = require('./routes/chooseIcon')(userDb);
+const chooseIconRoutes = require('./routes/chooseIcon');
 
 app.use(genreRoutes);
 app.use(reviewRoutes);

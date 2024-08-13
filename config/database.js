@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const User = require('../DataBase/models/User');
+const {getUserByName, setUser} = require("../DataBase/persist");
 
 /**
  * Connect to the movies database.
@@ -23,10 +24,9 @@ function connectUsersDb() {
     userDb.once('open', async () => {
         console.log('Users database connected');
         try {
-            const existingAdmin = await userDb.model('User', User.schema).findOne({ name: 'admin' });
+            const existingAdmin = await getUserByName('admin');
             if (!existingAdmin) {
-                const adminUser = new (userDb.model('User', User.schema))({ name: 'admin', password: 'admin', email: 'admin@admin.com' });
-                await adminUser.save();
+                await setUser('admin', 'admin', 'admin@admin');
                 console.log('Admin user created');
             } else {
                 console.log('Admin user already exists');

@@ -3,14 +3,6 @@ const mongoose = require('mongoose');
 const Movie = require('./models/Movie');
 const Activity = require('./models/Activity');
 const User = require('./models/User');
-const {connectMoviesDb, connectUsersDb} = require("../config/database");
-
-
-// Database connections
-connectMoviesDb();
-const userDb = connectUsersDb();
-
-const UserModel = userDb.model('User', require('../DataBase/models/User').schema);
 
 // Function to get a movie by ID
 async function getMovieById(movieId) {
@@ -47,7 +39,7 @@ async function saveMovie(movieData) {
 // Function to update a movie by ID
 async function updateMovieById(movieId, movieData) {
     try {
-        return await Movie.findByIdAndUpdate(movieId, movieData, { new: true });
+        return await Movie.findByIdAndUpdate(movieId, movieData, {new: true});
     } catch (error) {
         console.error('Error updating movie by ID:', error);
         throw error;
@@ -67,7 +59,7 @@ async function deleteMovieById(movieId) {
 // Function to get a user by ID
 async function getUserById(objectId) {
     try {
-        return await UserModel.findById(objectId);
+        return await User.findById(objectId);
     } catch (error) {
         console.error('Error fetching user by ID:', error);
         throw error;
@@ -77,7 +69,7 @@ async function getUserById(objectId) {
 // Function to get a user by ID
 async function getUserByName(name) {
     try {
-        return await UserModel.findOne({name});
+        return await User.findOne({name: name});
     } catch (error) {
         console.error('Error fetching user by ID:', error);
         throw error;
@@ -95,9 +87,9 @@ async function saveOrUpdateUser(user) {
 }
 
 
-async function setUser(name, email, password ) {
+async function setUser(name, email, password) {
     try {
-        const user = new User({ name, email, password }); // Initialize the User model with an object
+        const user = new User({name: name, email: email, password: password}); // Initialize the User model with an object
         await user.save(); // Save and return the user
         return user;
     } catch (error) {
@@ -107,9 +99,9 @@ async function setUser(name, email, password ) {
 }
 
 // Function to log an activity
-async function logActivity(userName , activityData) {
+async function logActivity(userName, activityData) {
     try {
-        const activity = new Activity({username : userName ,type : activityData});
+        const activity = new Activity({username: userName, type: activityData});
         return await activity.save();
     } catch (error) {
         console.error('Error logging activity:', error);
@@ -117,20 +109,21 @@ async function logActivity(userName , activityData) {
     }
 }
 
-async function getActivity(query){
+async function getActivity(query) {
     return Activity.find(query).sort({datetime: -1});
 }
 
 // Function to get movies by their IDs
 async function getMoviesByIds(ids) {
     try {
-        return await Movie.find({ _id: { $in: ids } });
+        return await Movie.find({_id: {$in: ids}});
     } catch (error) {
         console.error('Error fetching movies by IDs:', error);
         throw error;
     }
 }
-async function getTags(){
+
+async function getTags() {
     return Movie.distinct('tags');
 }
 

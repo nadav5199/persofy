@@ -46,7 +46,7 @@ app.use((req, res, next) => {
 // Routes
 const authRoutes = require('./routes/auth')(userDb);
 const cartRoutes = require('./routes/cart');
-const movieRoutes = require('./routes/movies')(userDb);
+const movieRoutes = require('./routes/movies');
 const adminRoutes = require('./routes/admin')(userDb);
 const reviewRoutes = require('./routes/reviews')(userDb);
 const genreRoutes = require('./routes/genres')(userDb);

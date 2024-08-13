@@ -76,9 +76,9 @@ router.post('/complete-payment', isAuthenticated, async (req, res) => {
         console.log('Completing payment for user ID:', userId);
 
         // Convert userId to ObjectId
-        const objectId = new mongoose.Types.ObjectId(userId);
+        //const objectId = new mongoose.Types.ObjectId(userId);
 
-        const user = await getUserById(objectId);
+        const user = await getUserById(userId);
         if (!user) {
             console.log('User not found with ID:', userId);
             return res.status(404).send('User not found');

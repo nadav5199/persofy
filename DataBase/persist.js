@@ -67,7 +67,7 @@ async function deleteMovieById(movieId) {
 // Function to get a user by ID
 async function getUserById(objectId) {
     try {
-        return await UserModel.findById({objectId});
+        return await UserModel.findById(objectId);
     } catch (error) {
         console.error('Error fetching user by ID:', error);
         throw error;

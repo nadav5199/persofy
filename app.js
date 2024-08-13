@@ -44,13 +44,13 @@ app.use((req, res, next) => {
 });
 
 // Routes
-const authRoutes = require('./routes/auth')(userDb);
+const authRoutes = require('./routes/auth');
 const cartRoutes = require('./routes/cart');
 const movieRoutes = require('./routes/movies');
 const adminRoutes = require('./routes/admin');
-const reviewRoutes = require('./routes/reviews')(userDb);
+const reviewRoutes = require('./routes/reviews');
 const genreRoutes = require('./routes/genres')(userDb);
-const recommendationRoutes = require('./routes/recommendations')(userDb);
+const recommendationRoutes = require('./routes/recommendations');
 const chooseIconRoutes = require('./routes/chooseIcon')(userDb);
 
 app.use(genreRoutes);

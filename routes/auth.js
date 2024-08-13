@@ -2,6 +2,8 @@ const express = require('express');
 const { isAuthenticated } = require('../middleware/auth');
 const Activity = require('../DataBase/models/Activity');
 const Movie = require('../DataBase/models/Movie');
+const fs = require('fs');
+const path = require('path');
 
 /**
  * Defines authentication routes.
@@ -120,7 +122,22 @@ module.exports = function (userDb) {
     });
 
     router.get('/choose-icon', isAuthenticated, (req, res) => {
-        res.render('chooseIcon', { userName: req.session.userName, userIcon: req.session.userIcon, cart: req.session.cart || [] });
+        const iconsDirectory = path.join(__dirname, '../public/icons');
+
+        fs.readdir(iconsDirectory, (err, files) => {
+            if (err) {
+                console.error("Could not list the directory.", err);
+                res.status(500).send("Server Error");
+            } else {
+                const images = files.filter(file => file.endsWith('.jpg') || file.endsWith('.jpeg'));
+                res.render('chooseIcon', {
+                    userName: req.session.userName,
+                    userIcon: req.session.userIcon,
+                    cart: req.session.cart || [],
+                    images: images
+                });
+            }
+        });
     });
 
     router.post('/choose-icon', isAuthenticated, async (req, res) => {

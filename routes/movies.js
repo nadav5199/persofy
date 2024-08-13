@@ -106,7 +106,7 @@ router.post('/complete-payment', isAuthenticated, async (req, res) => {
         req.session.recentlyPurchasedMovies = movieIds;
         req.session.cart = [];
 
-        await logActivity(user.name, {type: 'purchase', datetime: new Date()});
+        await logActivity(user.name, 'purchase');
 
         res.redirect('/review');
     } catch (err) {

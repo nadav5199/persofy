@@ -108,7 +108,7 @@ async function setUser({ name, email, password }) {
 // Function to log an activity
 async function logActivity(userName , activityData) {
     try {
-        const activity = new Activity({userName , activityData});
+        const activity = new Activity({username : userName ,type : activityData});
         return await activity.save();
     } catch (error) {
         console.error('Error logging activity:', error);

@@ -2,6 +2,7 @@
 const helmet = require('helmet');
 const xss = require('xss-clean');
 const rateLimit = require('express-rate-limit');
+const mongoSanitize = require('express-mongo-sanitize');
 
 module.exports = (app) => {
     // Helmet to secure the app by setting various HTTP headers
@@ -28,4 +29,9 @@ module.exports = (app) => {
         max: 100 // limit each IP to 100 requests per windowMs
     });
     app.use(limiter);
+
+    // Protect against NoSQL Injection Attacks
+    app.use(mongoSanitize({
+        replaceWith: '_', // Replace prohibited characters with '_'
+    }));
 };

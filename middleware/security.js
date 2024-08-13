@@ -5,32 +5,37 @@ const rateLimit = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 
 module.exports = (app) => {
-    // Helmet to secure the app by setting various HTTP headers
-    app.use(helmet({
-        contentSecurityPolicy: {
-            directives: {
-                defaultSrc: ["'self'"],
-                scriptSrc: ["'self'", "'unsafe-inline'", 'https://cdn.jsdelivr.net'],
-                styleSrc: ["'self'", "'unsafe-inline'", 'https://cdn.jsdelivr.net', 'https://stackpath.bootstrapcdn.com'],
-                imgSrc: ["'self'", 'data:', 'https:'],
-                mediaSrc: ["'self'", 'https:'],
-                frameSrc: ["'self'", 'https:'],
+    // Middleware to bypass security for specific routes
+    app.use((req, res, next) => {
+        if (req.path.startsWith('/icons') || req.path.endsWith('/chooseIcon.js') || req.path.startsWith('/choose-icon')) {
+            return next();
+        }
+        helmet({
+            contentSecurityPolicy: {
+                directives: {
+                    defaultSrc: ["'self'"],
+                    scriptSrc: ["'self'", "'unsafe-inline'", 'https://cdn.jsdelivr.net'],
+                    styleSrc: ["'self'", "'unsafe-inline'", 'https://cdn.jsdelivr.net', 'https://stackpath.bootstrapcdn.com'],
+                    imgSrc: ["'self'", 'data:', 'https:'],
+                    mediaSrc: ["'self'", 'https:'],
+                    frameSrc: ["'self'", 'https:'],
+                },
             },
-        },
-        crossOriginEmbedderPolicy: false,
-    }));
+            crossOriginEmbedderPolicy: false,
+        })(req, res, next);
+    });
 
-    // XSS Protection
+    // Apply XSS Protection to all routes
     app.use(xss());
 
-    // Rate Limiting
+    // Apply Rate Limiting to all routes
     const limiter = rateLimit({
         windowMs: 15 * 60 * 1000, // 15 minutes
         max: 100 // limit each IP to 100 requests per windowMs
     });
     app.use(limiter);
 
-    // Protect against NoSQL Injection Attacks
+    // Protect against NoSQL Injection Attacks for all routes
     app.use(mongoSanitize({
         replaceWith: '_', // Replace prohibited characters with '_'
     }));

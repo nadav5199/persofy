@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Apply Security Middleware
-securityMiddleware(app);
+// securityMiddleware(app);
 
 // Middleware setup
 app.use(bodyParser.json({limit: '10kb'}));

@@ -1,6 +1,5 @@
 const express = require('express');
-const {getUserByName, getMovieById, logActivity, getMoviesByIds, saveOrUpdateUser, setUser} = require("../DataBase/persist");
-
+const {getUserByName, logActivity, getMoviesByIds, saveOrUpdateUser, setUser} = require("../DataBase/persist");
 
 
 const router = express.Router();

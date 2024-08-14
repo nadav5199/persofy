@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Movie = require('../DataBase/models/Movie');
 const {getTags, getUserById, saveOrUpdateUser} = require("../DataBase/persist");
 
 const router = express.Router();

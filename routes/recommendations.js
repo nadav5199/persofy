@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const {isAuthenticated} = require('../middleware/auth');
 const openai = require('../config/openaiConfig');
-const Movie = require('../DataBase/models/Movie');
 const {getUserById, getAllMovies} = require("../DataBase/persist");
 
 const router = express.Router();

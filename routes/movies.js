@@ -1,5 +1,4 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const {isAuthenticated} = require('../middleware/auth');
 const {getAllMovies, getMovieById, saveOrUpdateUser, logActivity, getUserById} = require('../DataBase/persist');
 

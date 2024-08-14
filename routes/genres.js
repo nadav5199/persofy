@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const {getTags, getUserById, saveOrUpdateUser} = require("../DataBase/persist");
 
 const router = express.Router();
+
 // Route to display the genres page
 router.get('/genres', async (req, res) => {
     try {
@@ -11,9 +12,9 @@ router.get('/genres', async (req, res) => {
         console.log('Fetched genres:', genres);
 
         res.render('genres', {
-            userIcon: req.session.userIcon,
-            userName: req.session.userName,
-            cart: req.session.cart || [],
+            userIcon: req.cookies.userIcon,
+            userName: req.cookies.userName,
+            cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : [],
             genres
         });
     } catch (err) {
@@ -27,10 +28,9 @@ router.post('/genres', async (req, res) => {
     const {favoriteGenres} = req.body; // Assuming favoriteGenres is an array of selected genres
     console.log('Selected favorite genres:', favoriteGenres);
     try {
-        const userId = req.session.userId;
+        const userId = req.cookies.userId;
         console.log('Saving favorite genres for user ID:', userId);
 
-        // Convert userId to ObjectId
         const objectId = new mongoose.Types.ObjectId(userId);
 
         const user = await getUserById(objectId);
@@ -49,5 +49,5 @@ router.post('/genres', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 })
-module.exports = router;
 
+module.exports = router;

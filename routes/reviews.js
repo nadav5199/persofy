@@ -5,14 +5,12 @@ const {getUserById, getMoviesByIds, saveOrUpdateUser} = require("../DataBase/per
 
 const router = express.Router();
 
-
 // Route to display the review page
 router.get('/review', isAuthenticated, async (req, res) => {
     try {
-        const userId = req.session.userId;
+        const userId = req.cookies.userId;
         console.log('Fetching user with ID:', userId);
 
-        // Convert userId to ObjectId
         const objectId = new mongoose.Types.ObjectId(userId);
 
         const user = await getUserById(objectId);
@@ -21,18 +19,17 @@ router.get('/review', isAuthenticated, async (req, res) => {
             return res.status(404).send('User not found');
         }
 
-        // Fetch only the recently purchased movies
-        const recentlyPurchasedMovieIds = req.session.recentlyPurchasedMovies || [];
+        const recentlyPurchasedMovieIds = req.cookies.recentlyPurchasedMovies ? JSON.parse(req.cookies.recentlyPurchasedMovies) : [];
         console.log('Recently purchased movie IDs:', recentlyPurchasedMovieIds);
 
         const movies = await getMoviesByIds(recentlyPurchasedMovieIds);
         console.log('Fetched recently purchased movies:', movies);
 
         res.render('review', {
-            userName: req.session.userName,
-            userIcon: req.session.userIcon,
+            userName: req.cookies.userName,
+            userIcon: req.cookies.userIcon,
             movies,
-            cart: req.session.cart || []
+            cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []
         });
     } catch (err) {
         console.error('Error fetching movies for review:', err);
@@ -45,10 +42,9 @@ router.post('/review', isAuthenticated, async (req, res) => {
     const {reviews} = req.body; // Assuming reviews is an object with movieId:rating pairs
     console.log('Received reviews:', reviews);
     try {
-        const userId = req.session.userId;
+        const userId = req.cookies.userId;
         console.log('Saving reviews for user ID:', userId);
 
-        // Convert userId to ObjectId
         const objectId = new mongoose.Types.ObjectId(userId);
 
         const user = await getUserById(objectId);
@@ -57,14 +53,13 @@ router.post('/review', isAuthenticated, async (req, res) => {
             return res.status(404).send('User not found');
         }
 
-        // Ensure reviews is an object
         if (!user.reviews || typeof user.reviews !== 'object') {
             user.reviews = {};
         }
 
         for (const [movieId, rating] of Object.entries(reviews)) {
             console.log(`Setting rating for movie ${movieId} to ${rating}`);
-            user.reviews.set(movieId, rating);  // Use .set() to update the Map
+            user.reviews.set(movieId, rating);
         }
 
         console.log('Updated user reviews:', user.reviews);
@@ -76,4 +71,5 @@ router.post('/review', isAuthenticated, async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 })
+
 module.exports = router;

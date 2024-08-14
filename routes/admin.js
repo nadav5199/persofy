@@ -2,7 +2,6 @@ const express = require('express');
 const {isAuthenticated, isAdmin} = require('../middleware/auth');
 const {getAllMovies, saveMovie, updateMovieById, deleteMovieById, getActivity} = require("../DataBase/persist");
 
-
 const router = express.Router();
 
 router.get('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
@@ -27,12 +26,11 @@ router.get('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
         movies,
         sort,
         search,
-        userName: req.session.userName,
-        userIcon: req.session.userIcon,
-        cart: req.session.cart || []
+        userName: req.cookies.userName,
+        userIcon: req.cookies.userIcon,
+        cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []
     });
 });
-
 
 router.post('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
     const {name, description, director, actors, rating, posterUrl, trailerUrl, tags} = req.body;
@@ -88,9 +86,10 @@ router.get('/admin/activity', isAuthenticated, isAdmin, async (req, res) => {
     const activities = await getActivity(query);
     res.render('adminActivity', {
         activities,
-        userName: req.session.userName,
-        userIcon: req.session.userIcon,
-        cart: req.session.cart || []
+        userName: req.cookies.userName,
+        userIcon: req.cookies.userIcon,
+        cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []
     });
 })
+
 module.exports = router;

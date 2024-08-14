@@ -1,12 +1,14 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 const methodOverride = require('method-override');
 const session = require('./config/session');
 const {connectMoviesDb, connectUsersDb} = require('./config/database');
 const Movie = require('./DataBase/models/Movie');
 const securityMiddleware = require('./middleware/security');
 const app = express();
+
 
 require('dotenv').config();
 
@@ -23,6 +25,7 @@ app.use(bodyParser.json({limit: '10kb'}));
 app.use(bodyParser.urlencoded({extended: true, limit: '10kb'}));
 app.use(methodOverride('_method'));
 app.use(session);
+app.use(cookieParser());
 
 // Database connections
 connectMoviesDb();

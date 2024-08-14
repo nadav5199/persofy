@@ -5,7 +5,7 @@
  * @param {Function} next - Next middleware function.
  */
 function isAuthenticated(req, res, next) {
-    if (req.session.userId) {
+    if (req.cookies.userId) {
         return next();
     } else {
         res.redirect('/signin');
@@ -19,7 +19,7 @@ function isAuthenticated(req, res, next) {
  * @param {Function} next - Next middleware function.
  */
 function isAdmin(req, res, next) {
-    if (req.session.userName === 'admin') {
+    if (req.cookies.userName === 'admin') {
         return next();
     } else {
         res.status(403).send('Access denied');

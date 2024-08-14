@@ -67,10 +67,9 @@ async function getRecommendations(userPreferences, movieData, retries = 3) {
 // Route to display the "For You" page
 router.get('/foryou', isAuthenticated, async (req, res) => {
     try {
-        const userId = req.session.userId;
+        const userId = req.cookies.userId;
         console.log('Fetching user with ID:', userId);
 
-        // Convert userId to ObjectId
         const objectId = new mongoose.Types.ObjectId(userId);
 
         const user = await getUserById(objectId);
@@ -81,30 +80,25 @@ router.get('/foryou', isAuthenticated, async (req, res) => {
 
         const favoriteGenres = user.favoriteGenres || [];
         const purchasedMovies = user.purchasedMovies || [];
-        const purchasedMovieIds = purchasedMovies.map(movie => movie.toString());
         const reviews = user.reviews || {};
 
         console.log('User favorite genres:', favoriteGenres);
-        console.log('User purchased movie IDs:', purchasedMovieIds);
+        console.log('User purchased movie IDs:', purchasedMovies);
         console.log('User reviews:', reviews);
 
-        // Use stored movies from app locals
         const allMovies = await getAllMovies();
-        //console.log('All movies:', allMovies);
 
-        // Use OpenAI API to get recommendations
         const recommendedMovieNames = await getRecommendations({favoriteGenres, reviews}, allMovies);
         console.log('Recommended movie names:', recommendedMovieNames);
 
-        // Filter the recommended movies from the full movie list
         const recommendedMovies = allMovies.filter(movie => recommendedMovieNames.includes(movie.name));
         console.log('Recommended movies:', recommendedMovies);
 
         res.render('foryou', {
-            userName: req.session.userName,
-            userIcon: req.session.userIcon,
+            userName: req.cookies.userName,
+            userIcon: req.cookies.userIcon,
             recommendedMovies,
-            cart: req.session.cart || []
+            cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []
         });
     } catch (err) {
         console.error('Error fetching recommendations:', err);

@@ -1,14 +1,14 @@
 const express = require('express');
 const {getUserByName, logActivity, getMoviesByIds, saveOrUpdateUser, setUser} = require("../DataBase/persist");
 
-
 const router = express.Router();
+
 router.get('/signin', (req, res) => {
-    res.render('signin', {error: null, userName: req.session.userName, cart: req.session.cart || []});
+    res.render('signin', {error: null, userName: req.cookies.userName, cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []});
 });
 
 router.get('/signup', (req, res) => {
-    res.render('signup', {error: null, userName: req.session.userName, cart: req.session.cart || []});
+    res.render('signup', {error: null, userName: req.cookies.userName, cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []});
 });
 
 router.post('/signin', async (req, res) => {
@@ -30,19 +30,15 @@ router.post('/signin', async (req, res) => {
                     });
                 }
 
-                req.session.userId = user._id; // Ensure userId is set in session
-                req.session.userName = user.name;
-                req.session.userIcon = user.icon;
-                // Fetch movie objects based on movie IDs in user's cart
-                req.session.cart = await getMoviesByIds(user.cart); // Store the movie objects in session.cart;
+                res.cookie('userId', user._id.toString(), { maxAge: rememberMe ? 10 * 24 * 60 * 60 * 1000 : 30 * 60 * 1000, httpOnly: true });
+                res.cookie('userName', user.name, { maxAge: rememberMe ? 10 * 24 * 60 * 60 * 1000 : 30 * 60 * 1000, httpOnly: true });
+                res.cookie('userIcon', user.icon, { maxAge: rememberMe ? 10 * 24 * 60 * 60 * 1000 : 30 * 60 * 1000, httpOnly: true });
+
+                const cart = await getMoviesByIds(user.cart); // Store the movie objects in cookie;
+                res.cookie('cart', JSON.stringify(cart), { maxAge: rememberMe ? 10 * 24 * 60 * 60 * 1000 : 30 * 60 * 1000, httpOnly: true });
 
                 await logActivity(user.name, 'login');
 
-                if (rememberMe) {
-                    req.session.cookie.maxAge = 10 * 24 * 60 * 60 * 1000; // 10 days
-                } else {
-                    req.session.cookie.maxAge = 30 * 60 * 1000; // 30 minutes
-                }
                 res.redirect('/');
             });
         }
@@ -51,7 +47,6 @@ router.post('/signin', async (req, res) => {
         res.render('signin', {error: 'An error occurred. Please try again.', userName: null, cart: []});
     }
 });
-
 
 router.post('/signup', async (req, res) => {
     const {name, email, password} = req.body;
@@ -72,9 +67,10 @@ router.post('/signup', async (req, res) => {
                     });
                 }
 
-                req.session.userId = user._id;
-                req.session.userName = user.name;
-                req.session.cart = [];
+                res.cookie('userId', user._id.toString(), { maxAge: 24 * 60 * 60 * 1000, httpOnly: true });
+                res.cookie('userName', user.name, { maxAge: 24 * 60 * 60 * 1000, httpOnly: true });
+                res.cookie('cart', JSON.stringify([]), { maxAge: 24 * 60 * 60 * 1000, httpOnly: true });
+
                 res.redirect('/choose-icon');
             });
         }
@@ -85,25 +81,24 @@ router.post('/signup', async (req, res) => {
 });
 
 router.post('/logout', async (req, res) => {
-    await logActivity(req.session.userName, 'logout');
+    await logActivity(req.cookies.userName, 'logout');
 
-    const user = await getUserByName(req.session.userName);
+    const user = await getUserByName(req.cookies.userName);
 
-    // Extract the movie IDs from the session's cart and save them to the user's cart in the database
-    if (req.session.cart) {
-        user.cart = req.session.cart.map(movie => movie._id);
+    if (req.cookies.cart) {
+        user.cart = JSON.parse(req.cookies.cart).map(movie => movie._id);
     } else {
         user.cart = [];
     }
 
     await saveOrUpdateUser(user);
 
-    req.session.destroy(err => {
-        if (err) {
-            return res.redirect('/');
-        }
-        res.clearCookie('connect.sid');
-        res.redirect('/signin');
-    });
+    res.clearCookie('userId');
+    res.clearCookie('userName');
+    res.clearCookie('userIcon');
+    res.clearCookie('cart');
+    res.clearCookie('recentlyPurchasedMovies');
+    res.redirect('/signin');
 })
+
 module.exports = router;

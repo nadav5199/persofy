@@ -6,21 +6,21 @@ const router = express.Router();
 
 router.post('/cart/add', isAuthenticated, async (req, res) => {
     const {movieId} = req.body;
-    if (!req.session.cart) {
-        req.session.cart = [];
-    }
+    let cart = req.cookies.cart ? JSON.parse(req.cookies.cart) : [];
     const movie = await getMovieById(movieId);
     if (movie) {
-        req.session.cart.push(movie);
-
-        await logActivity(req.session.userName, 'add-to-cart');
+        cart.push(movie);
+        res.cookie('cart', JSON.stringify(cart), {httpOnly: true});
+        await logActivity(req.cookies.userName, 'add-to-cart');
     }
     res.redirect('/');
 });
 
 router.post('/cart/remove', isAuthenticated, (req, res) => {
     const {movieId} = req.body;
-    req.session.cart = req.session.cart.filter(movie => movie._id.toString() !== movieId);
+    let cart = req.cookies.cart ? JSON.parse(req.cookies.cart) : [];
+    cart = cart.filter(movie => movie._id.toString() !== movieId);
+    res.cookie('cart', JSON.stringify(cart), {maxAge: 24 * 60 * 60 * 1000, httpOnly: true});
     res.redirect('/');
 });
 

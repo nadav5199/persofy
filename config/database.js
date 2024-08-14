@@ -26,7 +26,7 @@ function connectUsersDb() {
         try {
             const existingAdmin = await getUserByName('admin');
             if (!existingAdmin) {
-                await setUser('admin', 'admin', 'admin@admin');
+                await setUser('admin', 'admin@admin', 'admin');
                 console.log('Admin user created');
             } else {
                 console.log('Admin user already exists');

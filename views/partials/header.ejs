@@ -41,52 +41,51 @@
                 <li>
                     <button class="hamburger-btn" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                        <div class="hamburger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
+                        <svg  aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                        </svg>
                     </button>
                 </li>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                             viewBox="0 0 24 24">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                  stroke-width="1.8"
-                                  d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
-                        </svg>
-                        <span class="badge bg-danger  bottom-0 start-0 translate-middle  rounded-circle">
+
+            </ul>
+            <div class="dropdown cart">
+                <button class="btn dropdown-toggle" style="color: white" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                         viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                              stroke-width="1.8"
+                              d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                    </svg>
+                    <span class="badge bg-danger  bottom-0 start-0 translate-middle  rounded-circle">
                             <%=cart.length%>
                         </span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <% if (cart.length > 0) { %>
-                            <% cart.forEach(item => { %>
-                                <li style="display: flex; align-items: center;">
-                                    <img src="<%= item.posterUrl %>" alt="<%= item.name %>"
-                                         style="width: 50px; height: 75px; margin-right: 10px;">
-                                    <%= item.name %>
-                                    <form action="/cart/remove" method="POST"
-                                          style="display: inline; margin-left: 10px;">
-                                        <input type="hidden" name="movieId" value="<%= item._id %>">
-                                        <button type="submit"
-                                                style="background: none; border: none; color: red; cursor: pointer;">
-                                            &times;
-                                        </button>
-                                    </form>
-                                </li>
-                            <% }) %>
-                            <form action="/payment" method="GET" style="margin-top: 10px;">
-                                <button type="submit">Proceed to Payment</button>
-                            </form>
-                        <% }else{ %>
-                            <li>Your shopping cart is empty</li>
-                        <% } %>
-                    </ul>
-                </div>
-            </ul>
+                </button>
+                <ul class="dropdown-menu w-100">
+                    <% if (cart.length > 0) { %>
+                        <% cart.forEach(item => { %>
+                            <li style="display: flex; align-items: center;">
+                                <img src="<%= item.posterUrl %>" alt="<%= item.name %>"
+                                     style="width: 50px; height: 75px; margin-right: 10px;">
+                                <%= item.name %>
+                                <form action="/cart/remove" method="POST"
+                                      style="display: inline; margin-left: 10px;">
+                                    <input type="hidden" name="movieId" value="<%= item._id %>">
+                                    <button type="submit"
+                                            style="background: none; border: none; color: red; cursor: pointer;">
+                                        &times;
+                                    </button>
+                                </form>
+                            </li>
+                        <% }) %>
+                        <form action="/payment" method="GET" style="margin-top: 10px;">
+                            <button type="submit">Proceed to Payment</button>
+                        </form>
+                    <% }else{ %>
+                        <li>Your shopping cart is empty</li>
+                    <% } %>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>

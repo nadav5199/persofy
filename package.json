@@ -4,7 +4,7 @@
   "description": "final project in full stack course",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,10 @@
     "method-override": "^3.0.0",
     "mongoose": "^8.4.4",
     "openai": "^4.52.3",
+    "supertest": "^7.0.0",
     "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

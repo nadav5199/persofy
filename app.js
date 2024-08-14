@@ -13,7 +13,7 @@ const app = express();
 require('dotenv').config();
 
 // Set view engine and static files directory
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 

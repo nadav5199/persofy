@@ -31,11 +31,6 @@ const userDb = connectUsersDb();
 // Make the userDb and movieDb connections accessible to other modules
 app.set('userDb', userDb);
 
-Movie.find().then(movies => {
-    app.locals.allMovies = movies;
-}).catch(err => {
-    console.error('Error fetching movies:', err);
-});
 
 // Remove this in production
 app.use((req, res, next) => {

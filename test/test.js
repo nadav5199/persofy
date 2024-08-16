@@ -3,7 +3,14 @@ import fetch from 'node-fetch';
 // Define the base URL of your server
 const baseUrl = 'http://localhost:3000';
 
-// Helper function to check the status of a response
+/**
+ * Helper function to check the status of a response.
+ * Logs whether the test passed or failed based on the expected status code.
+ *
+ * @param {Response} response - The response object from the fetch request.
+ * @param {number} expectedStatus - The expected HTTP status code.
+ * @param {string} testName - The name of the test for logging purposes.
+ */
 function checkStatus(response, expectedStatus, testName) {
     if (response.status === expectedStatus) {
         console.log(`✓ ${testName}`);
@@ -12,7 +19,11 @@ function checkStatus(response, expectedStatus, testName) {
     }
 }
 
-// Test suite
+/**
+ * Test suite to run GET requests against various routes.
+ * This suite checks if the server responds correctly for different endpoints,
+ * including home, signin, signup, and others.
+ */
 async function runGETTests() {
     // Test the root (home) page
     try {
@@ -37,7 +48,6 @@ async function runGETTests() {
     } catch (error) {
         console.error('Error in GET /signup:', error);
     }
-
 
     // Test the review page (unauthenticated)
     try {
@@ -78,9 +88,12 @@ async function runGETTests() {
     }
 }
 
-
+/**
+ * Test suite to run POST requests against various routes.
+ * This suite checks if the server responds correctly for POST requests to signin and review routes.
+ */
 async function runPOSTTests() {
-// Example POST request to the /signin route
+    // Example POST request to the /signin route with invalid user credentials
     let response = await fetch(`${baseUrl}/signin`, {
         redirect: 'manual',
         method: 'POST',
@@ -92,6 +105,7 @@ async function runPOSTTests() {
             password: 'password123'
         }),
     });
+
     const responseBody = await response.text();
     // Check for the expected error message in the response
     if (response.status === 200 && responseBody.includes('User doesn&#39;t exist')) {
@@ -100,7 +114,7 @@ async function runPOSTTests() {
         console.log(`✗ POST /signin (invalid user) - Expected error message not found. Received: ${responseBody}`);
     }
 
-// Example POST request to the /review route
+    // Example POST request to the /review route with a valid user ID
     response = await fetch(`${baseUrl}/review`, {
         method: 'POST',
         headers: {
@@ -115,19 +129,20 @@ async function runPOSTTests() {
         })
     });
 
+    // Check the status code of the response
     if (response.status === 200) {
         console.log('✓ POST /review passed');
     } else {
         console.log(`✗ POST /review - Expected 200, got ${response.status}`);
     }
 }
-// Run the tests
+
+// Run the GET tests
 await runGETTests().then(() => {
     console.log('All GET tests executed.');
 });
 
-// Run the tests
+// Run the POST tests
 runPOSTTests().then(() => {
     console.log('All POST tests executed.');
 });
-

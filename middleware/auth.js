@@ -1,28 +1,28 @@
 /**
- * Middleware to check if the user is authenticated.
- * @param {Request} req - Express request object.
- * @param {Response} res - Express response object.
- * @param {Function} next - Next middleware function.
+ * Authentication and Authorization Middleware:
+ * Handles checking if a user is authenticated or has admin rights.
+ *
+ * Functions:
+ * - isAuthenticated: Verifies if the user is logged in by checking for the userId cookie.
+ * - isAdmin: Verifies if the logged-in user has admin rights by checking if the userName cookie is 'admin'.
+ *
+ * Dependencies:
+ * - express: Web framework (implied by the middleware setup)
  */
+
 function isAuthenticated(req, res, next) {
     if (req.cookies.userId) {
-        return next();
+        return next(); // Proceed if user is authenticated
     } else {
-        res.redirect('/signin');
+        res.redirect('/signin'); // Redirect to sign-in page if not authenticated
     }
 }
 
-/**
- * Middleware to check if the user is an admin.
- * @param {Request} req - Express request object.
- * @param {Response} res - Express response object.
- * @param {Function} next - Next middleware function.
- */
 function isAdmin(req, res, next) {
     if (req.cookies.userName === 'admin') {
-        return next();
+        return next(); // Proceed if user is admin
     } else {
-        res.status(403).send('Access denied');
+        res.status(403).send('Access denied'); // Send 403 Forbidden if not admin
     }
 }
 

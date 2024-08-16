@@ -1,16 +1,29 @@
+/**
+ * Authentication routes: Sign in, Sign up, Logout
+ * Handles user session and cookies for persistence.
+ *
+ * Dependencies:
+ * - express: Web framework
+ * - DataBase/persist: Custom database persistence methods for user data
+ *
+ * This module defines routes for signing in, signing up, and logging out.
+ */
 const express = require('express');
 const {getUserByName, logActivity, getMoviesByIds, saveOrUpdateUser, setUser} = require("../DataBase/persist");
 
 const router = express.Router();
 
+// Render the Sign In page
 router.get('/signin', (req, res) => {
     res.render('signin', {error: null, userName: req.cookies.userName, cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []});
 });
 
+// Render the Sign Up page
 router.get('/signup', (req, res) => {
     res.render('signup', {error: null, userName: req.cookies.userName, cart: req.cookies.cart ? JSON.parse(req.cookies.cart) : []});
 });
 
+// Handle user sign-in with username and password
 router.post('/signin', async (req, res) => {
     const {name, password, rememberMe} = req.body;
     try {
@@ -20,6 +33,7 @@ router.post('/signin', async (req, res) => {
         } else if (user.password !== password) {
             res.render('signin', {error: 'Incorrect password', userName: null, cart: []});
         } else {
+            // Regenerate session and set cookies for user details
             req.session.regenerate(async err => {
                 if (err) {
                     console.error(err);
@@ -34,11 +48,10 @@ router.post('/signin', async (req, res) => {
                 res.cookie('userName', user.name, { maxAge: rememberMe ? 10 * 24 * 60 * 60 * 1000 : 30 * 60 * 1000, httpOnly: true });
                 res.cookie('userIcon', user.icon, { maxAge: rememberMe ? 10 * 24 * 60 * 60 * 1000 : 30 * 60 * 1000, httpOnly: true });
 
-                const cart = await getMoviesByIds(user.cart); // Store the movie objects in cookie;
+                const cart = await getMoviesByIds(user.cart);
                 res.cookie('cart', JSON.stringify(cart), { maxAge: rememberMe ? 10 * 24 * 60 * 60 * 1000 : 30 * 60 * 1000, httpOnly: true });
 
                 await logActivity(user.name, 'login');
-
                 res.redirect('/');
             });
         }
@@ -48,6 +61,7 @@ router.post('/signin', async (req, res) => {
     }
 });
 
+// Handle user sign-up with username, email, and password
 router.post('/signup', async (req, res) => {
     const {name, email, password} = req.body;
     try {
@@ -80,6 +94,7 @@ router.post('/signup', async (req, res) => {
     }
 });
 
+// Handle user logout and clear session cookies
 router.post('/logout', async (req, res) => {
     await logActivity(req.cookies.userName, 'logout');
 
@@ -93,6 +108,7 @@ router.post('/logout', async (req, res) => {
 
     await saveOrUpdateUser(user);
 
+    // Clear cookies upon logout
     res.clearCookie('userId');
     res.clearCookie('userName');
     res.clearCookie('userIcon');

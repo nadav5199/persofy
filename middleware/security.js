@@ -1,11 +1,22 @@
-// securityMiddleware.js
+/**
+ * Security Middleware:
+ * Implements security measures like helmet, XSS protection, rate limiting, and MongoDB sanitization.
+ * Bypasses certain routes for flexibility in static content delivery and admin routes.
+ *
+ * Dependencies:
+ * - helmet: For securing HTTP headers
+ * - xss-clean: Middleware to prevent cross-site scripting (XSS) attacks
+ * - express-rate-limit: Middleware to prevent DDoS attacks by limiting request rates
+ * - express-mongo-sanitize: Middleware to prevent NoSQL injection attacks
+ */
+
 const helmet = require('helmet');
 const xss = require('xss-clean');
 const rateLimit = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 
 module.exports = (app) => {
-    // Middleware to bypass security for specific routes
+    // Conditional application of helmet based on route
     app.use((req, res, next) => {
         if (req.path.startsWith('/icons') || req.path.endsWith('/chooseIcon.js') || req.path.startsWith('/admin') || req.path.endsWith('/admin.js') || req.path.startsWith('/choose-icon')) {
             return next();
@@ -28,14 +39,14 @@ module.exports = (app) => {
     // Apply XSS Protection to all routes
     app.use(xss());
 
-    // Apply Rate Limiting to all routes
+    // Rate Limiting to prevent DDoS
     const limiter = rateLimit({
-        windowMs: 15 * 60 * 1000, // 15 minutes
-        max: 100 // limit each IP to 100 requests per windowMs
+        windowMs: 15 * 60 * 1000, // 15-minute window
+        max: 100 // Limit each IP to 100 requests per window
     });
     app.use(limiter);
 
-    // Protect against NoSQL Injection Attacks for all routes
+    // Prevent NoSQL injection by sanitizing input
     app.use(mongoSanitize({
         replaceWith: '_', // Replace prohibited characters with '_'
     }));

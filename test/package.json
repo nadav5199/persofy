@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "final project in full stack course",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },

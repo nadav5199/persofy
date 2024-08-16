@@ -11,9 +11,8 @@ router.get('/review', isAuthenticated, async (req, res) => {
         const userId = req.cookies.userId;
         console.log('Fetching user with ID:', userId);
 
-        const objectId = new mongoose.Types.ObjectId(userId);
 
-        const user = await getUserById(objectId);
+        const user = await getUserById(userId);
         if (!user) {
             console.log('User not found with ID:', userId);
             return res.status(404).send('User not found');
@@ -45,9 +44,8 @@ router.post('/review', isAuthenticated, async (req, res) => {
         const userId = req.cookies.userId;
         console.log('Saving reviews for user ID:', userId);
 
-        const objectId = new mongoose.Types.ObjectId(userId);
 
-        const user = await getUserById(objectId);
+        const user = await getUserById(userId);
         if (!user) {
             console.log('User not found with ID:', userId);
             return res.status(404).send('User not found');

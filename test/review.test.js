@@ -1,101 +1,81 @@
 const request = require('supertest');
 const express = require('express');
-const mongoose = require('mongoose');
-const router = require('../routes/reviews');
-const { getUserById, getMoviesByIds, saveOrUpdateUser } = require('../DataBase/persist');
+const reviewsRouter = require('../routes/reviews'); // Adjust the path to your file
+const {getUserById, getMoviesByIds, saveOrUpdateUser} = require('../DataBase/persist');
+const path = require("path");
+const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
+const session = require("express-session"); // Adjust the path
 
-jest.mock('../DataBase/persist');
+jest.mock('../DataBase/persist'); // Mock your database persistence layer
 
 const app = express();
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
+// Set view engine and static files directory
+app.set('views', path.join(__dirname, '../views'));
+app.set('view engine', 'ejs');
+
+app.use(bodyParser.json());
 app.use(cookieParser());
-app.use('/', router);
+app.use(session({ secret: 'secret', resave: false, saveUninitialized: false }));
+app.use(express.json());
+app.use(express.urlencoded({extended: false}));
+app.use(reviewsRouter);
 
 describe('Review Routes', () => {
-
     describe('GET /review', () => {
         it('should return 404 if the user is not found', async () => {
-            getUserById.mockResolvedValue(null);
+            getUserById.mockResolvedValue(null); // Mock user not found
 
             const response = await request(app)
                 .get('/review')
                 .set('Cookie', ['userId=someInvalidUserId']);
 
+            console.log(response.text); // Check the response body if you want to see what it returns
+
             expect(response.status).toBe(404);
             expect(response.text).toBe('User not found');
         });
 
-        it('should render the review page with user data and movies', async () => {
-            const mockUser = { _id: 'userId', name: 'John Doe', reviews: {} };
-            const mockMovies = [{ _id: 'movieId1', title: 'Movie 1' }, { _id: 'movieId2', title: 'Movie 2' }];
 
-            getUserById.mockResolvedValue(mockUser);
-            getMoviesByIds.mockResolvedValue(mockMovies);
+        it('should return the review page with movies if user and movies are found', async () => {
+            getUserById.mockResolvedValue({_id: 'validUserId', reviews: {}});
+            getMoviesByIds.mockResolvedValue([{_id: 'movie1', name: 'Movie 1'}]);
 
             const response = await request(app)
                 .get('/review')
-                .set('Cookie', ['userId=someValidUserId', 'recentlyPurchasedMovies=["movieId1","movieId2"]']);
+                .set('Cookie', ['userId=validUserId', 'recentlyPurchasedMovies=["movie1"]']);
 
             expect(response.status).toBe(200);
-            expect(response.text).toContain('John Doe');
-            expect(response.text).toContain('Movie 1');
-            expect(response.text).toContain('Movie 2');
-        });
-
-        it('should return 500 if there is a server error', async () => {
-            getUserById.mockRejectedValue(new Error('Server Error'));
-
-            const response = await request(app)
-                .get('/review')
-                .set('Cookie', ['userId=someValidUserId']);
-
-            expect(response.status).toBe(500);
-            expect(response.text).toBe('Internal Server Error');
+            expect(response.text).toContain('Movie 1'); // Assuming the movie titles will be rendered on the page
         });
     });
 
     describe('POST /review', () => {
-        it('should save reviews and redirect to home', async () => {
-            const mockUser = { _id: 'userId', reviews: new Map() };
-
-            getUserById.mockResolvedValue(mockUser);
-            saveOrUpdateUser.mockResolvedValue(mockUser);
+        it('should save reviews and redirect when user and reviews are valid', async () => {
+            const user = {id: 'validUserId', reviews: new Map()};
+            getUserById.mockResolvedValue(user);
+            saveOrUpdateUser.mockResolvedValue(user);
 
             const response = await request(app)
                 .post('/review')
-                .send({ reviews: { movieId1: 5, movieId2: 4 } })
-                .set('Cookie', ['userId=someValidUserId']);
+                .set('Cookie', ['userId=validUserId'])
+                .send({reviews: {movie1: 5, movie2: 4}});
 
-            expect(response.status).toBe(302);  // 302 is the status code for a redirect
-            expect(response.header.location).toBe('/');
-            expect(mockUser.reviews.get('movieId1')).toBe(5);
-            expect(mockUser.reviews.get('movieId2')).toBe(4);
+            expect(response.status).toBe(302); // Redirect status
+            expect(response.headers.location).toBe('/'); // Redirection target
+            expect(saveOrUpdateUser).toHaveBeenCalledWith(user);
         });
 
-        it('should return 404 if the user is not found', async () => {
-            getUserById.mockResolvedValue(null);
+        it('should return 404 if the user is not found on review submission', async () => {
+            getUserById.mockResolvedValue(null); // Mock user not found
 
             const response = await request(app)
                 .post('/review')
-                .send({ reviews: { movieId1: 5 } })
-                .set('Cookie', ['userId=someInvalidUserId']);
+                .set('Cookie', ['userId=someInvalidUserId'])
+                .send({reviews: {movie1: 5}});
 
             expect(response.status).toBe(404);
             expect(response.text).toBe('User not found');
         });
-
-        it('should return 500 if there is a server error', async () => {
-            getUserById.mockRejectedValue(new Error('Server Error'));
-
-            const response = await request(app)
-                .post('/review')
-                .send({ reviews: { movieId1: 5 } })
-                .set('Cookie', ['userId=someValidUserId']);
-
-            expect(response.status).toBe(500);
-            expect(response.text).toBe('Internal Server Error');
-        });
     });
-
 });

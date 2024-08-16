@@ -13,7 +13,7 @@ function checkStatus(response, expectedStatus, testName) {
 }
 
 // Test suite
-async function runTests() {
+async function runGETTests() {
     // Test the root (home) page
     try {
         let response = await fetch(`${baseUrl}/`);
@@ -41,7 +41,7 @@ async function runTests() {
 
     // Test the review page (unauthenticated)
     try {
-        let response = await fetch(`${baseUrl}/review`,{
+        let response = await fetch(`${baseUrl}/review`, {
             redirect: 'manual'
         });
         checkStatus(response, 302, 'GET /review (unauthenticated)');
@@ -59,7 +59,7 @@ async function runTests() {
 
     // Test the "For You" recommendations page (unauthenticated)
     try {
-        let response = await fetch(`${baseUrl}/foryou`,{
+        let response = await fetch(`${baseUrl}/foryou`, {
             redirect: 'manual'
         });
         checkStatus(response, 302, 'GET /foryou (unauthenticated)');
@@ -69,7 +69,7 @@ async function runTests() {
 
     // Test the payment page (unauthenticated)
     try {
-        let response = await fetch(`${baseUrl}/payment`,{
+        let response = await fetch(`${baseUrl}/payment`, {
             redirect: 'manual'
         });
         checkStatus(response, 302, 'GET /payment (unauthenticated)');
@@ -78,7 +78,56 @@ async function runTests() {
     }
 }
 
+
+async function runPOSTTests() {
+// Example POST request to the /signin route
+    let response = await fetch(`${baseUrl}/signin`, {
+        redirect: 'manual',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: new URLSearchParams({
+            username: 'testuser',
+            password: 'password123'
+        }),
+    });
+    const responseBody = await response.text();
+    // Check for the expected error message in the response
+    if (response.status === 200 && responseBody.includes('User doesn&#39;t exist')) {
+        console.log('✓ POST /signin (invalid user) - Correct error message');
+    } else {
+        console.log(`✗ POST /signin (invalid user) - Expected error message not found. Received: ${responseBody}`);
+    }
+
+// Example POST request to the /review route
+    response = await fetch(`${baseUrl}/review`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Cookie': 'userId=66bbaadecb57f6d30c65ad37',  // Authenticated user
+        },
+        body: JSON.stringify({
+            reviews: {
+                movie1: 5,
+                movie2: 4
+            }
+        })
+    });
+
+    if (response.status === 200) {
+        console.log('✓ POST /review passed');
+    } else {
+        console.log(`✗ POST /review - Expected 200, got ${response.status}`);
+    }
+}
 // Run the tests
-runTests().then(() => {
-    console.log('All tests executed.');
+await runGETTests().then(() => {
+    console.log('All GET tests executed.');
 });
+
+// Run the tests
+runPOSTTests().then(() => {
+    console.log('All POST tests executed.');
+});
+

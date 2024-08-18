@@ -56,8 +56,10 @@ const reviewRoutes = require('./routes/reviews');
 const genreRoutes = require('./routes/genres');
 const recommendationRoutes = require('./routes/recommendations');
 const chooseIconRoutes = require('./routes/chooseIcon');
+const documentationRoutes = require('./routes/documentation');
 
 // Use routes
+app.use(documentationRoutes);
 app.use(genreRoutes);
 app.use(reviewRoutes);
 app.use(authRoutes);

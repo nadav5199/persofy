@@ -107,7 +107,7 @@ OPENAI_API_KEY=your-openai-api-key
 
 - Ensure MongoDB is installed and running.
 - Create databases called movies.
- 
+
 ### Step 5: Import Movie Data
 
 Run the following script to import the initial set of movie data into the MongoDB movies database:
@@ -129,19 +129,82 @@ The app should now be running on http://localhost:3000.
 ## Routes
 
 Below are the different routes supported by the application:
-### Public Routes
-- **GET /** - Displays the movie store homepage with search, sorting, and genre filtering options.
-- **GET /signin** - Displays the sign-in page.
-- **GET /review** - Allows users to review movies they have purchased.
-- **GET /foryou**- Displays personalized movie recommendations.
-- **GET /payment** - Displays the payment page.
-- **POST /complete-payment** - Completes the payment for movies in the cart
-### Admin Routes
-- **GET /admin/movies** - Admin panel for managing movies.
-- **POST /admin/movies** - Adds a new movie.
-- **PUT /admin/movies/** - Updates an existing movie.
-- **DELETE /admin/movies/** - Deletes a movie.
-- **GET /admin/activity**  - Displays user activity logs for the admin.
+
+
+### Public Routes:
+
+1. **GET /**
+    - **Description**: Displays the movie store homepage with search, sorting, and genre filtering options.
+    - **Handler**: Homepage route for browsing and viewing movies.
+
+2. **GET /signin**
+    - **Description**: Displays the sign-in page.
+    - **Handler**: Provides a form for user login.
+
+3. **GET /signup**
+    - **Description**: Displays the sign-up page.
+    - **Handler**: Provides a form for new user registration.
+
+
+### User Routes:
+
+1. **GET /choose-icon**
+    - **Description**: Allows the user to select an avatar/icon.
+    - **Handler**: Presents a page for choosing icons/avatars.
+
+2. **GET /genres**
+    - **Description**: Displays available genres for the user to choose their favorites.
+    - **Handler**: Lets users select genres they are interested in.
+
+3. **GET /review**
+    - **Description**: Allows users to review movies they have purchased.
+    - **Handler**: Shows a review form for rated movies.
+
+4. **GET /foryou**
+    - **Description**: Displays personalized movie recommendations for the user.
+    - **Handler**: Presents personalized recommendations based on user preferences and reviews.
+
+5. **GET /payment**
+    - **Description**: Displays the payment page.
+    - **Handler**: Shows a page where the user can complete their payment for movies in the cart.
+
+6. **POST /complete-payment**
+    - **Description**: Completes the payment for movies in the cart.
+    - **Handler**: Processes the payment after submission.
+
+7. **GET /cart**
+    - **Description**: Displays the user's shopping cart.
+    - **Handler**: Shows the items currently in the user's cart.
+
+8. **POST /cart/add/:id**
+    - **Description**: Adds a movie to the cart.
+    - **Handler**: Adds a specified movie to the user's shopping cart.
+
+9. **POST /cart/remove/:id**
+    - **Description**: Removes a movie from the cart.
+    - **Handler**: Removes a specified movie from the user's shopping cart.
+
+### Admin Routes:
+
+1. **GET /admin/movies**
+    - **Description**: Displays a list of movies for the admin to manage.
+    - **Handler**: Admin page for managing all movies in the store.
+
+2. **POST /admin/movies**
+    - **Description**: Adds a new movie to the database.
+    - **Handler**: Allows admins to add new movies to the store.
+
+3. **PUT /admin/movies/:id**
+    - **Description**: Updates an existing movie.
+    - **Handler**: Allows admins to edit the details of an existing movie.
+
+4. **DELETE /admin/movies/:id**
+    - **Description**: Deletes a movie from the database.
+    - **Handler**: Allows admins to delete a movie from the store.
+
+5. **GET /admin/activity**
+    - **Description**: Displays user activity logs for the admin.
+    - **Handler**: Shows the admin a list of user activities, such as purchases and reviews.
 
 ---
 ## Running Test

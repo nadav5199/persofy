@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>readme</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<%- include('partials/header') %>
+<%- include('partials/menu',{userIcon: userIcon,userName: userName, cart: cart }) %>
+<div class="container mt-4">
+    <h1>Persofy - README</h1>
+    <h2>About the store</h2>
+    Persofy is a dynamic and secure subscription-based movie store web application built using Node.js and Express.js.
+    It allows users to
+    browse, search, and purchase movies while providing user authentication, movie reviews, personalized movie
+    recommendations, and secure data handling using MongoDB. This app also utilizes the OpenAI API to generate
+    personalized
+    movie recommendations based on user preferences and previous reviews.
+
+    <h2>Adittional Pages</h2>
+    I made four additional pages that combines with this app's flow.
+    <ul>
+        <li><h5>GET /choose-icon</h5>- Allow users to pick their own avatar\icon.</li>
+        <li><h5>GET /genres</h5>- Allow users to choose their favourite genres.</li>
+        <li><h5>GET /review</h5>- - Allows users to review movies they have purchased.</li>
+        <li><h5>GET /foryou</h5>- Displays personalized movie recommendations.</li>
+    </ul>
+
+    <h2>Routes</h2>
+    <h3>Public Routes:</h3>
+    <ul>
+        <li><strong>GET /</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays the movie store homepage with search, sorting, and genre
+                    filtering options.
+                </li>
+                <li><strong>Handler:</strong> Homepage route for browsing and viewing movies.</li>
+            </ul>
+        </li>
+        <li><strong>GET /signin</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays the sign-in page.</li>
+                <li><strong>Handler:</strong> Provides a form for user login.</li>
+            </ul>
+        </li>
+        <li><strong>GET /signup</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays the sign-up page.</li>
+                <li><strong>Handler:</strong> Provides a form for new user registration.</li>
+            </ul>
+        </li>
+        <li><strong>GET /readme</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays the README.md content as HTML.</li>
+                <li><strong>Handler:</strong> Shows the project's README file.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>User Routes:</h3>
+
+    <ul>
+        <li><strong>GET /choose-icon</strong>
+            <ul>
+                <li><strong>Description:</strong> Allows the user to select an avatar/icon.</li>
+                <li><strong>Handler:</strong> Presents a page for choosing icons/avatars.</li>
+            </ul>
+        </li>
+        <li><strong>GET /genres</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays available genres for the user to choose their favorites.</li>
+                <li><strong>Handler:</strong> Lets users select genres they are interested in.</li>
+            </ul>
+        </li>
+        <li><strong>GET /review</strong>
+            <ul>
+                <li><strong>Description:</strong> Allows users to review movies they have purchased.</li>
+                <li><strong>Handler:</strong> Shows a review form for rated movies.</li>
+            </ul>
+        </li>
+        <li><strong>GET /foryou</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays personalized movie recommendations for the user.</li>
+                <li><strong>Handler:</strong> Presents personalized recommendations based on user preferences and
+                    reviews.
+                </li>
+            </ul>
+        </li>
+        <li><strong>GET /payment</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays the payment page.</li>
+                <li><strong>Handler:</strong> Shows a page where the user can complete their payment for movies in the
+                    cart.
+                </li>
+            </ul>
+        </li>
+        <li><strong>POST /complete-payment</strong>
+            <ul>
+                <li><strong>Description:</strong> Completes the payment for movies in the cart.</li>
+                <li><strong>Handler:</strong> Processes the payment after submission.</li>
+            </ul>
+        </li>
+        <li><strong>GET /cart</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays the user's shopping cart.</li>
+                <li><strong>Handler:</strong> Shows the items currently in the user's cart.</li>
+            </ul>
+        </li>
+        <li><strong>POST /cart/add/:id</strong>
+            <ul>
+                <li><strong>Description:</strong> Adds a movie to the cart.</li>
+                <li><strong>Handler:</strong> Adds a specified movie to the user's shopping cart.</li>
+            </ul>
+        </li>
+        <li><strong>POST /cart/remove/:id</strong>
+            <ul>
+                <li><strong>Description:</strong> Removes a movie from the cart.</li>
+                <li><strong>Handler:</strong> Removes a specified movie from the user's shopping cart.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Admin Routes:</h3>
+
+    <ul>
+        <li><strong>GET /admin/movies</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays a list of movies for the admin to manage.</li>
+                <li><strong>Handler:</strong> Admin page for managing all movies in the store.</li>
+            </ul>
+        </li>
+        <li><strong>POST /admin/movies</strong>
+            <ul>
+                <li><strong>Description:</strong> Adds a new movie to the database.</li>
+                <li><strong>Handler:</strong> Allows admins to add new movies to the store.</li>
+            </ul>
+        </li>
+        <li><strong>PUT /admin/movies/:id</strong>
+            <ul>
+                <li><strong>Description:</strong> Updates an existing movie.</li>
+                <li><strong>Handler:</strong> Allows admins to edit the details of an existing movie.</li>
+            </ul>
+        </li>
+        <li><strong>DELETE /admin/movies/:id</strong>
+            <ul>
+                <li><strong>Description:</strong> Deletes a movie from the database.</li>
+                <li><strong>Handler:</strong> Allows admins to delete a movie from the store.</li>
+            </ul>
+        </li>
+        <li><strong>GET /admin/activity</strong>
+            <ul>
+                <li><strong>Description:</strong> Displays user activity logs for the admin.</li>
+                <li><strong>Handler:</strong> Shows the admin a list of user activities, such as purchases and reviews.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>What was hard to do</h2>
+    <ul>
+        <li>
+            Keeping Data persistence throughout my app in both server-side and client-side.
+        </li>
+        <li>
+            Making the recommendations page and producing the most accurate prompt in order to receive the best results.
+        </li>
+        <li>
+            Learning how to work with the AI model, what he is good at and bad at and how to use it in the best way to
+            reach my wanted result.
+        </li>
+
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

@@ -64,7 +64,6 @@ router.post('/admin/movies', isAuthenticated, isAdmin, async (req, res) => {
         actors: actorsArray,
         rating,
         posterUrl,
-        trailerUrl,
         tags: tagsArray
     });
 
@@ -88,7 +87,6 @@ router.put('/admin/movies/:id', isAuthenticated, isAdmin, async (req, res) => {
         actors: actorsArray,
         rating,
         posterUrl,
-        trailerUrl,
         tags: tagsArray
     });
 

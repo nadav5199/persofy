@@ -5,7 +5,6 @@ const movieSchema = new mongoose.Schema({
     actors: [String],
     description: String,
     posterUrl: String,
-    trailerUrl: String,
     director: String,
     tags: [String],
     rating: String,

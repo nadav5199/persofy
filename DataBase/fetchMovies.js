@@ -79,7 +79,6 @@ async function fetchMovieData(title) {
                 tags: data.Genre.split(', '),
                 rating: data.imdbRating, // Fetch the rating
                 posterUrl: data.Poster,
-                trailerUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(data.Title)}+trailer`,
                 date : data.Released
             };
         } else {

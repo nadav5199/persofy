@@ -74,7 +74,6 @@ router.get('/movie/:id', async (req, res) => {
         res.status(500).send('Internal Server Error');
     }
 });
-
 // Route to render the payment page
 router.get('/payment', isAuthenticated, (req, res) => {
     res.render('payment', {

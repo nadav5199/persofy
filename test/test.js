@@ -61,7 +61,7 @@ async function runGETTests() {
 
     // Test getting a single movie by ID (assuming ID is valid)
     try {
-        let response = await fetch(`${baseUrl}/movie/66bb1a61f93b93eb80b89d3e`);
+        let response = await fetch(`${baseUrl}/movie/66bb1a61f93b93eb80b89d3e`); // this should be an existing movie id
         checkStatus(response, 200, 'GET /movie/:id');
     } catch (error) {
         console.error('Error in GET /movie/:id:', error);
@@ -119,7 +119,7 @@ async function runPOSTTests() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Cookie': 'userId=66bbaadecb57f6d30c65ad37',  // Authenticated user
+            'Cookie': 'userId=66bbaadecb57f6d30c65ad37',  // Authenticated user, this should be an existing user id
         },
         body: JSON.stringify({
             reviews: {

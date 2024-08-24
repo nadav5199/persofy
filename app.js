@@ -59,7 +59,6 @@ const chooseIconRoutes = require('./routes/chooseIcon');
 const documentationRoutes = require('./routes/documentation');
 
 // Use routes
-app.use(documentationRoutes);
 app.use(genreRoutes);
 app.use(reviewRoutes);
 app.use(authRoutes);
@@ -68,6 +67,7 @@ app.use(movieRoutes);
 app.use(adminRoutes);
 app.use(recommendationRoutes);
 app.use(chooseIconRoutes);
+app.use(documentationRoutes);
 
 // Global error handler
 app.use((err, req, res, next) => {
